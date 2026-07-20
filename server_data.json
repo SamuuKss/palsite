@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-07-20T10:00:00+00:00",
+  "players": [
+    {
+      "uid": "exemple-1",
+      "name": "Jarod",
+      "level": 52,
+      "captures": 312,
+      "shinies": 7,
+      "pals": [
+        { "species": "JetDragon", "alpha": false, "lucky": false, "lvl": 55, "condense": 4, "passives": ["Legend", "Musclehead", "Ferocious", "Veteran"], "talent_hp": 92, "talent_atk": 88, "talent_def": 74 },
+        { "species": "IceHorse_Dark", "alpha": false, "lucky": true, "lvl": 54, "condense": 3, "passives": ["Legend", "Musclehead", "Ferocious"], "talent_hp": 85, "talent_atk": 95, "talent_def": 60 },
+        { "species": "Anubis", "alpha": false, "lucky": false, "lvl": 52, "condense": 4, "passives": ["Artisan", "Serious", "Work Slave", "Lucky"], "talent_hp": 70, "talent_atk": 82, "talent_def": 77 }
+      ]
+    },
+    {
+      "uid": "exemple-2",
+      "name": "Maxou59",
+      "level": 47,
+      "captures": 244,
+      "shinies": 4,
+      "pals": [
+        { "species": "SaintCentaur", "alpha": true, "lucky": false, "lvl": 49, "condense": 2, "passives": ["Legend", "Musclehead", "Veteran"], "talent_hp": 80, "talent_atk": 79, "talent_def": 88 },
+        { "species": "BlackCentaur", "alpha": false, "lucky": false, "lvl": 49, "condense": 2, "passives": ["Legend", "Ferocious"], "talent_hp": 77, "talent_atk": 91, "talent_def": 69 }
+      ]
+    }
+  ],
+  "bases": [
+    { "group_id": "guilde-jarod", "x": -120000, "y": 210000, "z": 8000, "map_x": 46.0, "map_y": 38.0 },
+    { "group_id": "guilde-maxou", "x": -80000, "y": 390000, "z": 6000, "map_x": 72.0, "map_y": 30.0 }
+  ],
+  "totals": { "players": 2, "pals": 5, "species": 5 }
+}

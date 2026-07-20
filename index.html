@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PalServer — Dashboard</title>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700;800&family=Nunito:wght@400;600;700;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0d1526; --panel:#141f36; --soft:#1a2845; --line:#24365c;
+  --ink:#e8eefc; --mute:#8fa3c8; --sky:#4fc3f7; --sphere:#3d7dd8;
+  --amber:#ffc94d; --grass:#7ed491; --danger:#ff7a6b;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:'Nunito',sans-serif;min-height:100vh}
+.wrap{max-width:1100px;margin:0 auto;padding:0 20px}
+header{background:radial-gradient(ellipse at top,rgba(61,125,216,.25),transparent 60%);border-bottom:1px solid var(--line);padding:32px 0 24px}
+.eyebrow{color:var(--sky);font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.12em;margin-bottom:4px}
+h1{font-family:'Baloo 2',sans-serif;font-size:36px;font-weight:800;line-height:1}
+.badge{background:rgba(126,212,145,.12);color:var(--grass);border:1px solid rgba(126,212,145,.27);padding:6px 12px;border-radius:99px;font-size:14px;font-weight:700}
+.headrow{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:16px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin-top:24px}
+.pill{background:var(--soft);border:1px solid var(--line);border-radius:14px;padding:12px 16px}
+.pill .l{color:var(--mute);font-size:11px;text-transform:uppercase;letter-spacing:.08em}
+.pill .v{font-size:20px;font-weight:700;margin-top:2px}
+.bar{background:var(--soft);border-radius:99px;height:12px;margin-top:16px;overflow:hidden}
+.bar>div{height:100%;background:linear-gradient(90deg,var(--sphere),var(--sky));border-radius:99px;transition:width .6s}
+nav{display:flex;gap:8px;padding-top:20px;flex-wrap:wrap}
+nav button{background:transparent;color:var(--mute);border:1px solid var(--line);border-radius:99px;padding:8px 16px;font:700 14px 'Nunito';cursor:pointer}
+nav button.on{background:var(--sphere);color:#fff;border-color:var(--sphere)}
+main{padding:24px 0 40px}
+.grid2{display:grid;gap:16px;grid-template-columns:repeat(auto-fill,minmax(320px,1fr))}
+.grid3{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:20px}
+.pcard-top{display:flex;align-items:center;gap:12px}
+.avatar{width:44px;height:44px;border-radius:50%;background:linear-gradient(135deg,var(--sphere),var(--sky));display:flex;align-items:center;justify-content:center;font-weight:900;font-size:18px;color:#fff}
+.pname{font-weight:700}
+.psub{font-size:12px;color:var(--mute)}
+.plvl{margin-left:auto;text-align:right}
+.plvl b{color:var(--amber);font-size:24px;font-weight:900}
+.plvl span{display:block;color:var(--mute);font-size:11px;margin-top:-2px}
+.mini{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;text-align:center;margin:14px 0}
+.mini>div{background:var(--soft);border-radius:10px;padding:8px 4px}
+.mini b{font-size:17px;display:block}
+.mini span{font-size:11px;color:var(--mute)}
+.sec{color:var(--mute);font-size:11px;text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px}
+.pal{border:1px solid var(--line);border-radius:12px;padding:8px 12px;margin-bottom:6px;cursor:pointer}
+.pal.lucky{border-color:rgba(255,201,77,.4)}
+.pal-row{display:flex;align-items:center;gap:8px;font-size:14px}
+.sphere{width:14px;height:14px;border-radius:50%;flex-shrink:0;border:1.5px solid rgba(255,255,255,.35);background:linear-gradient(180deg,var(--sphere) 48%,#fff 48%,#fff 52%,#1e3a6e 52%)}
+.sphere.lucky{background:linear-gradient(180deg,var(--amber) 48%,#fff 48%,#fff 52%,#b8860b 52%)}
+.pal-row .nm{font-weight:600}
+.pal-row .lv{color:var(--mute);font-size:12px;margin-left:auto}
+.pal-row .cd{color:var(--sky);font-size:12px}
+.tags{display:none;flex-wrap:wrap;gap:4px;margin-top:8px}
+.pal.open .tags{display:flex}
+.pal.open{background:var(--soft)}
+.tag{font-size:11px;padding:2px 8px;border-radius:99px;background:rgba(79,195,247,.1);color:var(--sky);border:1px solid rgba(79,195,247,.2)}
+.tag.gold{background:rgba(255,201,77,.14);color:var(--amber);border-color:rgba(255,201,77,.27)}
+.lb-row{display:flex;align-items:center;gap:10px;margin-bottom:10px;font-size:14px}
+.lb-row .rk{width:18px;text-align:center;font-weight:900;color:var(--mute)}
+.lb-row.first .rk{color:var(--amber)}
+.lb-row .track{flex:1;height:8px;background:var(--soft);border-radius:99px;overflow:hidden}
+.lb-row .track>div{height:100%;border-radius:99px}
+.lb-row .val{width:44px;text-align:right;font-weight:700}
+.mapbox{position:relative;border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.mapbox svg{display:block;width:100%;background:#0a1a2e}
+.popup{position:absolute;left:12px;bottom:12px;background:rgba(13,21,38,.92);border:1px solid var(--line);border-radius:12px;padding:12px 16px;max-width:260px;font-size:13px}
+.popup .t{font-weight:700}
+.popup .s{color:var(--mute);font-size:12px;margin-top:2px}
+.popup button{background:none;border:none;color:var(--sky);font:700 12px 'Nunito';cursor:pointer;padding:0;margin-top:6px}
+.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:12px;color:var(--mute);margin-bottom:12px}
+footer{color:var(--mute);border-top:1px solid var(--line);text-align:center;font-size:12px;padding:20px 0}
+.err{background:rgba(255,122,107,.1);border:1px solid rgba(255,122,107,.3);color:var(--danger);border-radius:14px;padding:16px 20px;font-size:14px}
+@media (max-width:520px){h1{font-size:28px}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <div class="headrow">
+    <div>
+      <div class="eyebrow" id="eyebrow">Serveur dédié</div>
+      <h1>PalServer de Jarod</h1>
+    </div>
+    <span class="badge" id="badge">● chargement…</span>
+  </div>
+  <div class="stats" id="stats"></div>
+  <div class="bar"><div id="dexbar" style="width:0%"></div></div>
+</div></header>
+
+<div class="wrap">
+<nav id="tabs">
+  <button data-t="joueurs" class="on">Joueurs &amp; Pals</button>
+  <button data-t="carte">Carte</button>
+  <button data-t="classements">Classements</button>
+</nav>
+<main id="main"></main>
+</div>
+
+<footer id="footer">Données mises à jour automatiquement depuis le Level.sav du serveur</footer>
+
+<script>
+const PALDEX_TOTAL = 214;
+const GOLD = ["Legend","Artisan","Lucky","Chanceux","Divin céleste","Empereur lunaire","Chevalier saint","Chevalier noir"];
+const PLAYER_COLORS = ["#4fc3f7","#7ed491","#c792ea","#ffc94d","#ff7a6b","#f78fb3"];
+let DATA = null, TAB = "joueurs";
+
+async function load(){
+  try{
+    const r = await fetch("server_data.json?t="+Date.now());
+    if(!r.ok) throw new Error("HTTP "+r.status);
+    DATA = await r.json();
+    renderHeader(); render();
+  }catch(e){
+    document.getElementById("main").innerHTML =
+      '<div class="err"><b>Impossible de charger server_data.json</b><br>Vérifie que le fichier est bien dans le repo GitHub, au même niveau que index.html. Détail : '+e.message+'</div>';
+    document.getElementById("badge").textContent = "● hors ligne";
+  }
+}
+
+function renderHeader(){
+  const t = DATA.totals||{};
+  const species = t.species||0;
+  const pct = Math.round(species/PALDEX_TOTAL*100);
+  document.getElementById("badge").textContent = "● "+(t.players??"?")+" joueurs";
+  document.getElementById("badge").style.display="inline-block";
+  const gen = DATA.generated_at ? new Date(DATA.generated_at) : null;
+  document.getElementById("stats").innerHTML = [
+    pill("Joueurs", t.players??"—"),
+    pill("Pals capturés", t.pals??"—"),
+    pill("Paldex serveur", pct+" %", "var(--sky)"),
+    pill("Espèces", species+"/"+PALDEX_TOTAL, "var(--amber)"),
+  ].join("");
+  document.getElementById("dexbar").style.width = pct+"%";
+  if(gen) document.getElementById("footer").textContent =
+    "Dernière mise à jour : "+gen.toLocaleString("fr-FR",{dateStyle:"short",timeStyle:"short"});
+}
+const pill=(l,v,c)=>'<div class="pill"><div class="l">'+l+'</div><div class="v"'+(c?' style="color:'+c+'"':'')+'>'+v+'</div></div>';
+
+document.getElementById("tabs").addEventListener("click",e=>{
+  const b=e.target.closest("button"); if(!b) return;
+  TAB=b.dataset.t;
+  document.querySelectorAll("nav button").forEach(x=>x.classList.toggle("on",x===b));
+  render();
+});
+
+function render(){
+  if(!DATA) return;
+  const m=document.getElementById("main");
+  if(TAB==="joueurs") m.innerHTML='<div class="grid2">'+DATA.players.map(playerCard).join("")+'</div>';
+  else if(TAB==="classements") m.innerHTML=classements();
+  else m.innerHTML=mapView();
+}
+
+function playerCard(p,i){
+  const col=PLAYER_COLORS[i%PLAYER_COLORS.length];
+  const pals=(p.pals||[]).slice(0,8);
+  return '<div class="card">'
+    +'<div class="pcard-top"><div class="avatar" style="background:linear-gradient(135deg,var(--sphere),'+col+')">'+esc(p.name[0]||"?")+'</div>'
+    +'<div><div class="pname">'+esc(p.name)+'</div><div class="psub">'+(p.pals?p.pals.length:0)+' pals au total</div></div>'
+    +'<div class="plvl"><b>'+p.level+'</b><span>niveau</span></div></div>'
+    +'<div class="mini">'
+      +'<div><b style="color:var(--sky)">'+(p.captures??0)+'</b><span>Captures</span></div>'
+      +'<div><b style="color:var(--amber)">'+(p.shinies??0)+'</b><span>Lucky</span></div>'
+      +'<div><b style="color:var(--danger)">'+((p.pals||[]).filter(x=>x.alpha).length)+'</b><span>Alphas</span></div>'
+    +'</div>'
+    +'<div class="sec">Meilleurs pals</div>'
+    +pals.map(palRow).join("")
+    +'</div>';
+}
+
+function palRow(pal){
+  const tags=(pal.passives||[]).map(ps=>{
+    const g=GOLD.some(k=>ps.toLowerCase().includes(k.toLowerCase()));
+    return '<span class="tag'+(g?' gold':'')+'">'+esc(ps)+'</span>';
+  }).join("");
+  const iv=(pal.talent_hp!=null)?'<span class="tag">IV '+pal.talent_hp+'/'+pal.talent_atk+'/'+pal.talent_def+'</span>':"";
+  return '<div class="pal'+(pal.lucky?' lucky':'')+'" onclick="this.classList.toggle(\'open\')">'
+    +'<div class="pal-row"><span class="sphere'+(pal.lucky?' lucky':'')+'"></span>'
+    +'<span class="nm">'+esc(pal.species)+'</span>'
+    +(pal.lucky?'<span style="color:var(--amber);font-weight:700;font-size:12px">✦</span>':'')
+    +(pal.alpha?'<span style="color:var(--danger);font-size:11px;font-weight:700">ALPHA</span>':'')
+    +'<span class="lv">Nv '+pal.lvl+'</span><span class="cd">★'+(pal.condense??0)+'</span></div>'
+    +'<div class="tags">'+tags+iv+'</div></div>';
+}
+
+function classements(){
+  const mk=(title,icon,key,color,unit)=>{
+    const rows=[...DATA.players].map(p=>({n:p.name,v:p[key]??0})).sort((a,b)=>b.v-a.v);
+    const max=rows[0]?.v||1;
+    return '<div class="card"><div class="pname" style="margin-bottom:12px">'+icon+' '+title+'</div>'
+      +rows.map((r,i)=>'<div class="lb-row'+(i===0?' first':'')+'"><span class="rk">'+(i+1)+'</span>'
+        +'<span style="min-width:80px">'+esc(r.n)+'</span>'
+        +'<div class="track"><div style="width:'+(r.v/max*100)+'%;background:'+color+'"></div></div>'
+        +'<span class="val" style="color:'+color+'">'+r.v+(unit||"")+'</span></div>').join("")
+      +'</div>';
+  };
+  return '<div class="grid3">'
+    + mk("Pals capturés","🔵","captures","var(--sky)")
+    + mk("Pals Lucky","✦","shinies","var(--amber)")
+    + mk("Niveau","⬆️","level","var(--grass)")
+    +'</div>';
+}
+
+function mapView(){
+  const bases=(DATA.bases||[]).filter(b=>b.map_x!=null);
+  const dots=bases.map((b,i)=>{
+    const col=PLAYER_COLORS[i%PLAYER_COLORS.length];
+    const x=b.map_x, y=b.map_y*0.9;
+    return '<g style="cursor:pointer" onclick="showPop(\'Base #'+(i+1)+'\',\'Guilde '+esc(String(b.group_id).slice(0,8))+'\')">'
+      +'<circle cx="'+x+'" cy="'+y+'" r="3.4" fill="'+col+'33"/>'
+      +'<circle cx="'+x+'" cy="'+y+'" r="1.9" fill="'+col+'" stroke="#fff" stroke-width="0.45"/></g>';
+  }).join("");
+  return '<div class="card">'
+    +'<div class="legend"><span>🏕 '+bases.length+' bases détectées sur le serveur</span></div>'
+    +'<div class="mapbox"><svg viewBox="0 0 100 90">'
+    +'<defs><radialGradient id="isle" cx="50%" cy="45%" r="65%"><stop offset="0%" stop-color="#2e5a3e"/><stop offset="55%" stop-color="#24473a"/><stop offset="100%" stop-color="#1b3a4a"/></radialGradient></defs>'
+    +'<path d="M 20 25 Q 28 12 45 14 Q 60 10 70 18 Q 85 22 84 35 Q 88 48 78 55 Q 82 66 70 72 Q 62 82 50 78 Q 38 84 30 74 Q 16 70 18 58 Q 10 48 15 38 Q 12 30 20 25 Z" fill="url(#isle)" stroke="#3d6b52" stroke-width="0.6"/>'
+    +'<ellipse cx="12" cy="72" rx="7" ry="5" fill="url(#isle)" stroke="#3d6b52" stroke-width="0.5"/>'
+    +'<ellipse cx="88" cy="14" rx="8" ry="5.5" fill="url(#isle)" stroke="#3d6b52" stroke-width="0.5"/>'
+    +'<path d="M 66 20 Q 80 22 82 34 Q 84 44 76 50 Q 70 42 68 32 Q 64 26 66 20 Z" fill="#8a7a4d" opacity="0.5"/>'
+    +'<path d="M 40 14 Q 52 11 60 16 Q 56 22 46 22 Q 40 20 40 14 Z" fill="#cfe3ef" opacity="0.55"/>'
+    +dots+'</svg><div id="pop"></div></div>'
+    +'<p style="color:var(--mute);font-size:12px;margin-top:12px">Positions issues des coordonnées réelles des bases dans la save. Si les points semblent décalés, ajuste les bornes dans export_palserver.py (fonction world_to_map_percent).</p>'
+    +'</div>';
+}
+function showPop(t,s){
+  document.getElementById("pop").innerHTML='<div class="popup"><div class="t">🏕 '+t+'</div><div class="s">'+s+'</div><button onclick="document.getElementById(\'pop\').innerHTML=\'\'">Fermer</button></div>';
+}
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+load();
+</script>
+</body>
+</html>
