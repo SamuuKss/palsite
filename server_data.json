@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-21T23:24:58.427872+00:00",
+  "generated_at": "2026-07-21T23:29:58.592040+00:00",
   "players": [
     {
       "uid": "a527f320-0000-0000-0000-000000000000",
       "name": "Powertwo",
       "level": 61,
-      "exp": 7364648,
+      "exp": 7470805,
       "pals": [
         {
           "species": "IceDeer",
           "alpha": false,
           "lucky": false,
-          "lvl": 57,
+          "lvl": 58,
           "condense": 0,
           "passives": [
             "ReloadSpeedUp_Passive"
@@ -25,7 +25,7 @@
             "FrostBreath",
             "IcicleThrow"
           ],
-          "friendship": 43500,
+          "friendship": 44000,
           "owned_date": "2026-07-21"
         },
         {
@@ -48,14 +48,14 @@
             "RootAttack",
             "SolarBeam"
           ],
-          "friendship": 60000,
+          "friendship": 60500,
           "owned_date": "2026-07-21"
         },
         {
           "species": "WindChimes_Ice",
           "alpha": false,
           "lucky": false,
-          "lvl": 57,
+          "lvl": 58,
           "condense": 0,
           "passives": [
             "ElementResist_Fire_1_PAL"
@@ -69,14 +69,14 @@
             "BlizzardLance",
             "IcicleThrow"
           ],
-          "friendship": 67500,
+          "friendship": 68000,
           "owned_date": "2026-07-20"
         },
         {
           "species": "GrassRabbitMan",
           "alpha": false,
           "lucky": false,
-          "lvl": 57,
+          "lvl": 58,
           "condense": 0,
           "passives": [
             "ElementBoost_Fire_1_PAL"
@@ -90,14 +90,14 @@
             "RootAttack",
             "SolarBeam"
           ],
-          "friendship": 48500,
+          "friendship": 49000,
           "owned_date": "2026-07-21"
         },
         {
           "species": "SakuraSaurus_Water",
           "alpha": true,
           "lucky": false,
-          "lvl": 57,
+          "lvl": 58,
           "condense": 4,
           "passives": [
             "Deffence_up2_2",
@@ -112,23 +112,23 @@
             "RootAttack",
             "HydroPump"
           ],
-          "friendship": 62500,
+          "friendship": 63000,
           "owned_date": "2026-07-21"
         }
       ],
       "captures": 385,
       "shinies": 3,
-      "x": -261853.61000000002,
-      "y": 238216.23,
+      "x": -254837.08000000002,
+      "y": 231163.01,
       "paldeck": 164,
       "fast_travels": 86,
       "effigies": 1,
       "tech_points": 85,
-      "map_x": 58.7,
-      "map_y": 65.0,
+      "map_x": 58.0,
+      "map_y": 64.3,
       "team_detected": true,
       "box_count": 380,
-      "last_seen": "2026-07-21T23:24:58.427872+00:00"
+      "last_seen": "2026-07-21T23:29:58.592040+00:00"
     },
     {
       "uid": "90a5c888-0000-0000-0000-000000000000",
