@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-21T23:09:58.400747+00:00",
+  "generated_at": "2026-07-21T23:14:58.445174+00:00",
   "players": [
     {
       "uid": "a527f320-0000-0000-0000-000000000000",
       "name": "Powertwo",
       "level": 61,
-      "exp": 7311294,
+      "exp": 7315521,
       "pals": [
         {
           "species": "IceDeer",
@@ -25,7 +25,7 @@
             "FrostBreath",
             "IcicleThrow"
           ],
-          "friendship": 42000,
+          "friendship": 42500,
           "owned_date": "2026-07-21"
         },
         {
@@ -48,7 +48,7 @@
             "RootAttack",
             "SolarBeam"
           ],
-          "friendship": 58500,
+          "friendship": 59000,
           "owned_date": "2026-07-21"
         },
         {
@@ -69,7 +69,7 @@
             "BlizzardLance",
             "IcicleThrow"
           ],
-          "friendship": 66000,
+          "friendship": 66500,
           "owned_date": "2026-07-20"
         },
         {
@@ -90,7 +90,7 @@
             "RootAttack",
             "SolarBeam"
           ],
-          "friendship": 47000,
+          "friendship": 47500,
           "owned_date": "2026-07-21"
         },
         {
@@ -112,23 +112,23 @@
             "RootAttack",
             "HydroPump"
           ],
-          "friendship": 61000,
+          "friendship": 61500,
           "owned_date": "2026-07-21"
         }
       ],
       "captures": 385,
       "shinies": 3,
-      "x": -347190.34,
-      "y": 263565.57,
+      "x": -346901.73,
+      "y": 262541.05,
       "paldeck": 164,
       "fast_travels": 86,
       "effigies": 1,
       "tech_points": 85,
-      "map_x": 61.5,
+      "map_x": 61.4,
       "map_y": 74.3,
       "team_detected": true,
       "box_count": 380,
-      "last_seen": "2026-07-21T23:09:58.400747+00:00"
+      "last_seen": "2026-07-21T23:14:58.445174+00:00"
     },
     {
       "uid": "90a5c888-0000-0000-0000-000000000000",
