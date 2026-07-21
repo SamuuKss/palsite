@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T19:59:13.467877+00:00",
+  "generated_at": "2026-07-21T20:16:07.983571+00:00",
   "players": [
     {
       "uid": "a527f320-0000-0000-0000-000000000000",
@@ -1241,6 +1241,21 @@
           "talent_def": 61
         },
         {
+          "species": "MonochromeQueen",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 26,
+          "condense": 0,
+          "passives": [
+            "PlayerSP_DecreaseRate_Passive",
+            "PAL_ALLAttack_up1",
+            "CraftSpeed_down1"
+          ],
+          "talent_hp": 23,
+          "talent_atk": 5,
+          "talent_def": 97
+        },
+        {
           "species": "Umihebi_Fire",
           "alpha": false,
           "lucky": false,
@@ -1252,21 +1267,6 @@
           "talent_hp": 39,
           "talent_atk": 79,
           "talent_def": 73
-        },
-        {
-          "species": "MonochromeQueen",
-          "alpha": false,
-          "lucky": false,
-          "lvl": 25,
-          "condense": 0,
-          "passives": [
-            "PlayerSP_DecreaseRate_Passive",
-            "PAL_ALLAttack_up1",
-            "CraftSpeed_down1"
-          ],
-          "talent_hp": 23,
-          "talent_atk": 5,
-          "talent_def": 97
         },
         {
           "species": "Garm",
@@ -1731,6 +1731,21 @@
           "talent_def": 21
         },
         {
+          "species": "Yeti",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 20,
+          "condense": 0,
+          "passives": [
+            "Deffence_up2_2",
+            "TrainerWorkSpeed_UP_1",
+            "ElementResist_Dark_1_PAL"
+          ],
+          "talent_hp": 61,
+          "talent_atk": 65,
+          "talent_def": 26
+        },
+        {
           "species": "PinkRabbit_Grass",
           "alpha": false,
           "lucky": false,
@@ -1766,21 +1781,6 @@
           "talent_hp": 99,
           "talent_atk": 51,
           "talent_def": 22
-        },
-        {
-          "species": "Yeti",
-          "alpha": false,
-          "lucky": false,
-          "lvl": 19,
-          "condense": 0,
-          "passives": [
-            "Deffence_up2_2",
-            "TrainerWorkSpeed_UP_1",
-            "ElementResist_Dark_1_PAL"
-          ],
-          "talent_hp": 61,
-          "talent_atk": 65,
-          "talent_def": 26
         },
         {
           "species": "PinkRabbit_Grass",
@@ -2255,6 +2255,20 @@
           "talent_def": 59
         },
         {
+          "species": "KingBahamut",
+          "alpha": true,
+          "lucky": false,
+          "lvl": 14,
+          "condense": 0,
+          "passives": [
+            "ElementBoost_Fire_2_PAL",
+            "TrainerATK_UP_1"
+          ],
+          "talent_hp": 67,
+          "talent_atk": 80,
+          "talent_def": 85
+        },
+        {
           "species": "Penguin",
           "alpha": false,
           "lucky": false,
@@ -2415,20 +2429,6 @@
           "talent_hp": 39,
           "talent_atk": 79,
           "talent_def": 52
-        },
-        {
-          "species": "KingBahamut",
-          "alpha": true,
-          "lucky": false,
-          "lvl": 12,
-          "condense": 0,
-          "passives": [
-            "ElementBoost_Fire_2_PAL",
-            "TrainerATK_UP_1"
-          ],
-          "talent_hp": 67,
-          "talent_atk": 80,
-          "talent_def": 85
         },
         {
           "species": "CowPal",
@@ -6886,6 +6886,19 @@
           "talent_def": 46
         },
         {
+          "species": "Carbunclo",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 21,
+          "condense": 0,
+          "passives": [
+            "PAL_FullStomach_Up_2"
+          ],
+          "talent_hp": 29,
+          "talent_atk": 26,
+          "talent_def": 97
+        },
+        {
           "species": "ColorfulBird",
           "alpha": false,
           "lucky": false,
@@ -6937,19 +6950,6 @@
           "talent_hp": 24,
           "talent_atk": 40,
           "talent_def": 9
-        },
-        {
-          "species": "Carbunclo",
-          "alpha": false,
-          "lucky": false,
-          "lvl": 20,
-          "condense": 0,
-          "passives": [
-            "PAL_FullStomach_Up_2"
-          ],
-          "talent_hp": 29,
-          "talent_atk": 26,
-          "talent_def": 97
         },
         {
           "species": "KendoFrog",
@@ -9636,7 +9636,68 @@
       "shinies": 1
     }
   ],
-  "bases": [],
+  "bases": [
+    {
+      "group_id": "15113f94-99f5-45e6-bc49-79185970e416",
+      "x": -346795.3570317555,
+      "y": 263691.72666917456,
+      "z": 4006.8076004116647,
+      "map_x": 61.5,
+      "map_y": 74.3,
+      "guild": "67",
+      "members": [
+        "Powertwo"
+      ]
+    },
+    {
+      "group_id": "e78647c4-c81d-46c3-8316-fcfb68e1da0c",
+      "x": -325849.2175775643,
+      "y": 216772.39949790516,
+      "z": -1895.5716061549379,
+      "map_x": 56.4,
+      "map_y": 72.0,
+      "guild": "Unnamed Guild",
+      "members": [
+        "NicxCurry"
+      ]
+    },
+    {
+      "group_id": "ea2ce063-206d-4a21-92d4-42c34aad528b",
+      "x": -295709.4928395245,
+      "y": 192331.89193403255,
+      "z": -20.244379998057383,
+      "map_x": 53.7,
+      "map_y": 68.7,
+      "guild": "Unnamed Guild",
+      "members": [
+        "SamuuKss"
+      ]
+    },
+    {
+      "group_id": "b6d66b36-ce77-4a1a-bea1-5f5aa7fff3f1",
+      "x": -282477.4474254396,
+      "y": 198024.95778541846,
+      "z": -405.6252077127876,
+      "map_x": 54.4,
+      "map_y": 67.3,
+      "guild": "Apagnesque",
+      "members": [
+        "Babour"
+      ]
+    },
+    {
+      "group_id": "3c68a146-7089-487b-a924-fd06d558dd7c",
+      "x": -212735.5916832024,
+      "y": 158676.53859252276,
+      "z": 131.04912311938028,
+      "map_x": 50.1,
+      "map_y": 59.7,
+      "guild": "Unnamed Guild",
+      "members": [
+        "fraizo"
+      ]
+    }
+  ],
   "totals": {
     "players": 6,
     "pals": 730,
