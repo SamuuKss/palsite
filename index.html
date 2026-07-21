@@ -4,6 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>PalServer — Dashboard</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
 <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700;800&family=Nunito:wght@400;600;700;900&display=swap" rel="stylesheet">
 <style>
 :root{
@@ -70,6 +72,12 @@ main{padding:24px 0 40px}
 .popup .s{color:var(--mute);font-size:12px;margin-top:2px}
 .popup button{background:none;border:none;color:var(--sky);font:700 12px 'Nunito';cursor:pointer;padding:0;margin-top:6px}
 .legend{display:flex;gap:14px;flex-wrap:wrap;font-size:12px;color:var(--mute);margin-bottom:12px}
+#leafmap{height:520px;border-radius:14px;border:1px solid var(--line);background:#0a1a2e}
+.leaflet-popup-content-wrapper,.leaflet-popup-tip{background:rgba(13,21,38,.95);color:var(--ink);border:1px solid var(--line)}
+.leaflet-popup-content{font:600 13px 'Nunito';margin:10px 14px}
+.baselabel{background:rgba(13,21,38,.85);color:#e8eefc;border:1px solid #24365c;border-radius:8px;font:700 11px 'Nunito';padding:2px 8px}
+.baselabel:before{display:none}
+.leaflet-container{font-family:'Nunito',sans-serif}
 footer{color:var(--mute);border-top:1px solid var(--line);text-align:center;font-size:12px;padding:20px 0}
 .err{background:rgba(255,122,107,.1);border:1px solid rgba(255,122,107,.3);color:var(--danger);border-radius:14px;padding:16px 20px;font-size:14px}
 @media (max-width:520px){h1{font-size:28px}}
@@ -101,6 +109,21 @@ footer{color:var(--mute);border-top:1px solid var(--line);text-align:center;font
 
 <script>
 const PALDEX_TOTAL = 214;
+// IDs internes -> noms affichés (complète au fur et à mesure)
+const PAL_FR = {
+  "JetDragon":"Jetragon","IceHorse":"Frostallion","IceHorse_Dark":"Frostallion Noct",
+  "SaintCentaur":"Paladius","BlackCentaur":"Necromus","LilyQueen":"Lyleen",
+  "LilyQueen_Dark":"Lyleen Noct","Anubis":"Anubis","SheepBall":"Lamball",
+  "PinkCat":"Cattiva","ChickenPal":"Chikipi","Carbunclo":"Lifmunk",
+  "BluePlatypus":"Fuack","Penguin":"Pengullet","Bastet":"Mau","Bastet_Ice":"Mau Cryst",
+  "ElecPanda":"Grizzbolt","Ronin":"Bushi","FlameBambi":"Rooby","Garm":"Direhowl",
+  "BlackGriffon":"Shadowbeak","FireKirin":"Pyrin","FireKirin_Dark":"Pyrin Noct",
+  "KingBahamut":"Blazamut","ThunderDragonMan":"Orserk","BirdDragon":"Ragnahawk",
+  "SakuraSaurus":"Dinossom","VolcanicMonster":"Reptyro","Horus":"Faleris",
+  "GrassMammoth":"Mammorest","LazyCatfish":"Dumud","Serpent":"Celaray",
+  "Kitsunebi":"Foxparks","Umihebi":"Jormuntide","Suzaku":"Suzaku","Baphomet":"Incineram"
+};
+const palName = id => PAL_FR[id] || String(id).replace(/_/g," ").replace(/([a-z])([A-Z])/g,"$1 $2");
 const GOLD = ["Legend","Artisan","Lucky","Chanceux","Divin céleste","Empereur lunaire","Chevalier saint","Chevalier noir"];
 const PLAYER_COLORS = ["#4fc3f7","#7ed491","#c792ea","#ffc94d","#ff7a6b","#f78fb3"];
 let DATA = null, TAB = "joueurs";
@@ -177,7 +200,7 @@ function palRow(pal){
   const iv=(pal.talent_hp!=null)?'<span class="tag">IV '+pal.talent_hp+'/'+pal.talent_atk+'/'+pal.talent_def+'</span>':"";
   return '<div class="pal'+(pal.lucky?' lucky':'')+'" onclick="this.classList.toggle(\'open\')">'
     +'<div class="pal-row"><span class="sphere'+(pal.lucky?' lucky':'')+'"></span>'
-    +'<span class="nm">'+esc(pal.species)+'</span>'
+    +'<span class="nm">'+esc(palName(pal.species))+'</span>'
     +(pal.lucky?'<span style="color:var(--amber);font-weight:700;font-size:12px">✦</span>':'')
     +(pal.alpha?'<span style="color:var(--danger);font-size:11px;font-weight:700">ALPHA</span>':'')
     +'<span class="lv">Nv '+pal.lvl+'</span><span class="cd">★'+(pal.condense??0)+'</span></div>'
@@ -204,28 +227,44 @@ function classements(){
 
 function mapView(){
   const bases=(DATA.bases||[]).filter(b=>b.map_x!=null);
-  const dots=bases.map((b,i)=>{
-    const col=PLAYER_COLORS[i%PLAYER_COLORS.length];
-    const x=b.map_x, y=b.map_y*0.9;
-    return '<g style="cursor:pointer" onclick="showPop(\'Base #'+(i+1)+'\',\'Guilde '+esc(String(b.group_id).slice(0,8))+'\')">'
-      +'<circle cx="'+x+'" cy="'+y+'" r="3.4" fill="'+col+'33"/>'
-      +'<circle cx="'+x+'" cy="'+y+'" r="1.9" fill="'+col+'" stroke="#fff" stroke-width="0.45"/></g>';
-  }).join("");
+  setTimeout(initLeaflet,0);
   return '<div class="card">'
-    +'<div class="legend"><span>🏕 '+bases.length+' bases détectées sur le serveur</span></div>'
-    +'<div class="mapbox"><svg viewBox="0 0 100 90">'
-    +'<defs><radialGradient id="isle" cx="50%" cy="45%" r="65%"><stop offset="0%" stop-color="#2e5a3e"/><stop offset="55%" stop-color="#24473a"/><stop offset="100%" stop-color="#1b3a4a"/></radialGradient></defs>'
-    +'<path d="M 20 25 Q 28 12 45 14 Q 60 10 70 18 Q 85 22 84 35 Q 88 48 78 55 Q 82 66 70 72 Q 62 82 50 78 Q 38 84 30 74 Q 16 70 18 58 Q 10 48 15 38 Q 12 30 20 25 Z" fill="url(#isle)" stroke="#3d6b52" stroke-width="0.6"/>'
-    +'<ellipse cx="12" cy="72" rx="7" ry="5" fill="url(#isle)" stroke="#3d6b52" stroke-width="0.5"/>'
-    +'<ellipse cx="88" cy="14" rx="8" ry="5.5" fill="url(#isle)" stroke="#3d6b52" stroke-width="0.5"/>'
-    +'<path d="M 66 20 Q 80 22 82 34 Q 84 44 76 50 Q 70 42 68 32 Q 64 26 66 20 Z" fill="#8a7a4d" opacity="0.5"/>'
-    +'<path d="M 40 14 Q 52 11 60 16 Q 56 22 46 22 Q 40 20 40 14 Z" fill="#cfe3ef" opacity="0.55"/>'
-    +dots+'</svg><div id="pop"></div></div>'
-    +'<p style="color:var(--mute);font-size:12px;margin-top:12px">Positions issues des coordonnées réelles des bases dans la save. Si les points semblent décalés, ajuste les bornes dans export_palserver.py (fonction world_to_map_percent).</p>'
+    +'<div class="legend"><span>\ud83c\udfd5 '+bases.length+' bases sur le serveur \u00b7 molette pour zoomer, glisser pour se d\u00e9placer</span></div>'
+    +'<div id="leafmap"></div>'
+    +'<p style="color:var(--mute);font-size:12px;margin-top:12px">'
+    +'Pour afficher la vraie carte en fond : prends une capture plein \u00e9cran de la carte en jeu (M), '
+    +'nomme le fichier <b>map.jpg</b> et ajoute-le dans le repo GitHub \u00e0 c\u00f4t\u00e9 de index.html. '
+    +'Si les points sont d\u00e9cal\u00e9s, dis-le \u00e0 Claude pour calibrer.</p>'
     +'</div>';
 }
-function showPop(t,s){
-  document.getElementById("pop").innerHTML='<div class="popup"><div class="t">🏕 '+t+'</div><div class="s">'+s+'</div><button onclick="document.getElementById(\'pop\').innerHTML=\'\'">Fermer</button></div>';
+let LMAP=null;
+function initLeaflet(){
+  const el=document.getElementById('leafmap');
+  if(!el||typeof L==="undefined") return;
+  if(LMAP){LMAP.remove();LMAP=null;}
+  const bounds=[[0,0],[100,100]];
+  LMAP=L.map(el,{crs:L.CRS.Simple,minZoom:2,maxZoom:6,zoomSnap:.5,attributionControl:false,zoomControl:true});
+  LMAP.fitBounds(bounds);
+  const img=new Image();
+  img.onload=()=>L.imageOverlay('map.jpg',bounds).addTo(LMAP).bringToBack();
+  img.onerror=()=>{
+    L.rectangle(bounds,{color:'#24365c',weight:1,fillColor:'#0f2036',fillOpacity:1,interactive:false}).addTo(LMAP);
+    for(let i=10;i<100;i+=10){
+      L.polyline([[i,0],[i,100]],{color:'#1a2845',weight:1,interactive:false}).addTo(LMAP);
+      L.polyline([[0,i],[100,i]],{color:'#1a2845',weight:1,interactive:false}).addTo(LMAP);
+    }
+  };
+  img.src='map.jpg';
+  const bases=(DATA.bases||[]).filter(b=>b.map_x!=null);
+  bases.forEach((b,i)=>{
+    const col=PLAYER_COLORS[i%PLAYER_COLORS.length];
+    const guild=b.guild||('Base #'+(i+1));
+    const members=(b.members||[]).join(', ');
+    L.circleMarker([100-b.map_y,b.map_x],{radius:9,color:'#fff',weight:2,fillColor:col,fillOpacity:.95})
+      .addTo(LMAP)
+      .bindPopup('\ud83c\udfd5 <b>'+esc(guild)+'</b>'+(members?'<br><span style="color:#8fa3c8">'+esc(members)+'</span>':''))
+      .bindTooltip(esc(guild),{permanent:true,direction:'top',offset:[0,-10],className:'baselabel'});
+  });
 }
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 load();
