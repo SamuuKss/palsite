@@ -31,53 +31,68 @@ nav{display:flex;gap:8px;padding-top:20px;flex-wrap:wrap}
 nav button{background:transparent;color:var(--mute);border:1px solid var(--line);border-radius:99px;padding:8px 16px;font:700 14px 'Nunito';cursor:pointer}
 nav button.on{background:var(--sphere);color:#fff;border-color:var(--sphere)}
 main{padding:24px 0 40px}
-.grid2{display:grid;gap:16px;grid-template-columns:repeat(auto-fill,minmax(320px,1fr))}
+.grid2{display:grid;gap:16px;grid-template-columns:repeat(auto-fill,minmax(330px,1fr))}
 .grid3{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
 .card{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:20px}
 .pcard-top{display:flex;align-items:center;gap:12px}
-.avatar{width:44px;height:44px;border-radius:50%;background:linear-gradient(135deg,var(--sphere),var(--sky));display:flex;align-items:center;justify-content:center;font-weight:900;font-size:18px;color:#fff}
-.pname{font-weight:700}
+.avatar{width:46px;height:46px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:18px;color:#fff;flex-shrink:0}
+.pname{font-weight:800;font-size:16px}
 .psub{font-size:12px;color:var(--mute)}
 .plvl{margin-left:auto;text-align:right}
-.plvl b{color:var(--amber);font-size:24px;font-weight:900}
-.plvl span{display:block;color:var(--mute);font-size:11px;margin-top:-2px}
+.plvl b{color:var(--amber);font-size:26px;font-weight:900}
+.plvl span{display:block;color:var(--mute);font-size:11px;margin-top:-3px}
 .mini{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;text-align:center;margin:14px 0}
 .mini>div{background:var(--soft);border-radius:10px;padding:8px 4px}
 .mini b{font-size:17px;display:block}
 .mini span{font-size:11px;color:var(--mute)}
-.sec{color:var(--mute);font-size:11px;text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px}
-.pal{border:1px solid var(--line);border-radius:12px;padding:8px 12px;margin-bottom:6px;cursor:pointer}
-.pal.lucky{border-color:rgba(255,201,77,.4)}
-.pal-row{display:flex;align-items:center;gap:8px;font-size:14px}
-.sphere{width:14px;height:14px;border-radius:50%;flex-shrink:0;border:1.5px solid rgba(255,255,255,.35);background:linear-gradient(180deg,var(--sphere) 48%,#fff 48%,#fff 52%,#1e3a6e 52%)}
-.sphere.lucky{background:linear-gradient(180deg,var(--amber) 48%,#fff 48%,#fff 52%,#b8860b 52%)}
-.pal-row .nm{font-weight:600}
-.pal-row .lv{color:var(--mute);font-size:12px;margin-left:auto}
-.pal-row .cd{color:var(--sky);font-size:12px}
-.tags{display:none;flex-wrap:wrap;gap:4px;margin-top:8px}
-.pal.open .tags{display:flex}
-.pal.open{background:var(--soft)}
-.tag{font-size:11px;padding:2px 8px;border-radius:99px;background:rgba(79,195,247,.1);color:var(--sky);border:1px solid rgba(79,195,247,.2)}
-.tag.gold{background:rgba(255,201,77,.14);color:var(--amber);border-color:rgba(255,201,77,.27)}
+.sec{color:var(--mute);font-size:11px;text-transform:uppercase;letter-spacing:.08em;margin:4px 0 8px}
+.pal{display:flex;align-items:center;gap:10px;border:1px solid var(--line);border-radius:14px;padding:8px 12px;margin-bottom:7px;cursor:pointer;transition:background .15s,border-color .15s}
+.pal:hover{background:var(--soft)}
+.pal.lucky{border-color:rgba(255,201,77,.45)}
+.picon{width:42px;height:42px;border-radius:50%;background:var(--soft);border:2px solid var(--line);object-fit:cover;flex-shrink:0}
+.pal.lucky .picon{border-color:var(--amber)}
+.pinfo{flex:1;min-width:0}
+.pinfo .nm{font-weight:700;font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pinfo .meta{font-size:11px;color:var(--mute)}
+.pright{text-align:right;flex-shrink:0}
+.pright .lv{font-weight:900;color:var(--sky);font-size:15px}
+.pright .cd{font-size:11px;color:var(--mute)}
+.tagline{color:var(--mute);font-size:12px;margin-top:6px}
 .lb-row{display:flex;align-items:center;gap:10px;margin-bottom:10px;font-size:14px}
 .lb-row .rk{width:18px;text-align:center;font-weight:900;color:var(--mute)}
 .lb-row.first .rk{color:var(--amber)}
 .lb-row .track{flex:1;height:8px;background:var(--soft);border-radius:99px;overflow:hidden}
 .lb-row .track>div{height:100%;border-radius:99px}
 .lb-row .val{width:44px;text-align:right;font-weight:700}
-.mapbox{position:relative;border:1px solid var(--line);border-radius:14px;overflow:hidden}
-.mapbox svg{display:block;width:100%;background:#0a1a2e}
-.popup{position:absolute;left:12px;bottom:12px;background:rgba(13,21,38,.92);border:1px solid var(--line);border-radius:12px;padding:12px 16px;max-width:260px;font-size:13px}
-.popup .t{font-weight:700}
-.popup .s{color:var(--mute);font-size:12px;margin-top:2px}
-.popup button{background:none;border:none;color:var(--sky);font:700 12px 'Nunito';cursor:pointer;padding:0;margin-top:6px}
-.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:12px;color:var(--mute);margin-bottom:12px}
 #leafmap{height:520px;border-radius:14px;border:1px solid var(--line);background:#0a1a2e}
 .leaflet-popup-content-wrapper,.leaflet-popup-tip{background:rgba(13,21,38,.95);color:var(--ink);border:1px solid var(--line)}
 .leaflet-popup-content{font:600 13px 'Nunito';margin:10px 14px}
 .baselabel{background:rgba(13,21,38,.85);color:#e8eefc;border:1px solid #24365c;border-radius:8px;font:700 11px 'Nunito';padding:2px 8px}
 .baselabel:before{display:none}
-.leaflet-container{font-family:'Nunito',sans-serif}
+.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:12px;color:var(--mute);margin-bottom:12px}
+/* Modal détail pal */
+#modal{position:fixed;inset:0;background:rgba(5,9,18,.75);display:none;align-items:center;justify-content:center;z-index:1000;padding:20px}
+#modal.open{display:flex}
+.mbox{background:var(--panel);border:1px solid var(--line);border-radius:20px;max-width:420px;width:100%;padding:24px;position:relative}
+.mclose{position:absolute;top:14px;right:16px;background:none;border:none;color:var(--mute);font-size:22px;cursor:pointer;font-family:'Nunito'}
+.mhead{display:flex;align-items:center;gap:14px;margin-bottom:16px}
+.mhead img{width:72px;height:72px;border-radius:50%;background:var(--soft);border:3px solid var(--line);object-fit:cover}
+.mhead.lucky img{border-color:var(--amber)}
+.mtitle{font-family:'Baloo 2';font-size:22px;font-weight:800;line-height:1.1}
+.msub{color:var(--mute);font-size:12px}
+.mbadges{display:flex;gap:6px;margin-top:6px;flex-wrap:wrap}
+.mb{font-size:11px;font-weight:800;padding:2px 10px;border-radius:99px}
+.mb.lucky{background:rgba(255,201,77,.15);color:var(--amber);border:1px solid rgba(255,201,77,.3)}
+.mb.alpha{background:rgba(255,122,107,.15);color:var(--danger);border:1px solid rgba(255,122,107,.3)}
+.mb.lv{background:rgba(79,195,247,.12);color:var(--sky);border:1px solid rgba(79,195,247,.25)}
+.ivrow{display:flex;align-items:center;gap:10px;margin-bottom:8px;font-size:13px}
+.ivrow .ivl{width:60px;color:var(--mute)}
+.ivrow .track{flex:1;height:8px;background:var(--soft);border-radius:99px;overflow:hidden}
+.ivrow .track>div{height:100%;border-radius:99px}
+.ivrow .ivv{width:34px;text-align:right;font-weight:800}
+.tags{display:flex;flex-wrap:wrap;gap:5px;margin-top:4px}
+.tag{font-size:11px;padding:3px 10px;border-radius:99px;background:rgba(79,195,247,.1);color:var(--sky);border:1px solid rgba(79,195,247,.2)}
+.tag.gold{background:rgba(255,201,77,.14);color:var(--amber);border-color:rgba(255,201,77,.27)}
 footer{color:var(--mute);border-top:1px solid var(--line);text-align:center;font-size:12px;padding:20px 0}
 .err{background:rgba(255,122,107,.1);border:1px solid rgba(255,122,107,.3);color:var(--danger);border-radius:14px;padding:16px 20px;font-size:14px}
 @media (max-width:520px){h1{font-size:28px}}
@@ -87,7 +102,7 @@ footer{color:var(--mute);border-top:1px solid var(--line);text-align:center;font
 <header><div class="wrap">
   <div class="headrow">
     <div>
-      <div class="eyebrow" id="eyebrow">Serveur dédié</div>
+      <div class="eyebrow">Serveur dédié</div>
       <h1>PalServer de Jarod</h1>
     </div>
     <span class="badge" id="badge">● chargement…</span>
@@ -105,11 +120,11 @@ footer{color:var(--mute);border-top:1px solid var(--line);text-align:center;font
 <main id="main"></main>
 </div>
 
-<footer id="footer">Données mises à jour automatiquement depuis le Level.sav du serveur</footer>
+<div id="modal"><div class="mbox" id="mbox"></div></div>
+<footer id="footer">Données mises à jour automatiquement depuis le serveur</footer>
 
 <script>
 const PALDEX_TOTAL = 214;
-// IDs internes -> noms affichés (complète au fur et à mesure)
 const PAL_FR = {
   "JetDragon":"Jetragon","IceHorse":"Frostallion","IceHorse_Dark":"Frostallion Noct",
   "SaintCentaur":"Paladius","BlackCentaur":"Necromus","LilyQueen":"Lyleen",
@@ -124,9 +139,10 @@ const PAL_FR = {
   "Kitsunebi":"Foxparks","Umihebi":"Jormuntide","Suzaku":"Suzaku","Baphomet":"Incineram"
 };
 const palName = id => PAL_FR[id] || String(id).replace(/_/g," ").replace(/([a-z])([A-Z])/g,"$1 $2");
-const GOLD = ["Legend","Artisan","Lucky","Chanceux","Divin céleste","Empereur lunaire","Chevalier saint","Chevalier noir"];
+const palIcon = id => 'https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_'+id+'_icon_normal.webp';
+const GOLD = ["Legend","Artisan","Lucky","Chanceux"];
 const PLAYER_COLORS = ["#4fc3f7","#7ed491","#c792ea","#ffc94d","#ff7a6b","#f78fb3"];
-let DATA = null, TAB = "joueurs";
+let DATA=null, TAB="joueurs";
 
 async function load(){
   try{
@@ -136,25 +152,22 @@ async function load(){
     renderHeader(); render();
   }catch(e){
     document.getElementById("main").innerHTML =
-      '<div class="err"><b>Impossible de charger server_data.json</b><br>Vérifie que le fichier est bien dans le repo GitHub, au même niveau que index.html. Détail : '+e.message+'</div>';
+      '<div class="err"><b>Impossible de charger server_data.json</b><br>'+e.message+'</div>';
     document.getElementById("badge").textContent = "● hors ligne";
   }
 }
-
 function renderHeader(){
   const t = DATA.totals||{};
-  const species = t.species||0;
-  const pct = Math.round(species/PALDEX_TOTAL*100);
+  const pct = Math.round((t.species||0)/PALDEX_TOTAL*100);
   document.getElementById("badge").textContent = "● "+(t.players??"?")+" joueurs";
-  document.getElementById("badge").style.display="inline-block";
-  const gen = DATA.generated_at ? new Date(DATA.generated_at) : null;
   document.getElementById("stats").innerHTML = [
     pill("Joueurs", t.players??"—"),
     pill("Pals capturés", t.pals??"—"),
     pill("Paldex serveur", pct+" %", "var(--sky)"),
-    pill("Espèces", species+"/"+PALDEX_TOTAL, "var(--amber)"),
+    pill("Espèces", (t.species||0)+"/"+PALDEX_TOTAL, "var(--amber)"),
   ].join("");
   document.getElementById("dexbar").style.width = pct+"%";
+  const gen = DATA.generated_at ? new Date(DATA.generated_at) : null;
   if(gen) document.getElementById("footer").textContent =
     "Dernière mise à jour : "+gen.toLocaleString("fr-FR",{dateStyle:"short",timeStyle:"short"});
 }
@@ -166,7 +179,6 @@ document.getElementById("tabs").addEventListener("click",e=>{
   document.querySelectorAll("nav button").forEach(x=>x.classList.toggle("on",x===b));
   render();
 });
-
 function render(){
   if(!DATA) return;
   const m=document.getElementById("main");
@@ -175,47 +187,74 @@ function render(){
   else m.innerHTML=mapView();
 }
 
+function iconImg(sp, cls){
+  return '<img class="'+cls+'" loading="lazy" src="'+palIcon(sp)+'" '
+    +'onerror="this.onerror=null;this.src=\'data:image/svg+xml,\'+encodeURIComponent(\'<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;42&quot; height=&quot;42&quot;><rect width=&quot;42&quot; height=&quot;42&quot; rx=&quot;21&quot; fill=&quot;%231a2845&quot;/><text x=&quot;21&quot; y=&quot;27&quot; text-anchor=&quot;middle&quot; font-size=&quot;16&quot; fill=&quot;%234fc3f7&quot; font-family=&quot;sans-serif&quot;>\'+ \''+String(sp)[0]+'\' +\'</text></svg>\')" alt="">';
+}
+
 function playerCard(p,i){
   const col=PLAYER_COLORS[i%PLAYER_COLORS.length];
-  const pals=(p.pals||[]).slice(0,8);
+  const teamLabel = p.team_detected===false ? "Meilleurs pals (équipe non détectée)" : "Équipe";
   return '<div class="card">'
-    +'<div class="pcard-top"><div class="avatar" style="background:linear-gradient(135deg,var(--sphere),'+col+')">'+esc(p.name[0]||"?")+'</div>'
-    +'<div><div class="pname">'+esc(p.name)+'</div><div class="psub">'+(p.pals?p.pals.length:0)+' pals au total</div></div>'
+    +'<div class="pcard-top"><div class="avatar" style="background:linear-gradient(135deg,var(--sphere),'+col+')">'+esc((p.name||"?")[0])+'</div>'
+    +'<div><div class="pname">'+esc(p.name)+'</div><div class="psub">'+(p.captures??0)+' pals capturés</div></div>'
     +'<div class="plvl"><b>'+p.level+'</b><span>niveau</span></div></div>'
     +'<div class="mini">'
       +'<div><b style="color:var(--sky)">'+(p.captures??0)+'</b><span>Captures</span></div>'
       +'<div><b style="color:var(--amber)">'+(p.shinies??0)+'</b><span>Lucky</span></div>'
-      +'<div><b style="color:var(--danger)">'+((p.pals||[]).filter(x=>x.alpha).length)+'</b><span>Alphas</span></div>'
+      +'<div><b style="color:var(--grass)">'+(p.box_count??0)+'</b><span>Palbox</span></div>'
     +'</div>'
-    +'<div class="sec">Meilleurs pals</div>'
-    +pals.map(palRow).join("")
+    +'<div class="sec">'+teamLabel+'</div>'
+    +(p.pals||[]).map((pal,j)=>palRow(pal,i,j)).join("")
+    +'</div>';
+}
+function palRow(pal,pi,j){
+  const stars = "★".repeat(Math.min(4,pal.condense||0)) || "";
+  return '<div class="pal'+(pal.lucky?' lucky':'')+'" onclick="openModal('+pi+','+j+')">'
+    +iconImg(pal.species,"picon")
+    +'<div class="pinfo"><div class="nm">'+esc(palName(pal.species))
+    +(pal.lucky?' <span style="color:var(--amber)">✦</span>':'')
+    +(pal.alpha?' <span style="color:var(--danger);font-size:11px;font-weight:800">ALPHA</span>':'')
+    +'</div><div class="meta">'+(pal.passives||[]).slice(0,2).map(esc).join(" · ")+'</div></div>'
+    +'<div class="pright"><div class="lv">Nv '+pal.lvl+'</div><div class="cd">'+stars+'</div></div>'
     +'</div>';
 }
 
-function palRow(pal){
+function openModal(pi,j){
+  const pal = DATA.players[pi].pals[j];
+  const iv = (l,v,c)=>'<div class="ivrow"><span class="ivl">'+l+'</span><div class="track"><div style="width:'+Math.min(100,v)+'%;background:'+c+'"></div></div><span class="ivv" style="color:'+c+'">'+v+'</span></div>';
   const tags=(pal.passives||[]).map(ps=>{
     const g=GOLD.some(k=>ps.toLowerCase().includes(k.toLowerCase()));
     return '<span class="tag'+(g?' gold':'')+'">'+esc(ps)+'</span>';
-  }).join("");
-  const iv=(pal.talent_hp!=null)?'<span class="tag">IV '+pal.talent_hp+'/'+pal.talent_atk+'/'+pal.talent_def+'</span>':"";
-  return '<div class="pal'+(pal.lucky?' lucky':'')+'" onclick="this.classList.toggle(\'open\')">'
-    +'<div class="pal-row"><span class="sphere'+(pal.lucky?' lucky':'')+'"></span>'
-    +'<span class="nm">'+esc(palName(pal.species))+'</span>'
-    +(pal.lucky?'<span style="color:var(--amber);font-weight:700;font-size:12px">✦</span>':'')
-    +(pal.alpha?'<span style="color:var(--danger);font-size:11px;font-weight:700">ALPHA</span>':'')
-    +'<span class="lv">Nv '+pal.lvl+'</span><span class="cd">★'+(pal.condense??0)+'</span></div>'
-    +'<div class="tags">'+tags+iv+'</div></div>';
+  }).join("")||'<span class="tag">Aucun passif</span>';
+  document.getElementById("mbox").innerHTML =
+    '<button class="mclose" onclick="closeModal()">✕</button>'
+    +'<div class="mhead'+(pal.lucky?' lucky':'')+'">'+iconImg(pal.species,"")
+    +'<div><div class="mtitle">'+esc(palName(pal.species))+'</div>'
+    +'<div class="msub">'+esc(pal.species)+'</div>'
+    +'<div class="mbadges"><span class="mb lv">Niveau '+pal.lvl+'</span>'
+    +(pal.lucky?'<span class="mb lucky">✦ Lucky</span>':'')
+    +(pal.alpha?'<span class="mb alpha">ALPHA</span>':'')
+    +'<span class="mb lv">Condensé ★'+(pal.condense||0)+'</span></div></div></div>'
+    +'<div class="sec">Talents (IV)</div>'
+    +iv("Vie",pal.talent_hp||0,"var(--grass)")
+    +iv("Attaque",pal.talent_atk||0,"var(--danger)")
+    +iv("Défense",pal.talent_def||0,"var(--sky)")
+    +'<div class="sec" style="margin-top:14px">Passifs</div><div class="tags">'+tags+'</div>';
+  document.getElementById("modal").classList.add("open");
 }
+function closeModal(){document.getElementById("modal").classList.remove("open");}
+document.getElementById("modal").addEventListener("click",e=>{if(e.target.id==="modal")closeModal();});
 
 function classements(){
-  const mk=(title,icon,key,color,unit)=>{
+  const mk=(title,icon,key,color)=>{
     const rows=[...DATA.players].map(p=>({n:p.name,v:p[key]??0})).sort((a,b)=>b.v-a.v);
     const max=rows[0]?.v||1;
     return '<div class="card"><div class="pname" style="margin-bottom:12px">'+icon+' '+title+'</div>'
       +rows.map((r,i)=>'<div class="lb-row'+(i===0?' first':'')+'"><span class="rk">'+(i+1)+'</span>'
-        +'<span style="min-width:80px">'+esc(r.n)+'</span>'
+        +'<span style="min-width:90px">'+esc(r.n)+'</span>'
         +'<div class="track"><div style="width:'+(r.v/max*100)+'%;background:'+color+'"></div></div>'
-        +'<span class="val" style="color:'+color+'">'+r.v+(unit||"")+'</span></div>').join("")
+        +'<span class="val" style="color:'+color+'">'+r.v+'</span></div>').join("")
       +'</div>';
   };
   return '<div class="grid3">'
@@ -229,12 +268,10 @@ function mapView(){
   const bases=(DATA.bases||[]).filter(b=>b.map_x!=null);
   setTimeout(initLeaflet,0);
   return '<div class="card">'
-    +'<div class="legend"><span>\ud83c\udfd5 '+bases.length+' bases sur le serveur \u00b7 molette pour zoomer, glisser pour se d\u00e9placer</span></div>'
+    +'<div class="legend"><span>🏕 '+bases.length+' bases sur le serveur · molette pour zoomer, glisser pour se déplacer</span></div>'
     +'<div id="leafmap"></div>'
     +'<p style="color:var(--mute);font-size:12px;margin-top:12px">'
-    +'Pour afficher la vraie carte en fond : prends une capture plein \u00e9cran de la carte en jeu (M), '
-    +'nomme le fichier <b>map.jpg</b> et ajoute-le dans le repo GitHub \u00e0 c\u00f4t\u00e9 de index.html. '
-    +'Si les points sont d\u00e9cal\u00e9s, dis-le \u00e0 Claude pour calibrer.</p>'
+    +'Fond de carte : ajoute une capture de la carte du jeu nommée <b>map.jpg</b> dans le dossier du site.</p>'
     +'</div>';
 }
 let LMAP=null;
@@ -243,7 +280,7 @@ function initLeaflet(){
   if(!el||typeof L==="undefined") return;
   if(LMAP){LMAP.remove();LMAP=null;}
   const bounds=[[0,0],[100,100]];
-  LMAP=L.map(el,{crs:L.CRS.Simple,minZoom:2,maxZoom:6,zoomSnap:.5,attributionControl:false,zoomControl:true});
+  LMAP=L.map(el,{crs:L.CRS.Simple,minZoom:2,maxZoom:6,zoomSnap:.5,attributionControl:false});
   LMAP.fitBounds(bounds);
   const img=new Image();
   img.onload=()=>L.imageOverlay('map.jpg',bounds).addTo(LMAP).bringToBack();
@@ -255,18 +292,17 @@ function initLeaflet(){
     }
   };
   img.src='map.jpg';
-  const bases=(DATA.bases||[]).filter(b=>b.map_x!=null);
-  bases.forEach((b,i)=>{
+  (DATA.bases||[]).filter(b=>b.map_x!=null).forEach((b,i)=>{
     const col=PLAYER_COLORS[i%PLAYER_COLORS.length];
     const guild=b.guild||('Base #'+(i+1));
     const members=(b.members||[]).join(', ');
     L.circleMarker([100-b.map_y,b.map_x],{radius:9,color:'#fff',weight:2,fillColor:col,fillOpacity:.95})
       .addTo(LMAP)
-      .bindPopup('\ud83c\udfd5 <b>'+esc(guild)+'</b>'+(members?'<br><span style="color:#8fa3c8">'+esc(members)+'</span>':''))
+      .bindPopup('🏕 <b>'+esc(guild)+'</b>'+(members?'<br><span style="color:#8fa3c8">'+esc(members)+'</span>':''))
       .bindTooltip(esc(guild),{permanent:true,direction:'top',offset:[0,-10],className:'baselabel'});
   });
 }
-const esc=s=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 load();
 </script>
 </body>
