@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T22:59:58.320321+00:00",
+  "generated_at": "2026-07-21T23:01:09.547237+00:00",
   "players": [
     {
       "uid": "a527f320-0000-0000-0000-000000000000",
@@ -127,7 +127,8 @@
       "map_x": 61.5,
       "map_y": 74.2,
       "team_detected": true,
-      "box_count": 380
+      "box_count": 380,
+      "last_seen": null
     },
     {
       "uid": "90a5c888-0000-0000-0000-000000000000",
@@ -251,7 +252,8 @@
       "map_x": 53.8,
       "map_y": 68.7,
       "team_detected": true,
-      "box_count": 117
+      "box_count": 117,
+      "last_seen": null
     },
     {
       "uid": "11faa22b-0000-0000-0000-000000000000",
@@ -367,7 +369,8 @@
       "map_x": 53.7,
       "map_y": 74.3,
       "team_detected": true,
-      "box_count": 5
+      "box_count": 5,
+      "last_seen": null
     },
     {
       "uid": "bb0b7c26-0000-0000-0000-000000000000",
@@ -494,7 +497,8 @@
       "map_x": 56.4,
       "map_y": 72.0,
       "team_detected": true,
-      "box_count": 75
+      "box_count": 75,
+      "last_seen": null
     },
     {
       "uid": "5d6d87d4-0000-0000-0000-000000000000",
@@ -620,7 +624,8 @@
       "map_x": 54.4,
       "map_y": 67.2,
       "team_detected": true,
-      "box_count": 79
+      "box_count": 79,
+      "last_seen": null
     },
     {
       "uid": "5ae78a05-0000-0000-0000-000000000000",
@@ -743,7 +748,8 @@
       "map_x": 50.1,
       "map_y": 59.7,
       "team_detected": true,
-      "box_count": 44
+      "box_count": 44,
+      "last_seen": null
     }
   ],
   "guilds": [
