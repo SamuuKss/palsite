@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T20:24:33.878823+00:00",
+  "generated_at": "2026-07-21T20:28:12.694224+00:00",
   "players": [
     {
       "uid": "a527f320-0000-0000-0000-000000000000",
@@ -7,79 +7,77 @@
       "level": 61,
       "pals": [
         {
-          "species": "JetDragon",
-          "alpha": true,
+          "species": "IceDeer",
+          "alpha": false,
           "lucky": false,
-          "lvl": 70,
+          "lvl": 57,
           "condense": 0,
           "passives": [
-            "Legend",
-            "ElementBoost_Dragon_2_PAL",
-            "PAL_Sanity_Down_1"
+            "ReloadSpeedUp_Passive"
           ],
-          "talent_hp": 53,
-          "talent_atk": 73,
-          "talent_def": 76
+          "talent_hp": 73,
+          "talent_atk": 76,
+          "talent_def": 12
         },
         {
-          "species": "JetDragon",
-          "alpha": true,
+          "species": "SakuraSaurus",
+          "alpha": false,
           "lucky": false,
-          "lvl": 70,
-          "condense": 0,
-          "passives": [
-            "Legend",
-            "ElementBoost_Dragon_2_PAL",
-            "NonKilling"
-          ],
-          "talent_hp": 84,
-          "talent_atk": 67,
-          "talent_def": 90
-        },
-        {
-          "species": "GrassGolem_Dark",
-          "alpha": true,
-          "lucky": false,
-          "lvl": 70,
+          "lvl": 57,
           "condense": 0,
           "passives": [
             "Deffence_up2_2",
-            "ElementBoost_Aqua_1_PAL"
+            "PAL_FullStomach_Up_2",
+            "PAL_Sanity_Down_2"
           ],
-          "talent_hp": 63,
+          "talent_hp": 99,
+          "talent_atk": 56,
+          "talent_def": 75
+        },
+        {
+          "species": "WindChimes_Ice",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 57,
+          "condense": 0,
+          "passives": [
+            "ElementResist_Fire_1_PAL"
+          ],
+          "talent_hp": 62,
+          "talent_atk": 29,
+          "talent_def": 27
+        },
+        {
+          "species": "GrassRabbitMan",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 57,
+          "condense": 0,
+          "passives": [
+            "ElementBoost_Fire_1_PAL"
+          ],
+          "talent_hp": 67,
           "talent_atk": 99,
-          "talent_def": 64
+          "talent_def": 1
         },
         {
-          "species": "GhostDragon",
+          "species": "SakuraSaurus_Water",
           "alpha": true,
           "lucky": false,
-          "lvl": 69,
-          "condense": 0,
+          "lvl": 57,
+          "condense": 4,
           "passives": [
-            "SalePrice_Down_1"
+            "Deffence_up2_2",
+            "TrainerATK_UP_1"
           ],
-          "talent_hp": 66,
-          "talent_atk": 86,
-          "talent_def": 97
-        },
-        {
-          "species": "LotusDragon",
-          "alpha": true,
-          "lucky": false,
-          "lvl": 69,
-          "condense": 0,
-          "passives": [
-            "ElementBoost_Aqua_1_PAL"
-          ],
-          "talent_hp": 55,
-          "talent_atk": 79,
-          "talent_def": 66
+          "talent_hp": 61,
+          "talent_atk": 59,
+          "talent_def": 62
         }
       ],
       "captures": 385,
       "shinies": 3,
-      "team_detected": false,
+      "team_detected": true,
       "box_count": 380
     },
     {
@@ -88,76 +86,73 @@
       "level": 26,
       "pals": [
         {
-          "species": "HadesBird",
+          "species": "HawkBird",
           "alpha": false,
           "lucky": false,
-          "lvl": 26,
+          "lvl": 21,
           "condense": 0,
           "passives": [
-            "SwimSpeed_up_1"
+            "ElementResist_Normal_1_PAL"
           ],
-          "talent_hp": 39,
-          "talent_atk": 27,
+          "talent_hp": 49,
+          "talent_atk": 63,
+          "talent_def": 63
+        },
+        {
+          "species": "Kitsunebi",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 21,
+          "condense": 0,
+          "passives": [
+            "PAL_Sanity_Up_1"
+          ],
+          "talent_hp": 34,
+          "talent_atk": 0,
           "talent_def": 83
         },
         {
-          "species": "CatMage",
-          "alpha": false,
+          "species": "WeaselDragon",
+          "alpha": true,
           "lucky": false,
-          "lvl": 25,
+          "lvl": 14,
           "condense": 0,
           "passives": [
-            "PAL_masochist",
-            "ElementBoost_Ice_1_PAL",
-            "ElementResist_Earth_1_PAL"
+            "NightOwl",
+            "PAL_conceited"
           ],
-          "talent_hp": 13,
-          "talent_atk": 16,
-          "talent_def": 53
+          "talent_hp": 66,
+          "talent_atk": 50,
+          "talent_def": 97
         },
         {
-          "species": "FlameBuffalo",
+          "species": "Baphomet",
           "alpha": false,
           "lucky": false,
-          "lvl": 25,
+          "lvl": 23,
           "condense": 0,
-          "passives": [
-            "MoveSpeed_up_1"
-          ],
-          "talent_hp": 31,
-          "talent_atk": 64,
-          "talent_def": 3
+          "passives": [],
+          "talent_hp": 64,
+          "talent_atk": 59,
+          "talent_def": 99
         },
         {
-          "species": "LazyCatfish",
+          "species": "DarkAlien",
           "alpha": false,
           "lucky": false,
-          "lvl": 25,
+          "lvl": 16,
           "condense": 0,
           "passives": [
-            "NightOwl"
+            "Alien"
           ],
-          "talent_hp": 77,
-          "talent_atk": 80,
-          "talent_def": 13
-        },
-        {
-          "species": "LazyCatfish",
-          "alpha": false,
-          "lucky": false,
-          "lvl": 24,
-          "condense": 0,
-          "passives": [
-            "ElementResist_Thunder_1_PAL"
-          ],
-          "talent_hp": 34,
-          "talent_atk": 29,
-          "talent_def": 6
+          "talent_hp": 4,
+          "talent_atk": 0,
+          "talent_def": 11
         }
       ],
       "captures": 122,
       "shinies": 0,
-      "team_detected": false,
+      "team_detected": true,
       "box_count": 117
     },
     {
@@ -166,44 +161,31 @@
       "level": 7,
       "pals": [
         {
-          "species": "CuteFox",
-          "alpha": false,
-          "lucky": false,
-          "lvl": 7,
-          "condense": 0,
-          "passives": [
-            "TrainerATK_UP_1"
-          ],
-          "talent_hp": 79,
-          "talent_atk": 39,
-          "talent_def": 6
-        },
-        {
-          "species": "Boar",
-          "alpha": false,
-          "lucky": false,
-          "lvl": 6,
-          "condense": 0,
-          "passives": [
-            "MoveSpeed_up_1",
-            "SalePrice_Up_1"
-          ],
-          "talent_hp": 82,
-          "talent_atk": 88,
-          "talent_def": 73
-        },
-        {
-          "species": "ChickenPal",
+          "species": "PinkCat",
           "alpha": false,
           "lucky": false,
           "lvl": 5,
           "condense": 0,
           "passives": [
-            "TrainerDEF_UP_1"
+            "PAL_ALLAttack_down1",
+            "Test_PalEgg_HatchingSpeed_Up"
           ],
-          "talent_hp": 59,
-          "talent_atk": 42,
-          "talent_def": 60
+          "talent_hp": 93,
+          "talent_atk": 89,
+          "talent_def": 76
+        },
+        {
+          "species": "Sheepball",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 5,
+          "condense": 0,
+          "passives": [
+            "Deffence_up2_2"
+          ],
+          "talent_hp": 85,
+          "talent_atk": 52,
+          "talent_def": 0
         },
         {
           "species": "Sheepball",
@@ -230,11 +212,24 @@
           "talent_hp": 41,
           "talent_atk": 79,
           "talent_def": 52
+        },
+        {
+          "species": "ChickenPal",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 5,
+          "condense": 0,
+          "passives": [
+            "TrainerDEF_UP_1"
+          ],
+          "talent_hp": 59,
+          "talent_atk": 42,
+          "talent_def": 60
         }
       ],
       "captures": 10,
       "shinies": 0,
-      "team_detected": false,
+      "team_detected": true,
       "box_count": 5
     },
     {
@@ -243,75 +238,76 @@
       "level": 19,
       "pals": [
         {
-          "species": "BerryGoat",
-          "alpha": false,
-          "lucky": false,
-          "lvl": 22,
-          "condense": 0,
-          "passives": [
-            "PAL_sadist"
-          ],
-          "talent_hp": 5,
-          "talent_atk": 9,
-          "talent_def": 67
-        },
-        {
           "species": "Kelpie",
           "alpha": false,
           "lucky": false,
-          "lvl": 21,
+          "lvl": 16,
           "condense": 0,
           "passives": [
-            "Deffence_up2_2"
+            "PAL_Sanity_Down_2"
           ],
-          "talent_hp": 43,
-          "talent_atk": 13,
-          "talent_def": 93
+          "talent_hp": 89,
+          "talent_atk": 87,
+          "talent_def": 2
+        },
+        {
+          "species": "Alpaca",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 16,
+          "condense": 0,
+          "passives": [
+            "Stamina_Up_1",
+            "ElementBoost_Dark_1_PAL"
+          ],
+          "talent_hp": 49,
+          "talent_atk": 3,
+          "talent_def": 76
         },
         {
           "species": "Kitsunebi",
           "alpha": false,
           "lucky": false,
-          "lvl": 21,
+          "lvl": 16,
           "condense": 0,
           "passives": [
-            "PAL_Sanity_Down_2"
+            "SalePrice_Down_1"
           ],
-          "talent_hp": 37,
-          "talent_atk": 94,
-          "talent_def": 11
+          "talent_hp": 15,
+          "talent_atk": 3,
+          "talent_def": 81
         },
         {
-          "species": "ElecCat",
+          "species": "Deer",
           "alpha": false,
           "lucky": false,
-          "lvl": 21,
+          "lvl": 18,
+          "condense": 1,
+          "passives": [
+            "Deffence_up2_2"
+          ],
+          "talent_hp": 36,
+          "talent_atk": 78,
+          "talent_def": 54
+        },
+        {
+          "species": "NightFox",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 16,
           "condense": 0,
           "passives": [
+            "ElementBoost_Ice_1_PAL",
             "SalePrice_Up_2"
           ],
-          "talent_hp": 3,
-          "talent_atk": 48,
-          "talent_def": 46
-        },
-        {
-          "species": "PinkCat",
-          "alpha": false,
-          "lucky": false,
-          "lvl": 21,
-          "condense": 0,
-          "passives": [
-            "PAL_ALLAttack_down1",
-            "Stamina_Up_1"
-          ],
-          "talent_hp": 24,
-          "talent_atk": 40,
-          "talent_def": 9
+          "talent_hp": 77,
+          "talent_atk": 46,
+          "talent_def": 74
         }
       ],
       "captures": 80,
       "shinies": 0,
-      "team_detected": false,
+      "team_detected": true,
       "box_count": 75
     },
     {
@@ -319,6 +315,19 @@
       "name": "Babour",
       "level": 20,
       "pals": [
+        {
+          "species": "Kitsunebi",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 17,
+          "condense": 0,
+          "passives": [
+            "Deffence_up2"
+          ],
+          "talent_hp": 69,
+          "talent_atk": 55,
+          "talent_def": 91
+        },
         {
           "species": "Deer",
           "alpha": true,
@@ -346,17 +355,18 @@
           "talent_def": 79
         },
         {
-          "species": "Kitsunebi",
-          "alpha": false,
-          "lucky": false,
+          "species": "SweetsSheep",
+          "alpha": true,
+          "lucky": true,
           "lvl": 17,
-          "condense": 0,
+          "condense": 1,
           "passives": [
-            "Deffence_up2"
+            "Rare",
+            "PAL_Sanity_Up_2"
           ],
-          "talent_hp": 69,
-          "talent_atk": 55,
-          "talent_def": 91
+          "talent_hp": 86,
+          "talent_atk": 65,
+          "talent_def": 98
         },
         {
           "species": "GhostBlackCat",
@@ -370,25 +380,11 @@
           "talent_hp": 17,
           "talent_atk": 32,
           "talent_def": 73
-        },
-        {
-          "species": "SweetsSheep",
-          "alpha": true,
-          "lucky": true,
-          "lvl": 17,
-          "condense": 1,
-          "passives": [
-            "Rare",
-            "PAL_Sanity_Up_2"
-          ],
-          "talent_hp": 86,
-          "talent_atk": 65,
-          "talent_def": 98
         }
       ],
       "captures": 84,
       "shinies": 2,
-      "team_detected": false,
+      "team_detected": true,
       "box_count": 79
     },
     {
@@ -396,6 +392,19 @@
       "name": "fraizo",
       "level": 18,
       "pals": [
+        {
+          "species": "NegativeKoala",
+          "alpha": true,
+          "lucky": false,
+          "lvl": 15,
+          "condense": 0,
+          "passives": [
+            "TrainerDEF_UP_1"
+          ],
+          "talent_hp": 89,
+          "talent_atk": 95,
+          "talent_def": 92
+        },
         {
           "species": "FlowerDoll",
           "alpha": false,
@@ -410,59 +419,46 @@
           "talent_def": 30
         },
         {
-          "species": "PinkRabbit_Grass",
-          "alpha": false,
-          "lucky": false,
-          "lvl": 28,
-          "condense": 0,
-          "passives": [
-            "PAL_FullStomach_Down_2"
-          ],
-          "talent_hp": 95,
-          "talent_atk": 2,
-          "talent_def": 67
-        },
-        {
-          "species": "LittleBriarRose",
-          "alpha": false,
-          "lucky": false,
-          "lvl": 18,
-          "condense": 0,
-          "passives": [
-            "ElementResist_Normal_1_PAL"
-          ],
-          "talent_hp": 95,
-          "talent_atk": 28,
-          "talent_def": 14
-        },
-        {
-          "species": "CuteButterfly",
-          "alpha": false,
-          "lucky": false,
-          "lvl": 18,
-          "condense": 0,
-          "passives": [
-            "PAL_Sanity_Up_2"
-          ],
-          "talent_hp": 9,
-          "talent_atk": 22,
-          "talent_def": 6
-        },
-        {
-          "species": "LittleBriarRose",
+          "species": "CatBat",
           "alpha": false,
           "lucky": false,
           "lvl": 16,
           "condense": 0,
           "passives": [],
-          "talent_hp": 71,
-          "talent_atk": 28,
-          "talent_def": 40
+          "talent_hp": 56,
+          "talent_atk": 14,
+          "talent_def": 37
+        },
+        {
+          "species": "PinkRabbit",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 15,
+          "condense": 0,
+          "passives": [
+            "NightOwl"
+          ],
+          "talent_hp": 62,
+          "talent_atk": 54,
+          "talent_def": 43
+        },
+        {
+          "species": "DreamDemon",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 15,
+          "condense": 0,
+          "passives": [
+            "ElementBoost_Dark_1_PAL"
+          ],
+          "talent_hp": 37,
+          "talent_atk": 69,
+          "talent_def": 37
         }
       ],
       "captures": 49,
       "shinies": 1,
-      "team_detected": false,
+      "team_detected": true,
       "box_count": 44
     }
   ],
@@ -531,6 +527,6 @@
   "totals": {
     "players": 6,
     "pals": 730,
-    "species": 25
+    "species": 24
   }
 }
