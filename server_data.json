@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-21T23:29:58.592040+00:00",
+  "generated_at": "2026-07-21T23:34:58.372116+00:00",
   "players": [
     {
       "uid": "a527f320-0000-0000-0000-000000000000",
       "name": "Powertwo",
       "level": 61,
-      "exp": 7470805,
+      "exp": 7702073,
       "pals": [
         {
           "species": "IceDeer",
@@ -25,7 +25,7 @@
             "FrostBreath",
             "IcicleThrow"
           ],
-          "friendship": 44000,
+          "friendship": 45000,
           "owned_date": "2026-07-21"
         },
         {
@@ -48,7 +48,7 @@
             "RootAttack",
             "SolarBeam"
           ],
-          "friendship": 60500,
+          "friendship": 61000,
           "owned_date": "2026-07-21"
         },
         {
@@ -69,7 +69,7 @@
             "BlizzardLance",
             "IcicleThrow"
           ],
-          "friendship": 68000,
+          "friendship": 68500,
           "owned_date": "2026-07-20"
         },
         {
@@ -90,7 +90,7 @@
             "RootAttack",
             "SolarBeam"
           ],
-          "friendship": 49000,
+          "friendship": 49500,
           "owned_date": "2026-07-21"
         },
         {
@@ -112,23 +112,23 @@
             "RootAttack",
             "HydroPump"
           ],
-          "friendship": 63000,
+          "friendship": 63500,
           "owned_date": "2026-07-21"
         }
       ],
-      "captures": 385,
+      "captures": 386,
       "shinies": 3,
-      "x": -254837.08000000002,
-      "y": 231163.01,
-      "paldeck": 164,
-      "fast_travels": 86,
+      "x": -347108.16000000003,
+      "y": 262480.78,
+      "paldeck": 165,
+      "fast_travels": 88,
       "effigies": 1,
-      "tech_points": 85,
-      "map_x": 58.0,
-      "map_y": 64.3,
+      "tech_points": 87,
+      "map_x": 61.4,
+      "map_y": 74.3,
       "team_detected": true,
-      "box_count": 380,
-      "last_seen": "2026-07-21T23:29:58.592040+00:00"
+      "box_count": 381,
+      "last_seen": "2026-07-21T23:34:58.372116+00:00"
     },
     {
       "uid": "90a5c888-0000-0000-0000-000000000000",
@@ -860,7 +860,7 @@
   ],
   "totals": {
     "players": 6,
-    "pals": 730,
+    "pals": 731,
     "species": 24
   }
 }
