@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T19:44:06.533004+00:00",
+  "generated_at": "2026-07-21T19:55:00.811621+00:00",
   "players": [
     {
       "uid": "a527f320-0000-0000-0000-000000000000",
@@ -15,11 +15,66 @@
           "passives": [
             "Legend",
             "ElementBoost_Dragon_2_PAL",
+            "PAL_Sanity_Down_1"
+          ],
+          "talent_hp": 53,
+          "talent_atk": 73,
+          "talent_def": 76
+        },
+        {
+          "species": "JetDragon",
+          "alpha": true,
+          "lucky": false,
+          "lvl": 70,
+          "condense": 0,
+          "passives": [
+            "Legend",
+            "ElementBoost_Dragon_2_PAL",
             "NonKilling"
           ],
           "talent_hp": 84,
           "talent_atk": 67,
           "talent_def": 90
+        },
+        {
+          "species": "GrassGolem_Dark",
+          "alpha": true,
+          "lucky": false,
+          "lvl": 70,
+          "condense": 0,
+          "passives": [
+            "Deffence_up2_2",
+            "ElementBoost_Aqua_1_PAL"
+          ],
+          "talent_hp": 63,
+          "talent_atk": 99,
+          "talent_def": 64
+        },
+        {
+          "species": "GhostDragon",
+          "alpha": true,
+          "lucky": false,
+          "lvl": 69,
+          "condense": 0,
+          "passives": [
+            "SalePrice_Down_1"
+          ],
+          "talent_hp": 66,
+          "talent_atk": 86,
+          "talent_def": 97
+        },
+        {
+          "species": "LotusDragon",
+          "alpha": true,
+          "lucky": false,
+          "lvl": 69,
+          "condense": 0,
+          "passives": [
+            "ElementBoost_Aqua_1_PAL"
+          ],
+          "talent_hp": 55,
+          "talent_atk": 79,
+          "talent_def": 66
         },
         {
           "species": "FoxExorcist",
@@ -44,6 +99,21 @@
           "talent_hp": 37,
           "talent_atk": 47,
           "talent_def": 30
+        },
+        {
+          "species": "ThunderFluffyBird",
+          "alpha": true,
+          "lucky": false,
+          "lvl": 67,
+          "condense": 0,
+          "passives": [
+            "ElementBoost_Dark_1_PAL",
+            "Deffence_up2_2",
+            "PAL_ALLAttack_up1"
+          ],
+          "talent_hp": 87,
+          "talent_atk": 56,
+          "talent_def": 62
         },
         {
           "species": "MoonChild",
@@ -318,6 +388,19 @@
           "talent_def": 20
         },
         {
+          "species": "DarkScorpion_Ground",
+          "alpha": true,
+          "lucky": false,
+          "lvl": 55,
+          "condense": 0,
+          "passives": [
+            "SalePrice_Up_1"
+          ],
+          "talent_hp": 85,
+          "talent_atk": 55,
+          "talent_def": 63
+        },
+        {
           "species": "SkyDragon_Grass",
           "alpha": false,
           "lucky": false,
@@ -506,6 +589,19 @@
           "talent_hp": 16,
           "talent_atk": 5,
           "talent_def": 28
+        },
+        {
+          "species": "QueenBee",
+          "alpha": true,
+          "lucky": false,
+          "lvl": 39,
+          "condense": 0,
+          "passives": [
+            "PAL_ALLAttack_up1"
+          ],
+          "talent_hp": 71,
+          "talent_atk": 68,
+          "talent_def": 55
         },
         {
           "species": "Sekhmet",
@@ -977,6 +1073,19 @@
           "talent_def": 70
         },
         {
+          "species": "CaptainPenguin",
+          "alpha": true,
+          "lucky": false,
+          "lvl": 28,
+          "condense": 0,
+          "passives": [
+            "CraftSpeed_up1"
+          ],
+          "talent_hp": 79,
+          "talent_atk": 80,
+          "talent_def": 68
+        },
+        {
           "species": "WizardOwl",
           "alpha": false,
           "lucky": false,
@@ -1091,6 +1200,21 @@
           "talent_def": 66
         },
         {
+          "species": "VolcanicMonster",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 26,
+          "condense": 0,
+          "passives": [
+            "ElementResist_Earth_1_PAL",
+            "PAL_FullStomach_Down_2",
+            "ElementBoost_Fire_1_PAL"
+          ],
+          "talent_hp": 86,
+          "talent_atk": 72,
+          "talent_def": 52
+        },
+        {
           "species": "FairyDragon",
           "alpha": false,
           "lucky": false,
@@ -1128,6 +1252,21 @@
           "talent_hp": 39,
           "talent_atk": 79,
           "talent_def": 73
+        },
+        {
+          "species": "MonochromeQueen",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 25,
+          "condense": 0,
+          "passives": [
+            "PlayerSP_DecreaseRate_Passive",
+            "PAL_ALLAttack_up1",
+            "CraftSpeed_down1"
+          ],
+          "talent_hp": 23,
+          "talent_atk": 5,
+          "talent_def": 97
         },
         {
           "species": "Garm",
@@ -1385,6 +1524,19 @@
           "talent_def": 96
         },
         {
+          "species": "Umihebi_Fire",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 21,
+          "condense": 0,
+          "passives": [
+            "PAL_FullStomach_Down_2"
+          ],
+          "talent_hp": 39,
+          "talent_atk": 8,
+          "talent_def": 73
+        },
+        {
           "species": "Kirin",
           "alpha": false,
           "lucky": false,
@@ -1407,6 +1559,31 @@
           "talent_hp": 76,
           "talent_atk": 14,
           "talent_def": 57
+        },
+        {
+          "species": "GrimGirl",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 21,
+          "condense": 0,
+          "passives": [
+            "PAL_sadist",
+            "PAL_FullStomach_Up_2"
+          ],
+          "talent_hp": 46,
+          "talent_atk": 51,
+          "talent_def": 93
+        },
+        {
+          "species": "BlueberryFairy",
+          "alpha": true,
+          "lucky": false,
+          "lvl": 21,
+          "condense": 0,
+          "passives": [],
+          "talent_hp": 100,
+          "talent_atk": 94,
+          "talent_def": 91
         },
         {
           "species": "Gorilla",
@@ -1589,6 +1766,21 @@
           "talent_hp": 99,
           "talent_atk": 51,
           "talent_def": 22
+        },
+        {
+          "species": "Yeti",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 19,
+          "condense": 0,
+          "passives": [
+            "Deffence_up2_2",
+            "TrainerWorkSpeed_UP_1",
+            "ElementResist_Dark_1_PAL"
+          ],
+          "talent_hp": 61,
+          "talent_atk": 65,
+          "talent_def": 26
         },
         {
           "species": "PinkRabbit_Grass",
@@ -2330,6 +2522,20 @@
           "talent_hp": 36,
           "talent_atk": 48,
           "talent_def": 1
+        },
+        {
+          "species": "KingBahamut",
+          "alpha": true,
+          "lucky": false,
+          "lvl": 11,
+          "condense": 0,
+          "passives": [
+            "ElementBoost_Fire_2_PAL",
+            "TrainerATK_UP_1"
+          ],
+          "talent_hp": 67,
+          "talent_atk": 80,
+          "talent_def": 85
         },
         {
           "species": "CowPal",
@@ -4871,7 +5077,7 @@
           "talent_def": 57
         }
       ],
-      "captures": 370,
+      "captures": 385,
       "shinies": 3
     },
     {
@@ -4879,6 +5085,19 @@
       "name": "SamuuKss",
       "level": 26,
       "pals": [
+        {
+          "species": "HadesBird",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 26,
+          "condense": 0,
+          "passives": [
+            "SwimSpeed_up_1"
+          ],
+          "talent_hp": 39,
+          "talent_atk": 27,
+          "talent_def": 83
+        },
         {
           "species": "CatMage",
           "alpha": false,
@@ -4893,6 +5112,19 @@
           "talent_hp": 13,
           "talent_atk": 16,
           "talent_def": 53
+        },
+        {
+          "species": "FlameBuffalo",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 25,
+          "condense": 0,
+          "passives": [
+            "MoveSpeed_up_1"
+          ],
+          "talent_hp": 31,
+          "talent_atk": 64,
+          "talent_def": 3
         },
         {
           "species": "LazyCatfish",
@@ -4921,6 +5153,19 @@
           "talent_def": 6
         },
         {
+          "species": "CatBat",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 23,
+          "condense": 0,
+          "passives": [
+            "WorkSuitabilityAddRank_MonsterFarm_1"
+          ],
+          "talent_hp": 37,
+          "talent_atk": 73,
+          "talent_def": 31
+        },
+        {
           "species": "Baphomet",
           "alpha": false,
           "lucky": false,
@@ -4930,6 +5175,33 @@
           "talent_hp": 64,
           "talent_atk": 59,
           "talent_def": 99
+        },
+        {
+          "species": "CuteFox",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 22,
+          "condense": 0,
+          "passives": [
+            "ElementResist_Aqua_1_PAL",
+            "Noukin"
+          ],
+          "talent_hp": 21,
+          "talent_atk": 53,
+          "talent_def": 92
+        },
+        {
+          "species": "CaptainPenguin",
+          "alpha": true,
+          "lucky": false,
+          "lvl": 22,
+          "condense": 0,
+          "passives": [
+            "PAL_ALLAttack_up1"
+          ],
+          "talent_hp": 52,
+          "talent_atk": 79,
+          "talent_def": 67
         },
         {
           "species": "Sheepball",
@@ -5021,6 +5293,19 @@
           "talent_hp": 52,
           "talent_atk": 78,
           "talent_def": 7
+        },
+        {
+          "species": "HerculesBeetle",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 19,
+          "condense": 0,
+          "passives": [
+            "Deffence_up1"
+          ],
+          "talent_hp": 35,
+          "talent_atk": 71,
+          "talent_def": 96
         },
         {
           "species": "Eagle",
@@ -5163,6 +5448,19 @@
           "talent_def": 80
         },
         {
+          "species": "SweetsSheep",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 16,
+          "condense": 0,
+          "passives": [
+            "NightOwl"
+          ],
+          "talent_hp": 70,
+          "talent_atk": 84,
+          "talent_def": 96
+        },
+        {
           "species": "Monkey_Fire",
           "alpha": false,
           "lucky": false,
@@ -5200,6 +5498,60 @@
           "talent_hp": 51,
           "talent_atk": 86,
           "talent_def": 93
+        },
+        {
+          "species": "CatMage_Fire",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 15,
+          "condense": 0,
+          "passives": [
+            "Test_PalEgg_HatchingSpeed_Up"
+          ],
+          "talent_hp": 91,
+          "talent_atk": 81,
+          "talent_def": 27
+        },
+        {
+          "species": "QueenBee",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 15,
+          "condense": 0,
+          "passives": [
+            "MoveSpeed_up_2"
+          ],
+          "talent_hp": 15,
+          "talent_atk": 28,
+          "talent_def": 9
+        },
+        {
+          "species": "SoldierBee",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 15,
+          "condense": 0,
+          "passives": [
+            "SwimSpeed_up_2"
+          ],
+          "talent_hp": 56,
+          "talent_atk": 19,
+          "talent_def": 70
+        },
+        {
+          "species": "SakuraSaurus",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 15,
+          "condense": 0,
+          "passives": [
+            "Deffence_up2_2",
+            "PAL_Sanity_Down_2",
+            "PAL_CorporateSlave"
+          ],
+          "talent_hp": 12,
+          "talent_atk": 53,
+          "talent_def": 30
         },
         {
           "species": "Deer",
@@ -6332,7 +6684,7 @@
           "talent_def": 53
         }
       ],
-      "captures": 111,
+      "captures": 122,
       "shinies": 0
     },
     {
@@ -6482,6 +6834,58 @@
       "level": 19,
       "pals": [
         {
+          "species": "BerryGoat",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 22,
+          "condense": 0,
+          "passives": [
+            "PAL_sadist"
+          ],
+          "talent_hp": 5,
+          "talent_atk": 9,
+          "talent_def": 67
+        },
+        {
+          "species": "Kelpie",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 21,
+          "condense": 0,
+          "passives": [
+            "Deffence_up2_2"
+          ],
+          "talent_hp": 43,
+          "talent_atk": 13,
+          "talent_def": 93
+        },
+        {
+          "species": "Kitsunebi",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 21,
+          "condense": 0,
+          "passives": [
+            "PAL_Sanity_Down_2"
+          ],
+          "talent_hp": 37,
+          "talent_atk": 94,
+          "talent_def": 11
+        },
+        {
+          "species": "ElecCat",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 21,
+          "condense": 0,
+          "passives": [
+            "SalePrice_Up_2"
+          ],
+          "talent_hp": 3,
+          "talent_atk": 48,
+          "talent_def": 46
+        },
+        {
           "species": "ColorfulBird",
           "alpha": false,
           "lucky": false,
@@ -6493,6 +6897,72 @@
           "talent_hp": 77,
           "talent_atk": 55,
           "talent_def": 85
+        },
+        {
+          "species": "CloverFairy",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 20,
+          "condense": 0,
+          "passives": [
+            "TrainerATK_UP_1"
+          ],
+          "talent_hp": 68,
+          "talent_atk": 14,
+          "talent_def": 21
+        },
+        {
+          "species": "Sheepball",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 20,
+          "condense": 0,
+          "passives": [
+            "CraftSpeed_up1"
+          ],
+          "talent_hp": 97,
+          "talent_atk": 52,
+          "talent_def": 8
+        },
+        {
+          "species": "PinkCat",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 20,
+          "condense": 0,
+          "passives": [
+            "PAL_ALLAttack_down1",
+            "Stamina_Up_1"
+          ],
+          "talent_hp": 24,
+          "talent_atk": 40,
+          "talent_def": 9
+        },
+        {
+          "species": "Carbunclo",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 20,
+          "condense": 0,
+          "passives": [
+            "PAL_FullStomach_Up_2"
+          ],
+          "talent_hp": 29,
+          "talent_atk": 26,
+          "talent_def": 97
+        },
+        {
+          "species": "KendoFrog",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 20,
+          "condense": 0,
+          "passives": [
+            "SelfDeathAddItemDrop_up_2"
+          ],
+          "talent_hp": 71,
+          "talent_atk": 54,
+          "talent_def": 44
         },
         {
           "species": "Deer",
@@ -7416,7 +7886,7 @@
           "talent_def": 30
         }
       ],
-      "captures": 71,
+      "captures": 80,
       "shinies": 0
     },
     {
@@ -7556,6 +8026,58 @@
           "talent_def": 52
         },
         {
+          "species": "Deer",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 15,
+          "condense": 0,
+          "passives": [
+            "TrainerMining_up1"
+          ],
+          "talent_hp": 79,
+          "talent_atk": 31,
+          "talent_def": 42
+        },
+        {
+          "species": "PlantSlime",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 14,
+          "condense": 0,
+          "passives": [
+            "TrainerDEF_UP_1"
+          ],
+          "talent_hp": 86,
+          "talent_atk": 15,
+          "talent_def": 13
+        },
+        {
+          "species": "ChickenPal",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 14,
+          "condense": 0,
+          "passives": [
+            "ElementResist_Leaf_1_PAL"
+          ],
+          "talent_hp": 91,
+          "talent_atk": 71,
+          "talent_def": 6
+        },
+        {
+          "species": "Kitsunebi",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 14,
+          "condense": 0,
+          "passives": [
+            "PAL_conceited"
+          ],
+          "talent_hp": 47,
+          "talent_atk": 50,
+          "talent_def": 55
+        },
+        {
           "species": "NegativeKoala",
           "alpha": false,
           "lucky": false,
@@ -7567,6 +8089,30 @@
           "talent_hp": 45,
           "talent_atk": 53,
           "talent_def": 46
+        },
+        {
+          "species": "Penguin",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 13,
+          "condense": 0,
+          "passives": [],
+          "talent_hp": 95,
+          "talent_atk": 12,
+          "talent_def": 71
+        },
+        {
+          "species": "CaptainPenguin",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 12,
+          "condense": 0,
+          "passives": [
+            "SwimSpeed_up_2"
+          ],
+          "talent_hp": 40,
+          "talent_atk": 79,
+          "talent_def": 66
         },
         {
           "species": "Boar",
@@ -8450,7 +8996,7 @@
           "talent_def": 2
         }
       ],
-      "captures": 78,
+      "captures": 84,
       "shinies": 2
     },
     {
@@ -8470,6 +9016,32 @@
           "talent_hp": 34,
           "talent_atk": 17,
           "talent_def": 30
+        },
+        {
+          "species": "PinkRabbit_Grass",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 28,
+          "condense": 0,
+          "passives": [
+            "PAL_FullStomach_Down_2"
+          ],
+          "talent_hp": 95,
+          "talent_atk": 2,
+          "talent_def": 67
+        },
+        {
+          "species": "LittleBriarRose",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 18,
+          "condense": 0,
+          "passives": [
+            "ElementResist_Normal_1_PAL"
+          ],
+          "talent_hp": 95,
+          "talent_atk": 28,
+          "talent_def": 14
         },
         {
           "species": "CuteButterfly",
@@ -8496,6 +9068,19 @@
           "talent_def": 40
         },
         {
+          "species": "Penguin",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 16,
+          "condense": 0,
+          "passives": [
+            "ElementBoost_Thunder_1_PAL"
+          ],
+          "talent_hp": 67,
+          "talent_atk": 38,
+          "talent_def": 95
+        },
+        {
           "species": "Eagle",
           "alpha": false,
           "lucky": false,
@@ -8518,6 +9103,20 @@
           "talent_hp": 56,
           "talent_atk": 14,
           "talent_def": 37
+        },
+        {
+          "species": "Boar",
+          "alpha": true,
+          "lucky": true,
+          "lvl": 16,
+          "condense": 1,
+          "passives": [
+            "Rare",
+            "SalePrice_Up_2"
+          ],
+          "talent_hp": 62,
+          "talent_atk": 94,
+          "talent_def": 53
         },
         {
           "species": "FluffyBird",
@@ -8570,6 +9169,20 @@
           "talent_def": 92
         },
         {
+          "species": "CowPal",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 14,
+          "condense": 0,
+          "passives": [
+            "PAL_Sanity_Up_2",
+            "TrainerDEF_UP_1"
+          ],
+          "talent_hp": 86,
+          "talent_atk": 90,
+          "talent_def": 82
+        },
+        {
           "species": "SamuraiDog",
           "alpha": false,
           "lucky": false,
@@ -8581,6 +9194,46 @@
           "talent_hp": 55,
           "talent_atk": 83,
           "talent_def": 61
+        },
+        {
+          "species": "FlameBuffalo",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 13,
+          "condense": 0,
+          "passives": [
+            "ElementResist_Aqua_1_PAL"
+          ],
+          "talent_hp": 82,
+          "talent_atk": 50,
+          "talent_def": 100
+        },
+        {
+          "species": "Kitsunebi",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 13,
+          "condense": 0,
+          "passives": [
+            "Deffence_down2"
+          ],
+          "talent_hp": 44,
+          "talent_atk": 39,
+          "talent_def": 94
+        },
+        {
+          "species": "MonochromeQueen",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 13,
+          "condense": 0,
+          "passives": [
+            "PlayerSP_DecreaseRate_Passive",
+            "PAL_FullStomach_Down_2"
+          ],
+          "talent_hp": 39,
+          "talent_atk": 52,
+          "talent_def": 73
         },
         {
           "species": "PinkRabbit",
@@ -8979,14 +9632,14 @@
           "talent_def": 3
         }
       ],
-      "captures": 41,
-      "shinies": 0
+      "captures": 49,
+      "shinies": 1
     }
   ],
   "bases": [],
   "totals": {
     "players": 6,
-    "pals": 681,
-    "species": 158
+    "pals": 730,
+    "species": 172
   }
 }
