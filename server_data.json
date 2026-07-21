@@ -1,10 +1,11 @@
 {
-  "generated_at": "2026-07-21T20:28:27.373038+00:00",
+  "generated_at": "2026-07-21T21:56:12.799092+00:00",
   "players": [
     {
       "uid": "a527f320-0000-0000-0000-000000000000",
       "name": "Powertwo",
       "level": 61,
+      "exp": 7309487,
       "pals": [
         {
           "species": "IceDeer",
@@ -17,7 +18,15 @@
           ],
           "talent_hp": 73,
           "talent_atk": 76,
-          "talent_def": 12
+          "talent_def": 12,
+          "gender": "Female",
+          "waza": [
+            "BlizzardLance",
+            "FrostBreath",
+            "IcicleThrow"
+          ],
+          "friendship": 42000,
+          "owned_date": "2026-07-21"
         },
         {
           "species": "SakuraSaurus",
@@ -32,7 +41,15 @@
           ],
           "talent_hp": 99,
           "talent_atk": 56,
-          "talent_def": 75
+          "talent_def": 75,
+          "gender": "Female",
+          "waza": [
+            "GrassTornado",
+            "RootAttack",
+            "SolarBeam"
+          ],
+          "friendship": 58000,
+          "owned_date": "2026-07-21"
         },
         {
           "species": "WindChimes_Ice",
@@ -45,7 +62,15 @@
           ],
           "talent_hp": 62,
           "talent_atk": 29,
-          "talent_def": 27
+          "talent_def": 27,
+          "gender": "Female",
+          "waza": [
+            "FrostBreath",
+            "BlizzardLance",
+            "IcicleThrow"
+          ],
+          "friendship": 65500,
+          "owned_date": "2026-07-20"
         },
         {
           "species": "GrassRabbitMan",
@@ -58,7 +83,15 @@
           ],
           "talent_hp": 67,
           "talent_atk": 99,
-          "talent_def": 1
+          "talent_def": 1,
+          "gender": "Male",
+          "waza": [
+            "Unique_GrassRabbitMan_GrassRoundKick",
+            "RootAttack",
+            "SolarBeam"
+          ],
+          "friendship": 46500,
+          "owned_date": "2026-07-21"
         },
         {
           "species": "SakuraSaurus_Water",
@@ -72,11 +105,27 @@
           ],
           "talent_hp": 61,
           "talent_atk": 59,
-          "talent_def": 62
+          "talent_def": 62,
+          "gender": "Male",
+          "waza": [
+            "Unique_SakuraSaurus_Water_SplashTackle",
+            "RootAttack",
+            "HydroPump"
+          ],
+          "friendship": 61000,
+          "owned_date": "2026-07-21"
         }
       ],
       "captures": 385,
       "shinies": 3,
+      "x": -345932.71,
+      "y": 263769.35,
+      "paldeck": 164,
+      "fast_travels": 86,
+      "effigies": 1,
+      "tech_points": 85,
+      "map_x": 61.5,
+      "map_y": 74.2,
       "team_detected": true,
       "box_count": 380
     },
@@ -84,6 +133,7 @@
       "uid": "90a5c888-0000-0000-0000-000000000000",
       "name": "SamuuKss",
       "level": 26,
+      "exp": 161769,
       "pals": [
         {
           "species": "HawkBird",
@@ -96,7 +146,15 @@
           ],
           "talent_hp": 49,
           "talent_atk": 63,
-          "talent_def": 63
+          "talent_def": 63,
+          "gender": "Female",
+          "waza": [
+            "Unique_HawkBird_Storm",
+            "AirCanon",
+            "WindCutter"
+          ],
+          "friendship": 39000,
+          "owned_date": "2026-07-16"
         },
         {
           "species": "Kitsunebi",
@@ -109,7 +167,15 @@
           ],
           "talent_hp": 34,
           "talent_atk": 0,
-          "talent_def": 83
+          "talent_def": 83,
+          "gender": "Male",
+          "waza": [
+            "FireBlast",
+            "MudShot",
+            "FireSeed"
+          ],
+          "friendship": 37500,
+          "owned_date": "2026-07-19"
         },
         {
           "species": "WeaselDragon",
@@ -123,7 +189,15 @@
           ],
           "talent_hp": 66,
           "talent_atk": 50,
-          "talent_def": 97
+          "talent_def": 97,
+          "gender": "Female",
+          "waza": [
+            "Unique_WeaselDragon_FlyingTackle",
+            "DragonCanon",
+            "IceMissile"
+          ],
+          "friendship": 5500,
+          "owned_date": "2026-07-20"
         },
         {
           "species": "Baphomet",
@@ -134,7 +208,15 @@
           "passives": [],
           "talent_hp": 64,
           "talent_atk": 59,
-          "talent_def": 99
+          "talent_def": 99,
+          "gender": "Female",
+          "waza": [
+            "Unique_Baphomet_SwallowKite",
+            "FlareArrow",
+            "FireSeed"
+          ],
+          "friendship": 5000,
+          "owned_date": "2026-07-20"
         },
         {
           "species": "DarkAlien",
@@ -147,11 +229,27 @@
           ],
           "talent_hp": 4,
           "talent_atk": 0,
-          "talent_def": 11
+          "talent_def": 11,
+          "gender": "Female",
+          "waza": [
+            "DarkPulse",
+            "PoisonShot",
+            "PowerShot"
+          ],
+          "friendship": 6000,
+          "owned_date": "2026-07-20"
         }
       ],
       "captures": 122,
       "shinies": 0,
+      "x": -295560.55,
+      "y": 193176.15,
+      "paldeck": 47,
+      "fast_travels": 21,
+      "effigies": 3,
+      "tech_points": 54,
+      "map_x": 53.8,
+      "map_y": 68.7,
       "team_detected": true,
       "box_count": 117
     },
@@ -159,6 +257,7 @@
       "uid": "11faa22b-0000-0000-0000-000000000000",
       "name": "khorzog",
       "level": 7,
+      "exp": 2859,
       "pals": [
         {
           "species": "PinkCat",
@@ -172,7 +271,13 @@
           ],
           "talent_hp": 93,
           "talent_atk": 89,
-          "talent_def": 76
+          "talent_def": 76,
+          "gender": "Male",
+          "waza": [
+            "Unique_PinkCat_CatPunch"
+          ],
+          "friendship": 2000,
+          "owned_date": "2026-07-16"
         },
         {
           "species": "Sheepball",
@@ -185,7 +290,13 @@
           ],
           "talent_hp": 85,
           "talent_atk": 52,
-          "talent_def": 0
+          "talent_def": 0,
+          "gender": "Female",
+          "waza": [
+            "Unique_SheepBall_Roll"
+          ],
+          "friendship": 2500,
+          "owned_date": "2026-07-16"
         },
         {
           "species": "Sheepball",
@@ -198,7 +309,13 @@
           ],
           "talent_hp": 86,
           "talent_atk": 48,
-          "talent_def": 53
+          "talent_def": 53,
+          "gender": "Male",
+          "waza": [
+            "Unique_SheepBall_Roll"
+          ],
+          "friendship": 2500,
+          "owned_date": "2026-07-16"
         },
         {
           "species": "Sheepball",
@@ -211,7 +328,13 @@
           ],
           "talent_hp": 41,
           "talent_atk": 79,
-          "talent_def": 52
+          "talent_def": 52,
+          "gender": "Male",
+          "waza": [
+            "Unique_SheepBall_Roll"
+          ],
+          "friendship": 2500,
+          "owned_date": "2026-07-16"
         },
         {
           "species": "ChickenPal",
@@ -224,11 +347,25 @@
           ],
           "talent_hp": 59,
           "talent_atk": 42,
-          "talent_def": 60
+          "talent_def": 60,
+          "gender": "Female",
+          "waza": [
+            "Unique_ChickenPal_ChickenPeck"
+          ],
+          "friendship": 1500,
+          "owned_date": "2026-07-16"
         }
       ],
       "captures": 10,
       "shinies": 0,
+      "x": -346915.28,
+      "y": 191562.42,
+      "paldeck": 8,
+      "fast_travels": 3,
+      "effigies": 1,
+      "tech_points": 7,
+      "map_x": 53.7,
+      "map_y": 74.3,
       "team_detected": true,
       "box_count": 5
     },
@@ -236,6 +373,7 @@
       "uid": "bb0b7c26-0000-0000-0000-000000000000",
       "name": "NicxCurry",
       "level": 19,
+      "exp": 56690,
       "pals": [
         {
           "species": "Kelpie",
@@ -248,7 +386,15 @@
           ],
           "talent_hp": 89,
           "talent_atk": 87,
-          "talent_def": 2
+          "talent_def": 2,
+          "gender": "Male",
+          "waza": [
+            "DragonCanon",
+            "AquaJet",
+            "WaterGun"
+          ],
+          "friendship": 12000,
+          "owned_date": "2026-07-16"
         },
         {
           "species": "Alpaca",
@@ -262,7 +408,15 @@
           ],
           "talent_hp": 49,
           "talent_atk": 3,
-          "talent_def": 76
+          "talent_def": 76,
+          "gender": "Female",
+          "waza": [
+            "Unique_Alpaca_Tackle",
+            "AirCanon",
+            "MudShot"
+          ],
+          "friendship": 11000,
+          "owned_date": "2026-07-17"
         },
         {
           "species": "Kitsunebi",
@@ -275,7 +429,15 @@
           ],
           "talent_hp": 15,
           "talent_atk": 3,
-          "talent_def": 81
+          "talent_def": 81,
+          "gender": "Female",
+          "waza": [
+            "FireBlast",
+            "MudShot",
+            "FireSeed"
+          ],
+          "friendship": 18500,
+          "owned_date": "2026-07-16"
         },
         {
           "species": "Deer",
@@ -288,7 +450,15 @@
           ],
           "talent_hp": 36,
           "talent_atk": 78,
-          "talent_def": 54
+          "talent_def": 54,
+          "gender": "Male",
+          "waza": [
+            "Unique_Deer_PushupHorn",
+            "PowerShot",
+            "StoneShotgun"
+          ],
+          "friendship": 6500,
+          "owned_date": "2026-07-17"
         },
         {
           "species": "NightFox",
@@ -302,11 +472,27 @@
           ],
           "talent_hp": 77,
           "talent_atk": 46,
-          "talent_def": 74
+          "talent_def": 74,
+          "gender": "Male",
+          "waza": [
+            "AirCanon",
+            "DarkBall",
+            "DarkWave"
+          ],
+          "friendship": 18500,
+          "owned_date": "2026-07-17"
         }
       ],
       "captures": 80,
       "shinies": 0,
+      "x": -326169.04,
+      "y": 216776.0,
+      "paldeck": 31,
+      "fast_travels": 10,
+      "effigies": 2,
+      "tech_points": 23,
+      "map_x": 56.4,
+      "map_y": 72.0,
       "team_detected": true,
       "box_count": 75
     },
@@ -314,6 +500,7 @@
       "uid": "5d6d87d4-0000-0000-0000-000000000000",
       "name": "Babour",
       "level": 20,
+      "exp": 60165,
       "pals": [
         {
           "species": "Kitsunebi",
@@ -326,7 +513,15 @@
           ],
           "talent_hp": 69,
           "talent_atk": 55,
-          "talent_def": 91
+          "talent_def": 91,
+          "gender": "Male",
+          "waza": [
+            "FireBlast",
+            "MudShot",
+            "FireSeed"
+          ],
+          "friendship": 12500,
+          "owned_date": "2026-07-20"
         },
         {
           "species": "Deer",
@@ -341,7 +536,15 @@
           ],
           "talent_hp": 79,
           "talent_atk": 55,
-          "talent_def": 58
+          "talent_def": 58,
+          "gender": "Male",
+          "waza": [
+            "SpecialCutter",
+            "Unique_Deer_PushupHorn",
+            "PowerShot"
+          ],
+          "friendship": 12500,
+          "owned_date": "2026-07-20"
         },
         {
           "species": "WeaselDragon",
@@ -352,7 +555,15 @@
           "passives": [],
           "talent_hp": 97,
           "talent_atk": 85,
-          "talent_def": 79
+          "talent_def": 79,
+          "gender": "Male",
+          "waza": [
+            "Unique_WeaselDragon_FlyingTackle",
+            "IceMissile",
+            "DragonWave"
+          ],
+          "friendship": 12500,
+          "owned_date": "2026-07-20"
         },
         {
           "species": "SweetsSheep",
@@ -366,7 +577,15 @@
           ],
           "talent_hp": 86,
           "talent_atk": 65,
-          "talent_def": 98
+          "talent_def": 98,
+          "gender": "Female",
+          "waza": [
+            "GhostFlame",
+            "AirCanon",
+            "PowerShot"
+          ],
+          "friendship": 12500,
+          "owned_date": "2026-07-20"
         },
         {
           "species": "GhostBlackCat",
@@ -379,11 +598,27 @@
           ],
           "talent_hp": 17,
           "talent_atk": 32,
-          "talent_def": 73
+          "talent_def": 73,
+          "gender": "Male",
+          "waza": [
+            "DarkWave",
+            "DarkBall",
+            "GhostFlame"
+          ],
+          "friendship": 12500,
+          "owned_date": "2026-07-20"
         }
       ],
       "captures": 84,
       "shinies": 2,
+      "x": -281886.04,
+      "y": 198422.4,
+      "paldeck": 26,
+      "fast_travels": 6,
+      "effigies": 2,
+      "tech_points": 20,
+      "map_x": 54.4,
+      "map_y": 67.2,
       "team_detected": true,
       "box_count": 79
     },
@@ -391,6 +626,7 @@
       "uid": "5ae78a05-0000-0000-0000-000000000000",
       "name": "fraizo",
       "level": 18,
+      "exp": 47430,
       "pals": [
         {
           "species": "NegativeKoala",
@@ -403,7 +639,15 @@
           ],
           "talent_hp": 89,
           "talent_atk": 95,
-          "talent_def": 92
+          "talent_def": 92,
+          "gender": "Female",
+          "waza": [
+            "MudShot",
+            "PoisonShot",
+            "DarkBall"
+          ],
+          "friendship": 8500,
+          "owned_date": "2026-07-20"
         },
         {
           "species": "FlowerDoll",
@@ -416,7 +660,15 @@
           ],
           "talent_hp": 34,
           "talent_atk": 17,
-          "talent_def": 30
+          "talent_def": 30,
+          "gender": "Male",
+          "waza": [
+            "BubbleShot",
+            "SeedMachinegun",
+            "WaterGun"
+          ],
+          "friendship": 6000,
+          "owned_date": "2026-07-20"
         },
         {
           "species": "CatBat",
@@ -427,7 +679,15 @@
           "passives": [],
           "talent_hp": 56,
           "talent_atk": 14,
-          "talent_def": 37
+          "talent_def": 37,
+          "gender": "Female",
+          "waza": [
+            "PoisonShot",
+            "AirCanon",
+            "DarkBall"
+          ],
+          "friendship": 8500,
+          "owned_date": "2026-07-20"
         },
         {
           "species": "PinkRabbit",
@@ -440,7 +700,15 @@
           ],
           "talent_hp": 62,
           "talent_atk": 54,
-          "talent_def": 43
+          "talent_def": 43,
+          "gender": "Male",
+          "waza": [
+            "AirCanon",
+            "PowerShot",
+            "IceMissile"
+          ],
+          "friendship": 9000,
+          "owned_date": "2026-07-20"
         },
         {
           "species": "DreamDemon",
@@ -453,13 +721,73 @@
           ],
           "talent_hp": 37,
           "talent_atk": 69,
-          "talent_def": 37
+          "talent_def": 37,
+          "gender": "Male",
+          "waza": [
+            "PoisonShot",
+            "DarkBall",
+            "DarkWave"
+          ],
+          "friendship": 12500,
+          "owned_date": "2026-07-20"
         }
       ],
       "captures": 49,
       "shinies": 1,
+      "x": -213009.29,
+      "y": 158581.38,
+      "paldeck": 35,
+      "fast_travels": 10,
+      "effigies": 0,
+      "tech_points": 4,
+      "map_x": 50.1,
+      "map_y": 59.7,
       "team_detected": true,
       "box_count": 44
+    }
+  ],
+  "guilds": [
+    {
+      "name": "67",
+      "members": [
+        "Powertwo"
+      ],
+      "bases": 1
+    },
+    {
+      "name": "Unnamed Guild",
+      "members": [
+        "SamuuKss"
+      ],
+      "bases": 1
+    },
+    {
+      "name": "Unnamed Guild",
+      "members": [
+        "khorzog"
+      ],
+      "bases": 0
+    },
+    {
+      "name": "Unnamed Guild",
+      "members": [
+        "NicxCurry"
+      ],
+      "bases": 1
+    },
+    {
+      "name": "Apagnesque",
+      "members": [
+        "Babour"
+      ],
+      "bases": 1
+    },
+    {
+      "name": "Unnamed Guild",
+      "members": [
+        "fraizo"
+      ],
+      "bases": 1
     }
   ],
   "bases": [

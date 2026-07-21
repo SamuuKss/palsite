@@ -16,37 +16,56 @@
 *{margin:0;padding:0;box-sizing:border-box}
 body{background:var(--bg);color:var(--ink);font-family:'Nunito',sans-serif;min-height:100vh}
 .wrap{max-width:1100px;margin:0 auto;padding:0 20px}
-header{background:radial-gradient(ellipse at top,rgba(61,125,216,.25),transparent 60%);border-bottom:1px solid var(--line);padding:32px 0 24px}
+header{background:radial-gradient(ellipse at top,rgba(61,125,216,.25),transparent 60%);border-bottom:1px solid var(--line);padding:28px 0 20px}
 .eyebrow{color:var(--sky);font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.12em;margin-bottom:4px}
-h1{font-family:'Baloo 2',sans-serif;font-size:36px;font-weight:800;line-height:1}
+h1{font-family:'Baloo 2',sans-serif;font-size:34px;font-weight:800;line-height:1}
 .badge{background:rgba(126,212,145,.12);color:var(--grass);border:1px solid rgba(126,212,145,.27);padding:6px 12px;border-radius:99px;font-size:14px;font-weight:700}
 .headrow{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:16px}
-.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin-top:24px}
-.pill{background:var(--soft);border:1px solid var(--line);border-radius:14px;padding:12px 16px}
-.pill .l{color:var(--mute);font-size:11px;text-transform:uppercase;letter-spacing:.08em}
-.pill .v{font-size:20px;font-weight:700;margin-top:2px}
-.bar{background:var(--soft);border-radius:99px;height:12px;margin-top:16px;overflow:hidden}
-.bar>div{height:100%;background:linear-gradient(90deg,var(--sphere),var(--sky));border-radius:99px;transition:width .6s}
 nav{display:flex;gap:8px;padding-top:20px;flex-wrap:wrap}
 nav button{background:transparent;color:var(--mute);border:1px solid var(--line);border-radius:99px;padding:8px 16px;font:700 14px 'Nunito';cursor:pointer}
 nav button.on{background:var(--sphere);color:#fff;border-color:var(--sphere)}
 main{padding:24px 0 40px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin-top:20px}
+.pill{background:var(--soft);border:1px solid var(--line);border-radius:14px;padding:12px 16px}
+.pill .l{color:var(--mute);font-size:11px;text-transform:uppercase;letter-spacing:.08em}
+.pill .v{font-size:20px;font-weight:700;margin-top:2px}
+.bar{background:var(--soft);border-radius:99px;height:12px;margin-top:14px;overflow:hidden}
+.bar>div{height:100%;background:linear-gradient(90deg,var(--sphere),var(--sky));border-radius:99px;transition:width .6s}
 .grid2{display:grid;gap:16px;grid-template-columns:repeat(auto-fill,minmax(330px,1fr))}
-.grid3{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.grid3{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
 .card{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:20px}
+.h2{font-family:'Baloo 2';font-size:20px;font-weight:800;margin:26px 0 14px}
+.h2:first-child{margin-top:0}
+/* Records */
+.record{display:flex;align-items:center;gap:14px}
+.record .ic{font-size:30px}
+.record .t{font-size:12px;color:var(--mute);text-transform:uppercase;letter-spacing:.06em}
+.record .who{font-weight:800;font-size:16px}
+.record .val{margin-left:auto;font-weight:900;font-size:22px}
+/* Cartes joueurs */
+.pcard{cursor:pointer;transition:border-color .15s,transform .15s}
+.pcard:hover{border-color:var(--sphere);transform:translateY(-2px)}
 .pcard-top{display:flex;align-items:center;gap:12px}
 .avatar{width:46px;height:46px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:18px;color:#fff;flex-shrink:0}
+.avatar.big{width:72px;height:72px;font-size:28px}
 .pname{font-weight:800;font-size:16px}
 .psub{font-size:12px;color:var(--mute)}
 .plvl{margin-left:auto;text-align:right}
 .plvl b{color:var(--amber);font-size:26px;font-weight:900}
 .plvl span{display:block;color:var(--mute);font-size:11px;margin-top:-3px}
-.mini{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;text-align:center;margin:14px 0}
+.mini{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;text-align:center;margin:14px 0 4px}
 .mini>div{background:var(--soft);border-radius:10px;padding:8px 4px}
-.mini b{font-size:17px;display:block}
-.mini span{font-size:11px;color:var(--mute)}
-.sec{color:var(--mute);font-size:11px;text-transform:uppercase;letter-spacing:.08em;margin:4px 0 8px}
-.pal{display:flex;align-items:center;gap:10px;border:1px solid var(--line);border-radius:14px;padding:8px 12px;margin-bottom:7px;cursor:pointer;transition:background .15s,border-color .15s}
+.mini b{font-size:16px;display:block}
+.mini span{font-size:10px;color:var(--mute)}
+.teamicons{display:flex;gap:6px;margin-top:12px}
+.teamicons img{width:38px;height:38px;border-radius:50%;background:var(--soft);border:2px solid var(--line);object-fit:cover}
+.teamicons img.lucky{border-color:var(--amber)}
+/* Profil joueur */
+.backbtn{background:var(--soft);color:var(--sky);border:1px solid var(--line);border-radius:99px;padding:7px 16px;font:700 13px 'Nunito';cursor:pointer;margin-bottom:16px}
+.profhead{display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+.profhead .pname{font-family:'Baloo 2';font-size:26px}
+.statgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px;margin:18px 0}
+.pal{display:flex;align-items:center;gap:10px;border:1px solid var(--line);border-radius:14px;padding:8px 12px;margin-bottom:7px;cursor:pointer;transition:background .15s}
 .pal:hover{background:var(--soft)}
 .pal.lucky{border-color:rgba(255,201,77,.45)}
 .picon{width:42px;height:42px;border-radius:50%;background:var(--soft);border:2px solid var(--line);object-fit:cover;flex-shrink:0}
@@ -57,23 +76,24 @@ main{padding:24px 0 40px}
 .pright{text-align:right;flex-shrink:0}
 .pright .lv{font-weight:900;color:var(--sky);font-size:15px}
 .pright .cd{font-size:11px;color:var(--mute)}
-.tagline{color:var(--mute);font-size:12px;margin-top:6px}
-.lb-row{display:flex;align-items:center;gap:10px;margin-bottom:10px;font-size:14px}
-.lb-row .rk{width:18px;text-align:center;font-weight:900;color:var(--mute)}
-.lb-row.first .rk{color:var(--amber)}
-.lb-row .track{flex:1;height:8px;background:var(--soft);border-radius:99px;overflow:hidden}
-.lb-row .track>div{height:100%;border-radius:99px}
-.lb-row .val{width:44px;text-align:right;font-weight:700}
-#leafmap{height:520px;border-radius:14px;border:1px solid var(--line);background:#0a1a2e}
-.leaflet-popup-content-wrapper,.leaflet-popup-tip{background:rgba(13,21,38,.95);color:var(--ink);border:1px solid var(--line)}
-.leaflet-popup-content{font:600 13px 'Nunito';margin:10px 14px}
-.baselabel{background:rgba(13,21,38,.85);color:#e8eefc;border:1px solid #24365c;border-radius:8px;font:700 11px 'Nunito';padding:2px 8px}
-.baselabel:before{display:none}
-.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:12px;color:var(--mute);margin-bottom:12px}
-/* Modal détail pal */
+.sec{color:var(--mute);font-size:11px;text-transform:uppercase;letter-spacing:.08em;margin:4px 0 8px}
+.searchbar{background:var(--soft);border:1px solid var(--line);border-radius:12px;color:var(--ink);padding:10px 16px;font:600 14px 'Nunito';width:100%;margin-bottom:16px}
+/* Guildes */
+.memberchip{display:inline-block;background:var(--soft);border:1px solid var(--line);border-radius:99px;padding:3px 12px;font-size:12px;font-weight:700;margin:3px 4px 0 0}
+/* Podium classements */
+.podium{display:flex;align-items:flex-end;gap:8px;justify-content:center;margin:10px 0 16px}
+.pod{text-align:center;flex:1}
+.pod .medal{font-size:22px}
+.pod .n{font-weight:800;font-size:13px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.pod .v{font-weight:900;font-size:15px}
+.pod .col{border-radius:10px 10px 0 0;margin-top:6px}
+.lb-row{display:flex;align-items:center;gap:10px;margin-bottom:8px;font-size:13px}
+.lb-row .rk{width:16px;text-align:center;font-weight:900;color:var(--mute)}
+.lb-row .val{margin-left:auto;font-weight:800}
+/* Modal */
 #modal{position:fixed;inset:0;background:rgba(5,9,18,.75);display:none;align-items:center;justify-content:center;z-index:1000;padding:20px}
 #modal.open{display:flex}
-.mbox{background:var(--panel);border:1px solid var(--line);border-radius:20px;max-width:420px;width:100%;padding:24px;position:relative}
+.mbox{background:var(--panel);border:1px solid var(--line);border-radius:20px;max-width:440px;width:100%;padding:24px;position:relative;max-height:90vh;overflow-y:auto}
 .mclose{position:absolute;top:14px;right:16px;background:none;border:none;color:var(--mute);font-size:22px;cursor:pointer;font-family:'Nunito'}
 .mhead{display:flex;align-items:center;gap:14px;margin-bottom:16px}
 .mhead img{width:72px;height:72px;border-radius:50%;background:var(--soft);border:3px solid var(--line);object-fit:cover}
@@ -85,6 +105,7 @@ main{padding:24px 0 40px}
 .mb.lucky{background:rgba(255,201,77,.15);color:var(--amber);border:1px solid rgba(255,201,77,.3)}
 .mb.alpha{background:rgba(255,122,107,.15);color:var(--danger);border:1px solid rgba(255,122,107,.3)}
 .mb.lv{background:rgba(79,195,247,.12);color:var(--sky);border:1px solid rgba(79,195,247,.25)}
+.mb.g{background:rgba(126,212,145,.12);color:var(--grass);border:1px solid rgba(126,212,145,.25)}
 .ivrow{display:flex;align-items:center;gap:10px;margin-bottom:8px;font-size:13px}
 .ivrow .ivl{width:60px;color:var(--mute)}
 .ivrow .track{flex:1;height:8px;background:var(--soft);border-radius:99px;overflow:hidden}
@@ -93,38 +114,56 @@ main{padding:24px 0 40px}
 .tags{display:flex;flex-wrap:wrap;gap:5px;margin-top:4px}
 .tag{font-size:11px;padding:3px 10px;border-radius:99px;background:rgba(79,195,247,.1);color:var(--sky);border:1px solid rgba(79,195,247,.2)}
 .tag.gold{background:rgba(255,201,77,.14);color:var(--amber);border-color:rgba(255,201,77,.27)}
-footer{color:var(--mute);border-top:1px solid var(--line);text-align:center;font-size:12px;padding:20px 0}
+.maplayout{display:flex;gap:14px}
+.mapside{width:230px;flex-shrink:0;display:flex;flex-direction:column;gap:10px}
+.mapside input[type=text]{background:var(--soft);border:1px solid var(--line);border-radius:10px;color:var(--ink);padding:8px 12px;font:600 13px 'Nunito';width:100%}
+.cat{display:flex;align-items:center;gap:8px;background:var(--soft);border:1px solid var(--line);border-radius:10px;padding:7px 10px;font-size:13px;font-weight:700;cursor:pointer}
+.cat input{accent-color:var(--sphere)}
+.cat .cnt{margin-left:auto;color:var(--mute);font-weight:800;font-size:12px}
+.sideitems{overflow-y:auto;max-height:430px;display:flex;flex-direction:column;gap:4px}
+.sideitem{display:flex;align-items:center;gap:8px;padding:6px 10px;border-radius:9px;font-size:13px;cursor:pointer;border:1px solid transparent}
+.sideitem:hover{background:var(--soft);border-color:var(--line)}
+.sideitem .dot{width:10px;height:10px;border-radius:50%;flex-shrink:0}
+.sideitem .sub{color:var(--mute);font-size:11px;margin-left:auto}
+#coordbar{position:absolute;left:10px;bottom:10px;z-index:800;background:rgba(13,21,38,.9);border:1px solid var(--line);border-radius:9px;padding:5px 12px;font:700 12px 'Nunito';color:var(--sky);pointer-events:none}
+@media (max-width:760px){.maplayout{flex-direction:column}.mapside{width:100%}.sideitems{max-height:150px}}
+
+#leafmap{height:640px;border-radius:14px;border:1px solid var(--line);background:#0a1a2e}
+.leaflet-popup-content-wrapper,.leaflet-popup-tip{background:rgba(13,21,38,.95);color:var(--ink);border:1px solid var(--line)}
+.leaflet-popup-content{font:600 13px 'Nunito';margin:10px 14px}
+.baselabel{background:rgba(13,21,38,.85);color:#e8eefc;border:1px solid #24365c;border-radius:8px;font:700 11px 'Nunito';padding:2px 8px}
+.baselabel:before{display:none}
+.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:12px;color:var(--mute);margin-bottom:12px}
+footer{color:var(--mute);border-top:1px solid var(--line);text-align:center;font-size:12px;padding:20px 0;margin-top:20px}
 .err{background:rgba(255,122,107,.1);border:1px solid rgba(255,122,107,.3);color:var(--danger);border-radius:14px;padding:16px 20px;font-size:14px}
-@media (max-width:520px){h1{font-size:28px}}
+@media (max-width:520px){h1{font-size:26px}.mini{grid-template-columns:repeat(2,1fr)}}
 </style>
 </head>
 <body>
 <header><div class="wrap">
   <div class="headrow">
     <div>
-      <div class="eyebrow">Serveur dédié</div>
+      <div class="eyebrow">Serveur dédié Palworld</div>
       <h1>PalServer de Jarod</h1>
     </div>
     <span class="badge" id="badge">● chargement…</span>
   </div>
-  <div class="stats" id="stats"></div>
-  <div class="bar"><div id="dexbar" style="width:0%"></div></div>
+  <nav id="tabs">
+    <button data-t="accueil" class="on">Accueil</button>
+    <button data-t="joueurs">Joueurs</button>
+    <button data-t="guildes">Guildes</button>
+    <button data-t="carte">Carte</button>
+    <button data-t="classements">Classements</button>
+  </nav>
 </div></header>
 
-<div class="wrap">
-<nav id="tabs">
-  <button data-t="joueurs" class="on">Joueurs &amp; Pals</button>
-  <button data-t="carte">Carte</button>
-  <button data-t="classements">Classements</button>
-</nav>
-<main id="main"></main>
-</div>
-
+<div class="wrap"><main id="main"></main></div>
 <div id="modal"><div class="mbox" id="mbox"></div></div>
 <footer id="footer">Données mises à jour automatiquement depuis le serveur</footer>
 
 <script>
 const PALDEX_TOTAL = 214;
+// ===== Traductions (complète librement ces tables) =====
 const PAL_FR = {
   "JetDragon":"Jetragon","IceHorse":"Frostallion","IceHorse_Dark":"Frostallion Noct",
   "SaintCentaur":"Paladius","BlackCentaur":"Necromus","LilyQueen":"Lyleen",
@@ -136,103 +175,181 @@ const PAL_FR = {
   "KingBahamut":"Blazamut","ThunderDragonMan":"Orserk","BirdDragon":"Ragnahawk",
   "SakuraSaurus":"Dinossom","VolcanicMonster":"Reptyro","Horus":"Faleris",
   "GrassMammoth":"Mammorest","LazyCatfish":"Dumud","Serpent":"Celaray",
-  "Kitsunebi":"Foxparks","Umihebi":"Jormuntide","Suzaku":"Suzaku","Baphomet":"Incineram"
+  "Kitsunebi":"Foxparks","Umihebi":"Jormuntide","Suzaku":"Suzaku","Baphomet":"Incineram",
+  "SamuraiDog":"Bushi ?","Boar":"Rushoar","Deer":"Eikthyrdeer","Alpaca":"Melpaca",
+  "Monkey":"Tanzee","Eagle":"Galeclaw","WindChimes":"Hangyu","Ganesha":"Teafant"
 };
+const PASSIVE_FR = {
+  "Legend":"Légende","Rare":"Chanceux","Noukin":"Costaud",
+  "PAL_ALLAttack_up1":"Courageux","PAL_ALLAttack_up2":"Féroce",
+  "PAL_ALLAttack_down1":"Timide","PAL_ALLAttack_down2":"Poltron",
+  "CraftSpeed_up1":"Sérieux","CraftSpeed_up2":"Artisan",
+  "CraftSpeed_down1":"Fainéant","CraftSpeed_down2":"Gros dormeur",
+  "MoveSpeed_up_1":"Agile","MoveSpeed_up_2":"Coureur","MoveSpeed_up_3":"Véloce",
+  "PAL_Sanity_Down_1":"Optimiste","PAL_Sanity_Down_2":"Bourreau de travail",
+  "PAL_FullStomach_Down_1":"Petit appétit","PAL_FullStomach_Down_2":"Frugal",
+  "TrainerATK_UP_1":"Avant-garde","TrainerDEF_UP_1":"Garde du corps",
+  "TrainerWorkSpeed_UP_1":"Leader motivant","TrainerMining_up1":"Chef mineur",
+  "TrainerLogging_up1":"Chef bûcheron","PAL_CorporateSlave":"Stakhanoviste"
+};
+const GENDER_FR = {"Male":"♂ Mâle","Female":"♀ Femelle"};
 const palName = id => PAL_FR[id] || String(id).replace(/_/g," ").replace(/([a-z])([A-Z])/g,"$1 $2");
+const passiveName = id => PASSIVE_FR[id] || String(id).replace(/^PAL_/,"").replace(/_/g," ").replace(/([a-z])([A-Z])/g,"$1 $2");
+const wazaName = id => String(id).replace(/_/g," ").replace(/([a-z])([A-Z])/g,"$1 $2");
 const palIcon = id => 'https://cdn.paldb.cc/image/Pal/Texture/PalIcon/Normal/T_'+id+'_icon_normal.webp';
-const GOLD = ["Legend","Artisan","Lucky","Chanceux"];
+const GOLD_PASSIVES = ["Legend","Rare","CraftSpeed_up2","Noukin","PAL_ALLAttack_up2"];
 const PLAYER_COLORS = ["#4fc3f7","#7ed491","#c792ea","#ffc94d","#ff7a6b","#f78fb3"];
-let DATA=null, TAB="joueurs";
+const nf = n => (n??0).toLocaleString("fr-FR");
+let DATA=null, TAB="accueil", PROFILE=null;
 
 async function load(){
   try{
     const r = await fetch("server_data.json?t="+Date.now());
     if(!r.ok) throw new Error("HTTP "+r.status);
     DATA = await r.json();
-    renderHeader(); render();
+    document.getElementById("badge").textContent = "● "+(DATA.totals?.players??"?")+" joueurs";
+    const gen = DATA.generated_at ? new Date(DATA.generated_at) : null;
+    if(gen) document.getElementById("footer").textContent =
+      "Dernière mise à jour : "+gen.toLocaleString("fr-FR",{dateStyle:"long",timeStyle:"short"});
+    render();
   }catch(e){
     document.getElementById("main").innerHTML =
       '<div class="err"><b>Impossible de charger server_data.json</b><br>'+e.message+'</div>';
-    document.getElementById("badge").textContent = "● hors ligne";
   }
 }
-function renderHeader(){
-  const t = DATA.totals||{};
-  const pct = Math.round((t.species||0)/PALDEX_TOTAL*100);
-  document.getElementById("badge").textContent = "● "+(t.players??"?")+" joueurs";
-  document.getElementById("stats").innerHTML = [
-    pill("Joueurs", t.players??"—"),
-    pill("Pals capturés", t.pals??"—"),
-    pill("Paldex serveur", pct+" %", "var(--sky)"),
-    pill("Espèces", (t.species||0)+"/"+PALDEX_TOTAL, "var(--amber)"),
-  ].join("");
-  document.getElementById("dexbar").style.width = pct+"%";
-  const gen = DATA.generated_at ? new Date(DATA.generated_at) : null;
-  if(gen) document.getElementById("footer").textContent =
-    "Dernière mise à jour : "+gen.toLocaleString("fr-FR",{dateStyle:"short",timeStyle:"short"});
-}
-const pill=(l,v,c)=>'<div class="pill"><div class="l">'+l+'</div><div class="v"'+(c?' style="color:'+c+'"':'')+'>'+v+'</div></div>';
-
 document.getElementById("tabs").addEventListener("click",e=>{
   const b=e.target.closest("button"); if(!b) return;
-  TAB=b.dataset.t;
+  TAB=b.dataset.t; PROFILE=null;
   document.querySelectorAll("nav button").forEach(x=>x.classList.toggle("on",x===b));
   render();
 });
 function render(){
   if(!DATA) return;
   const m=document.getElementById("main");
-  if(TAB==="joueurs") m.innerHTML='<div class="grid2">'+DATA.players.map(playerCard).join("")+'</div>';
+  if(TAB==="accueil") m.innerHTML=accueil();
+  else if(TAB==="joueurs") m.innerHTML=(PROFILE!=null?profil(PROFILE):joueurs());
+  else if(TAB==="guildes") m.innerHTML=guildes();
   else if(TAB==="classements") m.innerHTML=classements();
   else m.innerHTML=mapView();
 }
 
-function iconImg(sp, cls){
-  return '<img class="'+cls+'" loading="lazy" src="'+palIcon(sp)+'" '
-    +'onerror="this.onerror=null;this.src=\'data:image/svg+xml,\'+encodeURIComponent(\'<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;42&quot; height=&quot;42&quot;><rect width=&quot;42&quot; height=&quot;42&quot; rx=&quot;21&quot; fill=&quot;%231a2845&quot;/><text x=&quot;21&quot; y=&quot;27&quot; text-anchor=&quot;middle&quot; font-size=&quot;16&quot; fill=&quot;%234fc3f7&quot; font-family=&quot;sans-serif&quot;>\'+ \''+String(sp)[0]+'\' +\'</text></svg>\')" alt="">';
+// ===== ACCUEIL =====
+function accueil(){
+  const t=DATA.totals||{};
+  const pct=Math.round((t.species||0)/PALDEX_TOTAL*100);
+  const best=(key)=>[...DATA.players].sort((a,b)=>(b[key]??0)-(a[key]??0))[0]||{};
+  const recs=[
+    ["🏹","Meilleur chasseur",best("captures"),"captures"," pals"],
+    ["✦","Porte-bonheur",best("shinies"),"shinies"," lucky"],
+    ["📖","Collectionneur",best("paldeck"),"paldeck"," espèces vues"],
+    ["🧭","Grand explorateur",best("fast_travels"),"fast_travels"," voyages rapides"],
+    ["🗿","Archéologue",best("effigies"),"effigies"," effigies"],
+    ["⬆️","Plus haut niveau",best("level"),"level",""],
+  ];
+  return '<div class="stats" style="margin-top:0">'
+    +pill("Joueurs",t.players??"—")+pill("Pals capturés",nf(t.pals))
+    +pill("Paldex serveur",pct+" %","var(--sky)")+pill("Espèces",(t.species||0)+"/"+PALDEX_TOTAL,"var(--amber)")
+    +'</div><div class="bar"><div style="width:'+pct+'%"></div></div>'
+    +'<div class="h2">🏆 Records du serveur</div>'
+    +'<div class="grid3">'+recs.map(([ic,tt,p,k,unit])=>
+      '<div class="card record"><span class="ic">'+ic+'</span>'
+      +'<div><div class="t">'+tt+'</div><div class="who">'+esc(p.name||"—")+'</div></div>'
+      +'<span class="val" style="color:var(--amber)">'+nf(p[k])+unit+'</span></div>').join("")
+    +'</div>'
+    +'<div class="h2">👥 Joueurs</div><div class="grid2">'
+    +DATA.players.map((p,i)=>pcardMini(p,i)).join("")+'</div>';
 }
+const pill=(l,v,c)=>'<div class="pill"><div class="l">'+l+'</div><div class="v"'+(c?' style="color:'+c+'"':'')+'>'+v+'</div></div>';
 
-function playerCard(p,i){
+// ===== JOUEURS =====
+function pcardMini(p,i){
   const col=PLAYER_COLORS[i%PLAYER_COLORS.length];
-  const teamLabel = p.team_detected===false ? "Meilleurs pals (équipe non détectée)" : "Équipe";
-  return '<div class="card">'
+  return '<div class="card pcard" onclick="openProfil('+i+')">'
     +'<div class="pcard-top"><div class="avatar" style="background:linear-gradient(135deg,var(--sphere),'+col+')">'+esc((p.name||"?")[0])+'</div>'
-    +'<div><div class="pname">'+esc(p.name)+'</div><div class="psub">'+(p.captures??0)+' pals capturés</div></div>'
+    +'<div><div class="pname">'+esc(p.name)+'</div><div class="psub">'+guildOf(p.name)+'</div></div>'
     +'<div class="plvl"><b>'+p.level+'</b><span>niveau</span></div></div>'
     +'<div class="mini">'
-      +'<div><b style="color:var(--sky)">'+(p.captures??0)+'</b><span>Captures</span></div>'
-      +'<div><b style="color:var(--amber)">'+(p.shinies??0)+'</b><span>Lucky</span></div>'
-      +'<div><b style="color:var(--grass)">'+(p.box_count??0)+'</b><span>Palbox</span></div>'
+      +'<div><b style="color:var(--sky)">'+nf(p.captures)+'</b><span>Captures</span></div>'
+      +'<div><b style="color:var(--amber)">'+nf(p.shinies)+'</b><span>Lucky</span></div>'
+      +'<div><b style="color:var(--grass)">'+nf(p.paldeck)+'</b><span>Paldex</span></div>'
+      +'<div><b style="color:var(--danger)">'+nf(p.effigies)+'</b><span>Effigies</span></div>'
+    +'</div>'
+    +'<div class="teamicons">'+(p.pals||[]).map(pal=>iconImg(pal.species,pal.lucky?"lucky":"")).join("")+'</div>'
+    +'</div>';
+}
+function joueurs(){
+  return '<input type="text" class="searchbar" id="psearch" placeholder="Rechercher un joueur…" oninput="filterPlayers()">'
+    +'<div class="grid2" id="pgrid">'+DATA.players.map((p,i)=>pcardMini(p,i)).join("")+'</div>';
+}
+function filterPlayers(){
+  const q=document.getElementById("psearch").value.toLowerCase();
+  document.getElementById("pgrid").innerHTML =
+    DATA.players.map((p,i)=>[p,i]).filter(([p])=>p.name.toLowerCase().includes(q))
+      .map(([p,i])=>pcardMini(p,i)).join("")||'<div class="card" style="color:var(--mute)">Aucun joueur trouvé</div>';
+}
+function guildOf(name){
+  const g=(DATA.guilds||[]).find(g=>(g.members||[]).includes(name));
+  return g&&g.name?("⚔️ "+esc(g.name)):"Sans guilde";
+}
+function openProfil(i){
+  TAB="joueurs"; PROFILE=i;
+  document.querySelectorAll("nav button").forEach(x=>x.classList.toggle("on",x.dataset.t==="joueurs"));
+  render(); window.scrollTo(0,0);
+}
+function profil(i){
+  const p=DATA.players[i];
+  const col=PLAYER_COLORS[i%PLAYER_COLORS.length];
+  const teamLabel=p.team_detected===false?"Meilleurs pals (équipe non détectée)":"Équipe active";
+  return '<button class="backbtn" onclick="PROFILE=null;render()">← Retour aux joueurs</button>'
+    +'<div class="card">'
+    +'<div class="profhead"><div class="avatar big" style="background:linear-gradient(135deg,var(--sphere),'+col+')">'+esc(p.name[0])+'</div>'
+    +'<div><div class="pname">'+esc(p.name)+'</div><div class="psub">'+guildOf(p.name)+' · '+nf(p.exp)+' XP</div></div>'
+    +'<div class="plvl"><b>'+p.level+'</b><span>niveau</span></div></div>'
+    +'<div class="statgrid">'
+      +pill("Captures",nf(p.captures),"var(--sky)")
+      +pill("Lucky",nf(p.shinies),"var(--amber)")
+      +pill("Palbox",nf(p.box_count))
+      +pill("Paldex",nf(p.paldeck)+"/"+PALDEX_TOTAL,"var(--grass)")
+      +pill("Effigies",nf(p.effigies),"var(--danger)")
+      +pill("Voyages rapides",nf(p.fast_travels))
+      +pill("Points techno",nf(p.tech_points))
     +'</div>'
     +'<div class="sec">'+teamLabel+'</div>'
     +(p.pals||[]).map((pal,j)=>palRow(pal,i,j)).join("")
     +'</div>';
 }
+function iconImg(sp, cls){
+  return '<img class="'+cls+'" loading="lazy" src="'+palIcon(sp)+'" '
+    +'onerror="this.style.background=\'var(--soft)\';this.src=\'data:image/svg+xml,\'+encodeURIComponent(\'<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;42&quot; height=&quot;42&quot;><rect width=&quot;42&quot; height=&quot;42&quot; rx=&quot;21&quot; fill=&quot;%231a2845&quot;/><text x=&quot;21&quot; y=&quot;27&quot; text-anchor=&quot;middle&quot; font-size=&quot;16&quot; fill=&quot;%234fc3f7&quot; font-family=&quot;sans-serif&quot;>\'+ \''+String(sp)[0]+'\' +\'</svg>\')" alt="">';
+}
 function palRow(pal,pi,j){
-  const stars = "★".repeat(Math.min(4,pal.condense||0)) || "";
-  return '<div class="pal'+(pal.lucky?' lucky':'')+'" onclick="openModal('+pi+','+j+')">'
+  const stars="★".repeat(Math.min(4,pal.condense||0));
+  const g=pal.gender==="Female"?"♀":pal.gender==="Male"?"♂":"";
+  return '<div class="pal'+(pal.lucky?' lucky':'')+'" onclick="event.stopPropagation();openModal('+pi+','+j+')">'
     +iconImg(pal.species,"picon")
-    +'<div class="pinfo"><div class="nm">'+esc(palName(pal.species))
+    +'<div class="pinfo"><div class="nm">'+esc(palName(pal.species))+' '+g
     +(pal.lucky?' <span style="color:var(--amber)">✦</span>':'')
     +(pal.alpha?' <span style="color:var(--danger);font-size:11px;font-weight:800">ALPHA</span>':'')
-    +'</div><div class="meta">'+(pal.passives||[]).slice(0,2).map(esc).join(" · ")+'</div></div>'
+    +'</div><div class="meta">'+(pal.passives||[]).slice(0,2).map(x=>esc(passiveName(x))).join(" · ")+'</div></div>'
     +'<div class="pright"><div class="lv">Nv '+pal.lvl+'</div><div class="cd">'+stars+'</div></div>'
     +'</div>';
 }
-
 function openModal(pi,j){
-  const pal = DATA.players[pi].pals[j];
-  const iv = (l,v,c)=>'<div class="ivrow"><span class="ivl">'+l+'</span><div class="track"><div style="width:'+Math.min(100,v)+'%;background:'+c+'"></div></div><span class="ivv" style="color:'+c+'">'+v+'</span></div>';
+  const pal=DATA.players[pi].pals[j];
+  const iv=(l,v,c)=>'<div class="ivrow"><span class="ivl">'+l+'</span><div class="track"><div style="width:'+Math.min(100,v)+'%;background:'+c+'"></div></div><span class="ivv" style="color:'+c+'">'+v+'</span></div>';
   const tags=(pal.passives||[]).map(ps=>{
-    const g=GOLD.some(k=>ps.toLowerCase().includes(k.toLowerCase()));
-    return '<span class="tag'+(g?' gold':'')+'">'+esc(ps)+'</span>';
+    const gold=GOLD_PASSIVES.includes(ps);
+    return '<span class="tag'+(gold?' gold':'')+'">'+esc(passiveName(ps))+'</span>';
   }).join("")||'<span class="tag">Aucun passif</span>';
+  const waza=(pal.waza||[]).map(w=>'<span class="tag">'+esc(wazaName(w))+'</span>').join("")||'<span class="tag">—</span>';
+  const capdate=pal.owned_date?new Date(pal.owned_date).toLocaleDateString("fr-FR",{dateStyle:"long"}):null;
   document.getElementById("mbox").innerHTML =
     '<button class="mclose" onclick="closeModal()">✕</button>'
     +'<div class="mhead'+(pal.lucky?' lucky':'')+'">'+iconImg(pal.species,"")
     +'<div><div class="mtitle">'+esc(palName(pal.species))+'</div>'
-    +'<div class="msub">'+esc(pal.species)+'</div>'
+    +'<div class="msub">'+esc(pal.species)+(capdate?' · capturé le '+capdate:'')+'</div>'
     +'<div class="mbadges"><span class="mb lv">Niveau '+pal.lvl+'</span>'
+    +(pal.gender&&GENDER_FR[pal.gender]?'<span class="mb g">'+GENDER_FR[pal.gender]+'</span>':'')
     +(pal.lucky?'<span class="mb lucky">✦ Lucky</span>':'')
     +(pal.alpha?'<span class="mb alpha">ALPHA</span>':'')
     +'<span class="mb lv">Condensé ★'+(pal.condense||0)+'</span></div></div></div>'
@@ -240,47 +357,99 @@ function openModal(pi,j){
     +iv("Vie",pal.talent_hp||0,"var(--grass)")
     +iv("Attaque",pal.talent_atk||0,"var(--danger)")
     +iv("Défense",pal.talent_def||0,"var(--sky)")
-    +'<div class="sec" style="margin-top:14px">Passifs</div><div class="tags">'+tags+'</div>';
+    +'<div class="sec" style="margin-top:14px">Attaques équipées</div><div class="tags">'+waza+'</div>'
+    +'<div class="sec" style="margin-top:14px">Passifs</div><div class="tags">'+tags+'</div>'
+    +(pal.friendship?'<div class="sec" style="margin-top:14px">Amitié</div><div style="font-weight:800;color:var(--grass)">💚 '+nf(pal.friendship)+' points</div>':'');
   document.getElementById("modal").classList.add("open");
 }
 function closeModal(){document.getElementById("modal").classList.remove("open");}
 document.getElementById("modal").addEventListener("click",e=>{if(e.target.id==="modal")closeModal();});
 
-function classements(){
-  const mk=(title,icon,key,color)=>{
-    const rows=[...DATA.players].map(p=>({n:p.name,v:p[key]??0})).sort((a,b)=>b.v-a.v);
-    const max=rows[0]?.v||1;
-    return '<div class="card"><div class="pname" style="margin-bottom:12px">'+icon+' '+title+'</div>'
-      +rows.map((r,i)=>'<div class="lb-row'+(i===0?' first':'')+'"><span class="rk">'+(i+1)+'</span>'
-        +'<span style="min-width:90px">'+esc(r.n)+'</span>'
-        +'<div class="track"><div style="width:'+(r.v/max*100)+'%;background:'+color+'"></div></div>'
-        +'<span class="val" style="color:'+color+'">'+r.v+'</span></div>').join("")
+// ===== GUILDES =====
+function guildes(){
+  const gs=DATA.guilds||[];
+  if(!gs.length) return '<div class="card" style="color:var(--mute)">Aucune guilde détectée.</div>';
+  return '<div class="grid2">'+gs.map((g,i)=>{
+    const col=PLAYER_COLORS[i%PLAYER_COLORS.length];
+    return '<div class="card">'
+      +'<div class="pcard-top"><div class="avatar" style="background:linear-gradient(135deg,var(--sphere),'+col+')">⚔️</div>'
+      +'<div><div class="pname">'+esc(g.name||"Guilde sans nom")+'</div>'
+      +'<div class="psub">'+g.members.length+' membre'+(g.members.length>1?'s':'')+' · '+g.bases+' base'+(g.bases>1?'s':'')+'</div></div></div>'
+      +'<div style="margin-top:10px">'+(g.members||[]).map(m=>'<span class="memberchip">'+esc(m)+'</span>').join("")+'</div>'
       +'</div>';
-  };
-  return '<div class="grid3">'
-    + mk("Pals capturés","🔵","captures","var(--sky)")
-    + mk("Pals Lucky","✦","shinies","var(--amber)")
-    + mk("Niveau","⬆️","level","var(--grass)")
-    +'</div>';
+  }).join("")+'</div>';
 }
 
+// ===== CLASSEMENTS =====
+function classements(){
+  const cats=[
+    ["⬆️ Niveau","level","var(--grass)"],
+    ["🔵 Captures","captures","var(--sky)"],
+    ["✦ Lucky","shinies","var(--amber)"],
+    ["📖 Paldex","paldeck","var(--grass)"],
+    ["🗿 Effigies","effigies","var(--danger)"],
+    ["🧭 Voyages rapides","fast_travels","var(--sky)"],
+  ];
+  return '<div class="grid3">'+cats.map(([title,key,color])=>{
+    const rows=[...DATA.players].map(p=>({n:p.name,v:p[key]??0})).sort((a,b)=>b.v-a.v);
+    const podium=rows.slice(0,3), rest=rows.slice(3);
+    const heights=[46,64,36], order=[1,0,2], medals=["🥈","🥇","🥉"];
+    return '<div class="card"><div class="pname" style="margin-bottom:8px">'+title+'</div>'
+      +'<div class="podium">'+order.map((oi,k)=>{
+          const r=podium[oi]; if(!r) return '<div class="pod"></div>';
+          return '<div class="pod"><div class="medal">'+medals[k]+'</div>'
+            +'<div class="n">'+esc(r.n)+'</div><div class="v" style="color:'+color+'">'+nf(r.v)+'</div>'
+            +'<div class="col" style="height:'+heights[k]+'px;background:'+color+'22;border:1px solid '+color+'44"></div></div>';
+        }).join("")+'</div>'
+      +rest.map((r,i)=>'<div class="lb-row"><span class="rk">'+(i+4)+'</span>'+esc(r.n)
+        +'<span class="val" style="color:'+color+'">'+nf(r.v)+'</span></div>').join("")
+      +'</div>';
+  }).join("")+'</div>';
+}
+
+// ===== CARTE =====
 function mapView(){
-  const bases=(DATA.bases||[]).filter(b=>b.map_x!=null);
   setTimeout(initLeaflet,0);
   return '<div class="card">'
-    +'<div class="legend"><span>🏕 '+bases.length+' bases sur le serveur · molette pour zoomer, glisser pour se déplacer</span></div>'
-    +'<div id="leafmap"></div>'
-    +'<p style="color:var(--mute);font-size:12px;margin-top:12px">'
-    +'Fond de carte : ajoute une capture de la carte du jeu nommée <b>map.jpg</b> dans le dossier du site.</p>'
+    +'<div class="maplayout">'
+    +'<div class="mapside">'
+      +'<input type="text" id="mapsearch" placeholder="Rechercher joueur, guilde…" oninput="renderSide()">'
+      +'<label class="cat"><input type="checkbox" id="lyBases" checked onchange="toggleLayer()"> 🏕 Bases<span class="cnt" id="cntB"></span></label>'
+      +'<label class="cat"><input type="checkbox" id="lyPlayers" checked onchange="toggleLayer()"> 👤 Joueurs<span class="cnt" id="cntP"></span></label>'
+      +'<div class="sideitems" id="sideitems"></div>'
+      +'<button onclick="startCal()" style="background:var(--soft);color:var(--sky);border:1px solid var(--line);border-radius:10px;padding:8px;font:700 12px Nunito;cursor:pointer">🎯 Calibrer la carte</button>'
+    +'</div>'
+    +'<div style="flex:1;position:relative">'
+      +'<div id="calmsg" style="display:none;background:rgba(79,195,247,.1);border:1px solid rgba(79,195,247,.3);color:var(--sky);border-radius:10px;padding:10px 14px;font-size:13px;margin-bottom:10px"></div>'
+      +'<div id="leafmap" style="height:640px"></div>'
+      +'<div id="coordbar">—</div>'
+    +'</div>'
+    +'</div>'
+    +'<p style="color:var(--mute);font-size:12px;margin-top:12px">Fond de carte : capture plein écran de la carte du jeu → <b>map.jpg</b> dans C:\\palsite\\site. Points décalés ? 🎯 Calibrer (2 clics).</p>'
     +'</div>';
 }
-let LMAP=null;
+let LMAP=null, GB=null, GP=null, CAL=null, MARKS={};
+const DEFAULT_CAL={X_MIN:-582888,X_MAX:335112,Y_MIN:-301000,Y_MAX:617000};
+const getCal=()=>JSON.parse(localStorage.getItem("palcal")||"null")||DEFAULT_CAL;
+function worldToLatLng(wx,wy){
+  const c=getCal();
+  const px=(wy-c.Y_MIN)/(c.Y_MAX-c.Y_MIN)*100;
+  const py=(1-(wx-c.X_MIN)/(c.X_MAX-c.X_MIN))*100;
+  return [100-py,px];
+}
+function latLngToWorld(lat,lng){
+  const c=getCal();
+  const wy=lng/100*(c.Y_MAX-c.Y_MIN)+c.Y_MIN;
+  const wx=(1-(100-lat)/100)*(c.X_MAX-c.X_MIN)+c.X_MIN;
+  return [wx,wy];
+}
 function initLeaflet(){
   const el=document.getElementById('leafmap');
   if(!el||typeof L==="undefined") return;
   if(LMAP){LMAP.remove();LMAP=null;}
+  MARKS={};
   const bounds=[[0,0],[100,100]];
-  LMAP=L.map(el,{crs:L.CRS.Simple,minZoom:2,maxZoom:6,zoomSnap:.5,attributionControl:false});
+  LMAP=L.map(el,{crs:L.CRS.Simple,minZoom:2,maxZoom:7,zoomSnap:.5,attributionControl:false});
   LMAP.fitBounds(bounds);
   const img=new Image();
   img.onload=()=>L.imageOverlay('map.jpg',bounds).addTo(LMAP).bringToBack();
@@ -292,16 +461,103 @@ function initLeaflet(){
     }
   };
   img.src='map.jpg';
-  (DATA.bases||[]).filter(b=>b.map_x!=null).forEach((b,i)=>{
+  GB=L.layerGroup().addTo(LMAP);
+  GP=L.layerGroup().addTo(LMAP);
+  const bases=(DATA.bases||[]).filter(b=>b.x!=null);
+  bases.forEach((b,i)=>{
     const col=PLAYER_COLORS[i%PLAYER_COLORS.length];
     const guild=b.guild||('Base #'+(i+1));
-    const members=(b.members||[]).join(', ');
-    L.circleMarker([100-b.map_y,b.map_x],{radius:9,color:'#fff',weight:2,fillColor:col,fillOpacity:.95})
-      .addTo(LMAP)
-      .bindPopup('🏕 <b>'+esc(guild)+'</b>'+(members?'<br><span style="color:#8fa3c8">'+esc(members)+'</span>':''))
-      .bindTooltip(esc(guild),{permanent:true,direction:'top',offset:[0,-10],className:'baselabel'});
+    const mk=L.marker(worldToLatLng(b.x,b.y),{icon:L.divIcon({className:'',iconSize:[28,28],
+      html:'<div style="width:28px;height:28px;border-radius:50% 50% 50% 4px;background:'+col+';border:2px solid #fff;display:flex;align-items:center;justify-content:center;font-size:14px;transform:rotate(-45deg)"><span style="transform:rotate(45deg)">🏕</span></div>'})})
+      .addTo(GB)
+      .bindPopup('🏕 <b>'+esc(guild)+'</b>'+((b.members||[]).length?'<br><span style="color:#8fa3c8">'+esc(b.members.join(', '))+'</span>':''));
+    MARKS['b'+i]=mk;
+  });
+  const players=(DATA.players||[]).filter(p=>p.x!=null);
+  players.forEach((p,i)=>{
+    const col=PLAYER_COLORS[i%PLAYER_COLORS.length];
+    const mk=L.marker(worldToLatLng(p.x,p.y),{icon:L.divIcon({className:'',iconSize:[26,26],
+      html:'<div style="width:26px;height:26px;border-radius:50%;background:'+col+';border:2px solid #fff;display:flex;align-items:center;justify-content:center;font:900 13px Nunito;color:#fff">'+esc(p.name[0])+'</div>'})})
+      .addTo(GP)
+      .bindPopup('👤 <b>'+esc(p.name)+'</b><br><span style="color:#8fa3c8">Niveau '+p.level+' · dernière position connue</span>')
+      .bindTooltip(esc(p.name),{permanent:true,direction:'bottom',offset:[0,12],className:'baselabel'});
+    MARKS['p'+i]=mk;
+  });
+  document.getElementById('cntB').textContent=bases.length;
+  document.getElementById('cntP').textContent=players.length;
+  renderSide();
+  LMAP.on('click',onCalClick);
+  LMAP.on('mousemove',e=>{
+    const [wx,wy]=latLngToWorld(e.latlng.lat,e.latlng.lng);
+    document.getElementById('coordbar').textContent =
+      Math.round(wy/1000)+', '+Math.round(wx/1000)+'  (coordonnées jeu approx.)';
   });
 }
+function renderSide(){
+  const q=(document.getElementById('mapsearch')?.value||'').toLowerCase();
+  const el=document.getElementById('sideitems'); if(!el) return;
+  let h='';
+  (DATA.bases||[]).filter(b=>b.x!=null).forEach((b,i)=>{
+    const guild=b.guild||('Base #'+(i+1));
+    const hay=(guild+' '+(b.members||[]).join(' ')).toLowerCase();
+    if(q&&!hay.includes(q)) return;
+    const col=PLAYER_COLORS[i%PLAYER_COLORS.length];
+    h+='<div class="sideitem" onclick="flyTo(\'b'+i+'\')"><span class="dot" style="background:'+col+'"></span>🏕 '+esc(guild)+'<span class="sub">'+(b.members||[]).length+' membres</span></div>';
+  });
+  (DATA.players||[]).filter(p=>p.x!=null).forEach((p,i)=>{
+    if(q&&!p.name.toLowerCase().includes(q)) return;
+    const col=PLAYER_COLORS[i%PLAYER_COLORS.length];
+    h+='<div class="sideitem" onclick="flyTo(\'p'+i+'\')"><span class="dot" style="background:'+col+'"></span>👤 '+esc(p.name)+'<span class="sub">nv '+p.level+'</span></div>';
+  });
+  el.innerHTML=h||'<div class="sideitem" style="color:var(--mute)">Aucun résultat</div>';
+}
+function flyTo(id){
+  const mk=MARKS[id]; if(!mk||!LMAP) return;
+  LMAP.flyTo(mk.getLatLng(), 5, {duration:.6});
+  setTimeout(()=>mk.openPopup(), 650);
+}
+function toggleLayer(){
+  if(!LMAP) return;
+  document.getElementById('lyBases').checked?GB.addTo(LMAP):LMAP.removeLayer(GB);
+  document.getElementById('lyPlayers').checked?GP.addTo(LMAP):LMAP.removeLayer(GP);
+}
+function startCal(){
+  const bases=(DATA.bases||[]).filter(b=>b.x!=null);
+  if(bases.length<2){alert("Il faut au moins 2 bases pour calibrer.");return;}
+  CAL={step:0,pts:[],bases:bases};
+  calMsg("Étape 1/2 — clique sur la position RÉELLE (sur le fond de carte) de la base « "
+    +(bases[0].guild||"Base #1")+" »");
+}
+function calMsg(t){const m=document.getElementById('calmsg');m.style.display='block';m.innerHTML=t;}
+function onCalClick(e){
+  if(!CAL) return;
+  const px=e.latlng.lng, py=100-e.latlng.lat;
+  const b=CAL.bases[CAL.step];
+  CAL.pts.push({wx:b.x,wy:b.y,px:px,py:py});
+  CAL.step++;
+  if(CAL.step<2){
+    calMsg("Étape 2/2 — clique maintenant sur la position réelle de « "
+      +(CAL.bases[1].guild||"Base #2")+" »");
+    return;
+  }
+  const [p1,p2]=CAL.pts;
+  if(Math.abs(p1.wx-p2.wx)<1||Math.abs(p1.wy-p2.wy)<1||Math.abs(p1.px-p2.px)<.1||Math.abs(p1.py-p2.py)<.1){
+    calMsg("⚠️ Les 2 bases sont trop alignées, réessaie avec d'autres.");
+    CAL=null; return;
+  }
+  const a=(p2.px-p1.px)/(p2.wy-p1.wy), bo=p1.px-a*p1.wy;
+  const Y_MIN=-bo/a, Y_MAX=Y_MIN+100/a;
+  const c=(p2.py-p1.py)/(p2.wx-p1.wx), d=p1.py-c*p1.wx;
+  const DX=-100/c, X_MAX=d*DX/100, X_MIN=X_MAX-DX;
+  const cal={X_MIN:Math.round(X_MIN),X_MAX:Math.round(X_MAX),Y_MIN:Math.round(Y_MIN),Y_MAX:Math.round(Y_MAX)};
+  localStorage.setItem("palcal",JSON.stringify(cal));
+  CAL=null;
+  calMsg("✅ Calibré sur ton navigateur ! Pour tout le monde : dans <b>export_palserver.py</b> remplace "
+    +"<code style='user-select:all'>X_MIN, X_MAX = "+cal.X_MIN+", "+cal.X_MAX
+    +"</code> et <code style='user-select:all'>Y_MIN, Y_MAX = "+cal.Y_MIN+", "+cal.Y_MAX+"</code> puis relance le .bat.");
+  initLeaflet();
+}
+
 const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 load();
 </script>
