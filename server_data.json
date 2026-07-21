@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T19:55:27.476714+00:00",
+  "generated_at": "2026-07-21T19:56:55.429586+00:00",
   "players": [
     {
       "uid": "a527f320-0000-0000-0000-000000000000",
@@ -1446,6 +1446,31 @@
           "talent_def": 4
         },
         {
+          "species": "GrimGirl",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 22,
+          "condense": 0,
+          "passives": [
+            "PAL_sadist",
+            "PAL_FullStomach_Up_2"
+          ],
+          "talent_hp": 46,
+          "talent_atk": 51,
+          "talent_def": 93
+        },
+        {
+          "species": "BlueberryFairy",
+          "alpha": true,
+          "lucky": false,
+          "lvl": 22,
+          "condense": 0,
+          "passives": [],
+          "talent_hp": 100,
+          "talent_atk": 94,
+          "talent_def": 91
+        },
+        {
           "species": "Sheepball",
           "alpha": false,
           "lucky": false,
@@ -1559,31 +1584,6 @@
           "talent_hp": 76,
           "talent_atk": 14,
           "talent_def": 57
-        },
-        {
-          "species": "GrimGirl",
-          "alpha": false,
-          "lucky": false,
-          "lvl": 21,
-          "condense": 0,
-          "passives": [
-            "PAL_sadist",
-            "PAL_FullStomach_Up_2"
-          ],
-          "talent_hp": 46,
-          "talent_atk": 51,
-          "talent_def": 93
-        },
-        {
-          "species": "BlueberryFairy",
-          "alpha": true,
-          "lucky": false,
-          "lvl": 21,
-          "condense": 0,
-          "passives": [],
-          "talent_hp": 100,
-          "talent_atk": 94,
-          "talent_def": 91
         },
         {
           "species": "Gorilla",
@@ -2417,6 +2417,20 @@
           "talent_def": 52
         },
         {
+          "species": "KingBahamut",
+          "alpha": true,
+          "lucky": false,
+          "lvl": 12,
+          "condense": 0,
+          "passives": [
+            "ElementBoost_Fire_2_PAL",
+            "TrainerATK_UP_1"
+          ],
+          "talent_hp": 67,
+          "talent_atk": 80,
+          "talent_def": 85
+        },
+        {
           "species": "CowPal",
           "alpha": false,
           "lucky": false,
@@ -2522,20 +2536,6 @@
           "talent_hp": 36,
           "talent_atk": 48,
           "talent_def": 1
-        },
-        {
-          "species": "KingBahamut",
-          "alpha": true,
-          "lucky": false,
-          "lvl": 11,
-          "condense": 0,
-          "passives": [
-            "ElementBoost_Fire_2_PAL",
-            "TrainerATK_UP_1"
-          ],
-          "talent_hp": 67,
-          "talent_atk": 80,
-          "talent_def": 85
         },
         {
           "species": "CowPal",
