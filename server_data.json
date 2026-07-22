@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-22T17:04:58.953351+00:00",
+  "generated_at": "2026-07-22T17:09:59.020763+00:00",
   "players": [
     {
       "uid": "a527f320-0000-0000-0000-000000000000",
       "name": "Powertwo",
-      "level": 63,
-      "exp": 9403464,
+      "level": 64,
+      "exp": 9754979,
       "pals": [
         {
           "species": "HoodGhost",
@@ -23,7 +23,7 @@
             "Apocalypse",
             "ShadowBall"
           ],
-          "friendship": 0,
+          "friendship": 500,
           "owned_date": "2026-07-22"
         },
         {
@@ -44,14 +44,14 @@
             "FlameFunnel",
             "ShadowBall"
           ],
-          "friendship": 0,
+          "friendship": 500,
           "owned_date": "2026-07-22"
         },
         {
           "species": "RedArmorBird",
           "alpha": false,
           "lucky": false,
-          "lvl": 50,
+          "lvl": 54,
           "condense": 0,
           "passives": [
             "ElementResist_Ice_1_PAL"
@@ -65,7 +65,7 @@
             "FlareTornado",
             "FireBall"
           ],
-          "friendship": 12500,
+          "friendship": 13000,
           "owned_date": "2026-07-22"
         },
         {
@@ -86,7 +86,7 @@
             "DarkLaser",
             "FlameFunnel"
           ],
-          "friendship": 0,
+          "friendship": 500,
           "owned_date": "2026-07-22"
         },
         {
@@ -109,23 +109,23 @@
             "CommetRain",
             "BeamSlicer"
           ],
-          "friendship": 885,
+          "friendship": 1385,
           "owned_date": "2026-07-22"
         }
       ],
       "captures": 424,
       "shinies": 5,
-      "x": 82055.82031491557,
-      "y": 89782.99998594965,
+      "x": -15828.239011131169,
+      "y": -125575.74795397892,
       "paldeck": 169,
-      "fast_travels": 95,
-      "effigies": 2,
-      "tech_points": 98,
-      "map_x": 42.6,
-      "map_y": 27.6,
+      "fast_travels": 96,
+      "effigies": 3,
+      "tech_points": 102,
+      "map_x": 19.1,
+      "map_y": 38.2,
       "team_detected": true,
       "box_count": 419,
-      "last_seen": "2026-07-22T17:04:58.953351+00:00"
+      "last_seen": "2026-07-22T17:09:59.020763+00:00"
     },
     {
       "uid": "90a5c888-0000-0000-0000-000000000000",
