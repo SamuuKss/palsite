@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-22T18:04:59.320336+00:00",
+  "generated_at": "2026-07-22T18:09:59.269659+00:00",
   "players": [
     {
       "uid": "a527f320-0000-0000-0000-000000000000",
       "name": "Powertwo",
       "level": 64,
-      "exp": 10379445,
+      "exp": 10491231,
       "pals": [
         {
           "species": "IceNarwhal",
           "alpha": false,
           "lucky": false,
-          "lvl": 12,
+          "lvl": 16,
           "condense": 0,
           "passives": [
             "PAL_FullStomach_Down_2",
@@ -23,8 +23,8 @@
           "gender": "Male",
           "waza": [
             "ElecWave",
-            "IceMissile",
-            "IceBlade"
+            "IceBlade",
+            "BlizzardLance"
           ],
           "friendship": 655,
           "owned_date": "2026-07-22"
@@ -49,7 +49,7 @@
             "RootAttack",
             "SolarBeam"
           ],
-          "friendship": 98500,
+          "friendship": 99500,
           "owned_date": "2026-07-22"
         },
         {
@@ -70,7 +70,7 @@
             "BlizzardLance",
             "IcicleThrow"
           ],
-          "friendship": 106500,
+          "friendship": 107000,
           "owned_date": "2026-07-22"
         },
         {
@@ -91,7 +91,7 @@
             "RootAttack",
             "SolarBeam"
           ],
-          "friendship": 87000,
+          "friendship": 87500,
           "owned_date": "2026-07-22"
         },
         {
@@ -113,23 +113,23 @@
             "RootAttack",
             "HydroPump"
           ],
-          "friendship": 101500,
+          "friendship": 102000,
           "owned_date": "2026-07-22"
         }
       ],
       "captures": 428,
       "shinies": 5,
-      "x": -330688.19262470986,
-      "y": 326175.674669751,
+      "x": -443052.8017233188,
+      "y": 274103.9854759543,
       "paldeck": 171,
       "fast_travels": 96,
       "effigies": 5,
       "tech_points": 94,
-      "map_x": 68.3,
-      "map_y": 72.5,
+      "map_x": 62.6,
+      "map_y": 84.8,
       "team_detected": true,
       "box_count": 423,
-      "last_seen": "2026-07-22T17:59:59.372737+00:00"
+      "last_seen": "2026-07-22T18:09:59.269659+00:00"
     },
     {
       "uid": "90a5c888-0000-0000-0000-000000000000",
@@ -505,7 +505,7 @@
       "uid": "5d6d87d4-0000-0000-0000-000000000000",
       "name": "Babour",
       "level": 23,
-      "exp": 114095,
+      "exp": 114527,
       "pals": [
         {
           "species": "Kitsunebi",
@@ -525,7 +525,7 @@
             "MudShot",
             "FireSeed"
           ],
-          "friendship": 28500,
+          "friendship": 29000,
           "owned_date": "2026-07-20"
         },
         {
@@ -548,7 +548,7 @@
             "Unique_Deer_PushupHorn",
             "PowerShot"
           ],
-          "friendship": 28500,
+          "friendship": 29000,
           "owned_date": "2026-07-20"
         },
         {
@@ -567,8 +567,27 @@
             "IceMissile",
             "DragonWave"
           ],
-          "friendship": 28000,
+          "friendship": 28500,
           "owned_date": "2026-07-20"
+        },
+        {
+          "species": "HawkBird",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 19,
+          "condense": 0,
+          "passives": [],
+          "talent_hp": 44,
+          "talent_atk": 24,
+          "talent_def": 42,
+          "gender": "Female",
+          "waza": [
+            "Unique_HawkBird_Storm",
+            "AirCanon",
+            "WindCutter"
+          ],
+          "friendship": 2500,
+          "owned_date": "2026-07-22"
         },
         {
           "species": "GhostBlackCat",
@@ -588,14 +607,14 @@
             "DarkBall",
             "GhostFlame"
           ],
-          "friendship": 28000,
+          "friendship": 28500,
           "owned_date": "2026-07-20"
         }
       ],
       "captures": 98,
       "shinies": 2,
-      "x": -282169.28,
-      "y": 198433.52000000002,
+      "x": -282186.64,
+      "y": 198244.81,
       "paldeck": 34,
       "fast_travels": 17,
       "effigies": 3,
@@ -603,8 +622,8 @@
       "map_x": 54.4,
       "map_y": 67.2,
       "team_detected": true,
-      "box_count": 94,
-      "last_seen": "2026-07-22T18:04:59.320336+00:00"
+      "box_count": 93,
+      "last_seen": "2026-07-22T18:09:59.269659+00:00"
     },
     {
       "uid": "5ae78a05-0000-0000-0000-000000000000",
