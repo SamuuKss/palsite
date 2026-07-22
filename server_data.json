@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T20:00:01.291853+00:00",
+  "generated_at": "2026-07-22T20:05:00.248836+00:00",
   "players": [
     {
       "uid": "a527f320-0000-0000-0000-000000000000",
@@ -751,9 +751,28 @@
     {
       "uid": "2745f731-0000-0000-0000-000000000000",
       "name": "Jajbob",
-      "level": 5,
-      "exp": 1234,
+      "level": 6,
+      "exp": 1329,
       "pals": [
+        {
+          "species": "FlameBambi",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 5,
+          "condense": 0,
+          "passives": [
+            "CoolTimeReduction_Up_2"
+          ],
+          "talent_hp": 9,
+          "talent_atk": 67,
+          "talent_def": 96,
+          "gender": "Male",
+          "waza": [
+            "FireBlast"
+          ],
+          "friendship": 500,
+          "owned_date": "2026-07-22"
+        },
         {
           "species": "Sheepball",
           "alpha": false,
@@ -773,98 +792,21 @@
           ],
           "friendship": 500,
           "owned_date": "2026-07-22"
-        },
-        {
-          "species": "PinkCat",
-          "alpha": false,
-          "lucky": false,
-          "lvl": 4,
-          "condense": 0,
-          "passives": [
-            "PAL_ALLAttack_down1",
-            "WorkSuitabilityAddRank_MonsterFarm_1"
-          ],
-          "talent_hp": 20,
-          "talent_atk": 27,
-          "talent_def": 29,
-          "gender": "Male",
-          "waza": [
-            "Unique_PinkCat_CatPunch"
-          ],
-          "friendship": 500,
-          "owned_date": "2026-07-22"
-        },
-        {
-          "species": "Sheepball",
-          "alpha": false,
-          "lucky": false,
-          "lvl": 4,
-          "condense": 0,
-          "passives": [
-            "CraftSpeed_down1"
-          ],
-          "talent_hp": 29,
-          "talent_atk": 88,
-          "talent_def": 37,
-          "gender": "Male",
-          "waza": [
-            "Unique_SheepBall_Roll"
-          ],
-          "friendship": 500,
-          "owned_date": "2026-07-22"
-        },
-        {
-          "species": "Sheepball",
-          "alpha": false,
-          "lucky": false,
-          "lvl": 4,
-          "condense": 0,
-          "passives": [
-            "PAL_Sanity_Down_1"
-          ],
-          "talent_hp": 71,
-          "talent_atk": 35,
-          "talent_def": 44,
-          "gender": "Female",
-          "waza": [
-            "Unique_SheepBall_Roll"
-          ],
-          "friendship": 500,
-          "owned_date": "2026-07-22"
-        },
-        {
-          "species": "FlameBambi",
-          "alpha": false,
-          "lucky": false,
-          "lvl": 5,
-          "condense": 0,
-          "passives": [
-            "CoolTimeReduction_Up_2"
-          ],
-          "talent_hp": 9,
-          "talent_atk": 67,
-          "talent_def": 96,
-          "gender": "Male",
-          "waza": [
-            "FireBlast"
-          ],
-          "friendship": 0,
-          "owned_date": "2026-07-22"
         }
       ],
       "captures": 6,
       "shinies": 0,
-      "x": -266713.47000000003,
-      "y": 345546.74,
+      "x": -265667.69,
+      "y": 345269.48,
       "paldeck": 3,
       "fast_travels": 2,
       "effigies": 0,
       "tech_points": 6,
       "map_x": 70.4,
-      "map_y": 65.6,
+      "map_y": 65.4,
       "team_detected": true,
-      "box_count": 1,
-      "last_seen": "2026-07-22T20:00:01.291853+00:00"
+      "box_count": 4,
+      "last_seen": "2026-07-22T20:05:00.248836+00:00"
     }
   ],
   "guilds": [
