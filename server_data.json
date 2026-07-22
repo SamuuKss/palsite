@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T20:05:00.248836+00:00",
+  "generated_at": "2026-07-22T20:10:00.159221+00:00",
   "players": [
     {
       "uid": "a527f320-0000-0000-0000-000000000000",
@@ -752,7 +752,7 @@
       "uid": "2745f731-0000-0000-0000-000000000000",
       "name": "Jajbob",
       "level": 6,
-      "exp": 1329,
+      "exp": 1423,
       "pals": [
         {
           "species": "FlameBambi",
@@ -770,14 +770,14 @@
           "waza": [
             "FireBlast"
           ],
-          "friendship": 500,
+          "friendship": 1000,
           "owned_date": "2026-07-22"
         },
         {
           "species": "Sheepball",
           "alpha": false,
           "lucky": false,
-          "lvl": 4,
+          "lvl": 5,
           "condense": 0,
           "passives": [
             "CoolTimeReduction_Up_1",
@@ -790,23 +790,23 @@
           "waza": [
             "Unique_SheepBall_Roll"
           ],
-          "friendship": 500,
+          "friendship": 1000,
           "owned_date": "2026-07-22"
         }
       ],
       "captures": 6,
       "shinies": 0,
-      "x": -265667.69,
-      "y": 345269.48,
+      "x": -359147.01,
+      "y": 268182.22000000003,
       "paldeck": 3,
       "fast_travels": 2,
       "effigies": 0,
       "tech_points": 6,
-      "map_x": 70.4,
-      "map_y": 65.4,
+      "map_x": 62.0,
+      "map_y": 75.6,
       "team_detected": true,
       "box_count": 4,
-      "last_seen": "2026-07-22T20:05:00.248836+00:00"
+      "last_seen": "2026-07-22T20:10:00.159221+00:00"
     }
   ],
   "guilds": [
