@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-22T18:24:59.393953+00:00",
+  "generated_at": "2026-07-22T18:29:59.341512+00:00",
   "players": [
     {
       "uid": "a527f320-0000-0000-0000-000000000000",
       "name": "Powertwo",
       "level": 65,
-      "exp": 10689683,
+      "exp": 10782504,
       "pals": [
         {
           "species": "IceNarwhal",
@@ -26,7 +26,7 @@
             "IceBlade",
             "BlizzardLance"
           ],
-          "friendship": 2155,
+          "friendship": 2655,
           "owned_date": "2026-07-22"
         },
         {
@@ -49,7 +49,7 @@
             "RootAttack",
             "SolarBeam"
           ],
-          "friendship": 101000,
+          "friendship": 101500,
           "owned_date": "2026-07-22"
         },
         {
@@ -70,7 +70,7 @@
             "BlizzardLance",
             "IcicleThrow"
           ],
-          "friendship": 108500,
+          "friendship": 109000,
           "owned_date": "2026-07-22"
         },
         {
@@ -91,7 +91,7 @@
             "RootAttack",
             "SolarBeam"
           ],
-          "friendship": 89000,
+          "friendship": 89500,
           "owned_date": "2026-07-22"
         },
         {
@@ -113,23 +113,23 @@
             "RootAttack",
             "HydroPump"
           ],
-          "friendship": 103500,
+          "friendship": 104000,
           "owned_date": "2026-07-22"
         }
       ],
-      "captures": 433,
+      "captures": 439,
       "shinies": 5,
-      "x": -281093.54840837675,
-      "y": 252297.6494915446,
+      "x": -359508.72000000003,
+      "y": 171057.4,
       "paldeck": 172,
       "fast_travels": 97,
       "effigies": 5,
       "tech_points": 96,
-      "map_x": 60.3,
-      "map_y": 67.1,
+      "map_x": 51.4,
+      "map_y": 75.7,
       "team_detected": true,
-      "box_count": 428,
-      "last_seen": "2026-07-22T18:24:59.393953+00:00"
+      "box_count": 434,
+      "last_seen": "2026-07-22T18:29:59.341512+00:00"
     },
     {
       "uid": "90a5c888-0000-0000-0000-000000000000",
@@ -505,7 +505,7 @@
       "uid": "5d6d87d4-0000-0000-0000-000000000000",
       "name": "Babour",
       "level": 23,
-      "exp": 114833,
+      "exp": 114977,
       "pals": [
         {
           "species": "Kitsunebi",
@@ -525,7 +525,7 @@
             "MudShot",
             "FireSeed"
           ],
-          "friendship": 30500,
+          "friendship": 31000,
           "owned_date": "2026-07-20"
         },
         {
@@ -548,7 +548,7 @@
             "Unique_Deer_PushupHorn",
             "PowerShot"
           ],
-          "friendship": 30500,
+          "friendship": 31000,
           "owned_date": "2026-07-20"
         },
         {
@@ -567,7 +567,7 @@
             "IceMissile",
             "DragonWave"
           ],
-          "friendship": 30000,
+          "friendship": 30500,
           "owned_date": "2026-07-20"
         },
         {
@@ -586,7 +586,7 @@
             "AirCanon",
             "WindCutter"
           ],
-          "friendship": 4000,
+          "friendship": 4500,
           "owned_date": "2026-07-22"
         },
         {
@@ -607,7 +607,7 @@
             "DarkBall",
             "GhostFlame"
           ],
-          "friendship": 30000,
+          "friendship": 30500,
           "owned_date": "2026-07-20"
         }
       ],
@@ -870,7 +870,7 @@
   ],
   "totals": {
     "players": 6,
-    "pals": 792,
+    "pals": 798,
     "species": 23
   }
 }
