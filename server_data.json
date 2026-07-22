@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-22T18:55:36.854887+00:00",
+  "generated_at": "2026-07-22T18:59:59.242912+00:00",
   "players": [
     {
       "uid": "a527f320-0000-0000-0000-000000000000",
       "name": "Powertwo",
       "level": 65,
-      "exp": 11147584,
+      "exp": 11152457,
       "pals": [
         {
           "species": "IceNarwhal",
           "alpha": false,
           "lucky": false,
-          "lvl": 19,
+          "lvl": 21,
           "condense": 0,
           "passives": [
             "PAL_FullStomach_Down_2",
@@ -26,14 +26,14 @@
             "IceBlade",
             "BlizzardLance"
           ],
-          "friendship": 5155,
+          "friendship": 5655,
           "owned_date": "2026-07-22"
         },
         {
           "species": "JellyfishFairy",
           "alpha": true,
           "lucky": false,
-          "lvl": 18,
+          "lvl": 20,
           "condense": 0,
           "passives": [
             "MiniNushi",
@@ -48,14 +48,14 @@
             "WaterGun",
             "AquaJet"
           ],
-          "friendship": 2000,
+          "friendship": 2500,
           "owned_date": "2026-07-22"
         },
         {
           "species": "JellyfishFairy",
           "alpha": true,
           "lucky": false,
-          "lvl": 16,
+          "lvl": 19,
           "condense": 0,
           "passives": [
             "MiniNushi",
@@ -70,14 +70,14 @@
             "AquaJet",
             "BubbleShot"
           ],
-          "friendship": 2000,
+          "friendship": 2500,
           "owned_date": "2026-07-22"
         },
         {
           "species": "JellyfishFairy",
           "alpha": false,
           "lucky": false,
-          "lvl": 17,
+          "lvl": 20,
           "condense": 0,
           "passives": [
             "ElementResist_Ice_1_PAL"
@@ -91,14 +91,14 @@
             "AquaJet",
             "BubbleShot"
           ],
-          "friendship": 2000,
+          "friendship": 2500,
           "owned_date": "2026-07-22"
         },
         {
           "species": "TentacleTurtle",
           "alpha": true,
           "lucky": false,
-          "lvl": 18,
+          "lvl": 20,
           "condense": 0,
           "passives": [
             "MiniNushi"
@@ -112,23 +112,23 @@
             "BubbleShot",
             "AquaJet"
           ],
-          "friendship": 2000,
+          "friendship": 2500,
           "owned_date": "2026-07-22"
         }
       ],
       "captures": 441,
       "shinies": 5,
-      "x": -346034.34,
-      "y": 263890.55,
+      "x": -346803.86,
+      "y": 263521.94,
       "paldeck": 172,
       "fast_travels": 97,
       "effigies": 5,
       "tech_points": 96,
       "map_x": 61.5,
-      "map_y": 74.2,
+      "map_y": 74.3,
       "team_detected": true,
       "box_count": 436,
-      "last_seen": "2026-07-22T18:55:36.854887+00:00"
+      "last_seen": "2026-07-22T18:59:59.242912+00:00"
     },
     {
       "uid": "90a5c888-0000-0000-0000-000000000000",
@@ -504,13 +504,13 @@
       "uid": "5d6d87d4-0000-0000-0000-000000000000",
       "name": "Babour",
       "level": 24,
-      "exp": 115562,
+      "exp": 115688,
       "pals": [
         {
           "species": "Kitsunebi",
           "alpha": false,
           "lucky": false,
-          "lvl": 20,
+          "lvl": 21,
           "condense": 0,
           "passives": [
             "Deffence_up2"
@@ -524,7 +524,7 @@
             "MudShot",
             "FireSeed"
           ],
-          "friendship": 33500,
+          "friendship": 34000,
           "owned_date": "2026-07-20"
         },
         {
@@ -547,14 +547,14 @@
             "Unique_Deer_PushupHorn",
             "PowerShot"
           ],
-          "friendship": 33500,
+          "friendship": 34000,
           "owned_date": "2026-07-20"
         },
         {
           "species": "WeaselDragon",
           "alpha": true,
           "lucky": false,
-          "lvl": 20,
+          "lvl": 21,
           "condense": 0,
           "passives": [],
           "talent_hp": 97,
@@ -592,7 +592,7 @@
           "species": "GhostBlackCat",
           "alpha": false,
           "lucky": false,
-          "lvl": 20,
+          "lvl": 21,
           "condense": 0,
           "passives": [
             "PAL_conceited"
@@ -606,7 +606,7 @@
             "DarkBall",
             "GhostFlame"
           ],
-          "friendship": 33000,
+          "friendship": 33500,
           "owned_date": "2026-07-20"
         }
       ],
