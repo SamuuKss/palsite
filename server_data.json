@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-22T18:49:59.362043+00:00",
+  "generated_at": "2026-07-22T18:55:36.854887+00:00",
   "players": [
     {
       "uid": "a527f320-0000-0000-0000-000000000000",
       "name": "Powertwo",
       "level": 65,
-      "exp": 11143939,
+      "exp": 11147584,
       "pals": [
         {
           "species": "IceNarwhal",
           "alpha": false,
           "lucky": false,
-          "lvl": 17,
+          "lvl": 19,
           "condense": 0,
           "passives": [
             "PAL_FullStomach_Down_2",
@@ -26,14 +26,14 @@
             "IceBlade",
             "BlizzardLance"
           ],
-          "friendship": 4655,
+          "friendship": 5155,
           "owned_date": "2026-07-22"
         },
         {
           "species": "JellyfishFairy",
           "alpha": true,
           "lucky": false,
-          "lvl": 16,
+          "lvl": 18,
           "condense": 0,
           "passives": [
             "MiniNushi",
@@ -48,14 +48,14 @@
             "WaterGun",
             "AquaJet"
           ],
-          "friendship": 1500,
+          "friendship": 2000,
           "owned_date": "2026-07-22"
         },
         {
           "species": "JellyfishFairy",
           "alpha": true,
           "lucky": false,
-          "lvl": 11,
+          "lvl": 16,
           "condense": 0,
           "passives": [
             "MiniNushi",
@@ -67,16 +67,17 @@
           "gender": "Male",
           "waza": [
             "WaterGun",
-            "AquaJet"
+            "AquaJet",
+            "BubbleShot"
           ],
-          "friendship": 1500,
+          "friendship": 2000,
           "owned_date": "2026-07-22"
         },
         {
           "species": "JellyfishFairy",
           "alpha": false,
           "lucky": false,
-          "lvl": 14,
+          "lvl": 17,
           "condense": 0,
           "passives": [
             "ElementResist_Ice_1_PAL"
@@ -87,16 +88,17 @@
           "gender": "Male",
           "waza": [
             "WaterGun",
-            "AquaJet"
+            "AquaJet",
+            "BubbleShot"
           ],
-          "friendship": 1500,
+          "friendship": 2000,
           "owned_date": "2026-07-22"
         },
         {
           "species": "TentacleTurtle",
           "alpha": true,
           "lucky": false,
-          "lvl": 16,
+          "lvl": 18,
           "condense": 0,
           "passives": [
             "MiniNushi"
@@ -110,23 +112,23 @@
             "BubbleShot",
             "AquaJet"
           ],
-          "friendship": 1500,
+          "friendship": 2000,
           "owned_date": "2026-07-22"
         }
       ],
       "captures": 441,
       "shinies": 5,
-      "x": -347273.65,
-      "y": 265227.83,
+      "x": -346034.34,
+      "y": 263890.55,
       "paldeck": 172,
       "fast_travels": 97,
       "effigies": 5,
       "tech_points": 96,
-      "map_x": 61.7,
-      "map_y": 74.3,
+      "map_x": 61.5,
+      "map_y": 74.2,
       "team_detected": true,
       "box_count": 436,
-      "last_seen": "2026-07-22T18:49:59.362043+00:00"
+      "last_seen": "2026-07-22T18:55:36.854887+00:00"
     },
     {
       "uid": "90a5c888-0000-0000-0000-000000000000",
@@ -502,7 +504,7 @@
       "uid": "5d6d87d4-0000-0000-0000-000000000000",
       "name": "Babour",
       "level": 24,
-      "exp": 115418,
+      "exp": 115562,
       "pals": [
         {
           "species": "Kitsunebi",
@@ -522,7 +524,7 @@
             "MudShot",
             "FireSeed"
           ],
-          "friendship": 33000,
+          "friendship": 33500,
           "owned_date": "2026-07-20"
         },
         {
@@ -545,7 +547,7 @@
             "Unique_Deer_PushupHorn",
             "PowerShot"
           ],
-          "friendship": 33000,
+          "friendship": 33500,
           "owned_date": "2026-07-20"
         },
         {
@@ -564,7 +566,7 @@
             "IceMissile",
             "DragonWave"
           ],
-          "friendship": 32500,
+          "friendship": 33500,
           "owned_date": "2026-07-20"
         },
         {
@@ -583,7 +585,7 @@
             "AirCanon",
             "WindCutter"
           ],
-          "friendship": 6500,
+          "friendship": 7500,
           "owned_date": "2026-07-22"
         },
         {
@@ -604,7 +606,7 @@
             "DarkBall",
             "GhostFlame"
           ],
-          "friendship": 32500,
+          "friendship": 33000,
           "owned_date": "2026-07-20"
         }
       ],
