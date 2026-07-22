@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-22T19:19:59.499010+00:00",
+  "generated_at": "2026-07-22T19:24:59.203256+00:00",
   "players": [
     {
       "uid": "a527f320-0000-0000-0000-000000000000",
       "name": "Powertwo",
       "level": 65,
-      "exp": 11240452,
+      "exp": 11252846,
       "pals": [
         {
           "species": "IceNarwhal",
           "alpha": false,
           "lucky": false,
-          "lvl": 41,
+          "lvl": 42,
           "condense": 0,
           "passives": [
             "PAL_FullStomach_Down_2",
@@ -26,14 +26,14 @@
             "IceWall",
             "Unique_IceNarwhal_JumpingHorn"
           ],
-          "friendship": 8155,
+          "friendship": 8655,
           "owned_date": "2026-07-22"
         },
         {
           "species": "JellyfishFairy",
           "alpha": true,
           "lucky": false,
-          "lvl": 41,
+          "lvl": 42,
           "condense": 0,
           "passives": [
             "MiniNushi",
@@ -48,14 +48,14 @@
             "WallSplash",
             "HydroSlicer"
           ],
-          "friendship": 4500,
+          "friendship": 5000,
           "owned_date": "2026-07-22"
         },
         {
           "species": "JellyfishFairy",
           "alpha": true,
           "lucky": false,
-          "lvl": 41,
+          "lvl": 42,
           "condense": 0,
           "passives": [
             "MiniNushi",
@@ -70,14 +70,14 @@
             "WallSplash",
             "HydroSlicer"
           ],
-          "friendship": 4500,
+          "friendship": 5000,
           "owned_date": "2026-07-22"
         },
         {
           "species": "JellyfishFairy",
           "alpha": false,
           "lucky": false,
-          "lvl": 41,
+          "lvl": 42,
           "condense": 0,
           "passives": [
             "ElementResist_Ice_1_PAL"
@@ -91,14 +91,14 @@
             "WallSplash",
             "HydroSlicer"
           ],
-          "friendship": 4500,
+          "friendship": 5000,
           "owned_date": "2026-07-22"
         },
         {
           "species": "TentacleTurtle",
           "alpha": true,
           "lucky": false,
-          "lvl": 41,
+          "lvl": 42,
           "condense": 0,
           "passives": [
             "MiniNushi"
@@ -112,23 +112,23 @@
             "DiversionLaser",
             "HydroSlicer"
           ],
-          "friendship": 4500,
+          "friendship": 5000,
           "owned_date": "2026-07-22"
         }
       ],
-      "captures": 450,
+      "captures": 466,
       "shinies": 5,
-      "x": -377882.01,
-      "y": 210346.14,
+      "x": -347741.45,
+      "y": 263807.83,
       "paldeck": 173,
       "fast_travels": 97,
       "effigies": 5,
       "tech_points": 96,
-      "map_x": 55.7,
-      "map_y": 77.7,
+      "map_x": 61.5,
+      "map_y": 74.4,
       "team_detected": true,
-      "box_count": 445,
-      "last_seen": "2026-07-22T19:19:59.499010+00:00"
+      "box_count": 461,
+      "last_seen": "2026-07-22T19:24:59.203256+00:00"
     },
     {
       "uid": "90a5c888-0000-0000-0000-000000000000",
@@ -503,8 +503,8 @@
     {
       "uid": "5d6d87d4-0000-0000-0000-000000000000",
       "name": "Babour",
-      "level": 24,
-      "exp": 134797,
+      "level": 25,
+      "exp": 139485,
       "pals": [
         {
           "species": "Kitsunebi",
@@ -524,7 +524,7 @@
             "MudShot",
             "FireSeed"
           ],
-          "friendship": 35500,
+          "friendship": 36000,
           "owned_date": "2026-07-20"
         },
         {
@@ -547,7 +547,7 @@
             "Unique_Deer_PushupHorn",
             "PowerShot"
           ],
-          "friendship": 36000,
+          "friendship": 36500,
           "owned_date": "2026-07-20"
         },
         {
@@ -566,7 +566,7 @@
             "IceMissile",
             "DragonWave"
           ],
-          "friendship": 35500,
+          "friendship": 36000,
           "owned_date": "2026-07-20"
         },
         {
@@ -585,7 +585,7 @@
             "AirCanon",
             "WindCutter"
           ],
-          "friendship": 9500,
+          "friendship": 10000,
           "owned_date": "2026-07-22"
         },
         {
@@ -606,23 +606,23 @@
             "DarkBall",
             "GhostFlame"
           ],
-          "friendship": 35500,
+          "friendship": 36000,
           "owned_date": "2026-07-20"
         }
       ],
       "captures": 112,
       "shinies": 2,
-      "x": -309632.4409748982,
-      "y": 69625.65418941651,
+      "x": -194886.2962786055,
+      "y": 14614.277715762597,
       "paldeck": 37,
-      "fast_travels": 17,
+      "fast_travels": 20,
       "effigies": 3,
-      "tech_points": 40,
-      "map_x": 40.4,
-      "map_y": 70.2,
+      "tech_points": 49,
+      "map_x": 34.4,
+      "map_y": 57.7,
       "team_detected": true,
       "box_count": 107,
-      "last_seen": "2026-07-22T19:19:59.499010+00:00"
+      "last_seen": "2026-07-22T19:24:59.203256+00:00"
     },
     {
       "uid": "5ae78a05-0000-0000-0000-000000000000",
@@ -869,7 +869,7 @@
   ],
   "totals": {
     "players": 6,
-    "pals": 823,
+    "pals": 839,
     "species": 21
   }
 }
