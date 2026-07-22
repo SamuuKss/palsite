@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T20:10:00.159221+00:00",
+  "generated_at": "2026-07-22T20:15:00.349989+00:00",
   "players": [
     {
       "uid": "a527f320-0000-0000-0000-000000000000",
@@ -751,14 +751,14 @@
     {
       "uid": "2745f731-0000-0000-0000-000000000000",
       "name": "Jajbob",
-      "level": 6,
-      "exp": 1423,
+      "level": 7,
+      "exp": 2260,
       "pals": [
         {
           "species": "FlameBambi",
           "alpha": false,
           "lucky": false,
-          "lvl": 5,
+          "lvl": 6,
           "condense": 0,
           "passives": [
             "CoolTimeReduction_Up_2"
@@ -770,7 +770,7 @@
           "waza": [
             "FireBlast"
           ],
-          "friendship": 1000,
+          "friendship": 1500,
           "owned_date": "2026-07-22"
         },
         {
@@ -790,23 +790,80 @@
           "waza": [
             "Unique_SheepBall_Roll"
           ],
-          "friendship": 1000,
+          "friendship": 1500,
+          "owned_date": "2026-07-22"
+        },
+        {
+          "species": "Sheepball",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 3,
+          "condense": 0,
+          "passives": [
+            "Stamina_Up_1"
+          ],
+          "talent_hp": 55,
+          "talent_atk": 33,
+          "talent_def": 72,
+          "gender": "Female",
+          "waza": [
+            "Unique_SheepBall_Roll"
+          ],
+          "friendship": 0,
+          "owned_date": "2026-07-22"
+        },
+        {
+          "species": "PlantSlime",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 4,
+          "condense": 0,
+          "passives": [
+            "MoveSpeed_up_2"
+          ],
+          "talent_hp": 88,
+          "talent_atk": 27,
+          "talent_def": 17,
+          "gender": "Male",
+          "waza": [
+            "MudShot"
+          ],
+          "friendship": 0,
+          "owned_date": "2026-07-22"
+        },
+        {
+          "species": "ChickenPal",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 3,
+          "condense": 0,
+          "passives": [
+            "PAL_Sanity_Down_1"
+          ],
+          "talent_hp": 9,
+          "talent_atk": 12,
+          "talent_def": 53,
+          "gender": "Female",
+          "waza": [
+            "Unique_ChickenPal_ChickenPeck"
+          ],
+          "friendship": 0,
           "owned_date": "2026-07-22"
         }
       ],
-      "captures": 6,
+      "captures": 12,
       "shinies": 0,
-      "x": -359147.01,
-      "y": 268182.22000000003,
-      "paldeck": 3,
-      "fast_travels": 2,
-      "effigies": 0,
-      "tech_points": 6,
-      "map_x": 62.0,
-      "map_y": 75.6,
+      "x": -321163.2675423686,
+      "y": 215745.33648642627,
+      "paldeck": 7,
+      "fast_travels": 3,
+      "effigies": 1,
+      "tech_points": 13,
+      "map_x": 56.3,
+      "map_y": 71.5,
       "team_detected": true,
-      "box_count": 4,
-      "last_seen": "2026-07-22T20:10:00.159221+00:00"
+      "box_count": 7,
+      "last_seen": "2026-07-22T20:15:00.349989+00:00"
     }
   ],
   "guilds": [
@@ -948,7 +1005,7 @@
   ],
   "totals": {
     "players": 7,
-    "pals": 845,
-    "species": 22
+    "pals": 851,
+    "species": 23
   }
 }
