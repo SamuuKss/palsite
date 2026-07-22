@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T19:55:00.499091+00:00",
+  "generated_at": "2026-07-22T20:00:01.291853+00:00",
   "players": [
     {
       "uid": "a527f320-0000-0000-0000-000000000000",
@@ -752,13 +752,13 @@
       "uid": "2745f731-0000-0000-0000-000000000000",
       "name": "Jajbob",
       "level": 5,
-      "exp": 882,
+      "exp": 1234,
       "pals": [
         {
           "species": "Sheepball",
           "alpha": false,
           "lucky": false,
-          "lvl": 3,
+          "lvl": 4,
           "condense": 0,
           "passives": [
             "CoolTimeReduction_Up_1",
@@ -771,14 +771,14 @@
           "waza": [
             "Unique_SheepBall_Roll"
           ],
-          "friendship": 0,
+          "friendship": 500,
           "owned_date": "2026-07-22"
         },
         {
           "species": "PinkCat",
           "alpha": false,
           "lucky": false,
-          "lvl": 2,
+          "lvl": 4,
           "condense": 0,
           "passives": [
             "PAL_ALLAttack_down1",
@@ -791,14 +791,14 @@
           "waza": [
             "Unique_PinkCat_CatPunch"
           ],
-          "friendship": 0,
+          "friendship": 500,
           "owned_date": "2026-07-22"
         },
         {
           "species": "Sheepball",
           "alpha": false,
           "lucky": false,
-          "lvl": 2,
+          "lvl": 4,
           "condense": 0,
           "passives": [
             "CraftSpeed_down1"
@@ -810,14 +810,14 @@
           "waza": [
             "Unique_SheepBall_Roll"
           ],
-          "friendship": 0,
+          "friendship": 500,
           "owned_date": "2026-07-22"
         },
         {
           "species": "Sheepball",
           "alpha": false,
           "lucky": false,
-          "lvl": 1,
+          "lvl": 4,
           "condense": 0,
           "passives": [
             "PAL_Sanity_Down_1"
@@ -829,23 +829,42 @@
           "waza": [
             "Unique_SheepBall_Roll"
           ],
+          "friendship": 500,
+          "owned_date": "2026-07-22"
+        },
+        {
+          "species": "FlameBambi",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 5,
+          "condense": 0,
+          "passives": [
+            "CoolTimeReduction_Up_2"
+          ],
+          "talent_hp": 9,
+          "talent_atk": 67,
+          "talent_def": 96,
+          "gender": "Male",
+          "waza": [
+            "FireBlast"
+          ],
           "friendship": 0,
           "owned_date": "2026-07-22"
         }
       ],
-      "captures": 4,
+      "captures": 6,
       "shinies": 0,
-      "x": -272770.72000000003,
-      "y": 344418.05,
-      "paldeck": 2,
+      "x": -266713.47000000003,
+      "y": 345546.74,
+      "paldeck": 3,
       "fast_travels": 2,
       "effigies": 0,
-      "tech_points": 13,
-      "map_x": 70.3,
-      "map_y": 66.2,
+      "tech_points": 6,
+      "map_x": 70.4,
+      "map_y": 65.6,
       "team_detected": true,
-      "box_count": 0,
-      "last_seen": "2026-07-22T19:55:00.499091+00:00"
+      "box_count": 1,
+      "last_seen": "2026-07-22T20:00:01.291853+00:00"
     }
   ],
   "guilds": [
@@ -896,7 +915,7 @@
       "members": [
         "Jajbob"
       ],
-      "bases": 0
+      "bases": 1
     }
   ],
   "bases": [
@@ -971,11 +990,23 @@
       "members": [
         "Powertwo"
       ]
+    },
+    {
+      "group_id": "a939c9db-8b60-4b54-846d-d44b8befde98",
+      "x": -267801.58277277835,
+      "y": 344345.23542512004,
+      "z": 1793.0564633873223,
+      "map_x": 70.3,
+      "map_y": 65.7,
+      "guild": "Unnamed Guild",
+      "members": [
+        "Jajbob"
+      ]
     }
   ],
   "totals": {
     "players": 7,
-    "pals": 843,
-    "species": 21
+    "pals": 845,
+    "species": 22
   }
 }
