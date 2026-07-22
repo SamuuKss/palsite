@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T20:15:00.349989+00:00",
+  "generated_at": "2026-07-22T20:20:00.768610+00:00",
   "players": [
     {
       "uid": "a527f320-0000-0000-0000-000000000000",
@@ -751,8 +751,8 @@
     {
       "uid": "2745f731-0000-0000-0000-000000000000",
       "name": "Jajbob",
-      "level": 7,
-      "exp": 2260,
+      "level": 8,
+      "exp": 3815,
       "pals": [
         {
           "species": "FlameBambi",
@@ -770,14 +770,14 @@
           "waza": [
             "FireBlast"
           ],
-          "friendship": 1500,
+          "friendship": 2000,
           "owned_date": "2026-07-22"
         },
         {
           "species": "Sheepball",
           "alpha": false,
           "lucky": false,
-          "lvl": 5,
+          "lvl": 6,
           "condense": 0,
           "passives": [
             "CoolTimeReduction_Up_1",
@@ -790,14 +790,14 @@
           "waza": [
             "Unique_SheepBall_Roll"
           ],
-          "friendship": 1500,
+          "friendship": 2500,
           "owned_date": "2026-07-22"
         },
         {
           "species": "Sheepball",
           "alpha": false,
           "lucky": false,
-          "lvl": 3,
+          "lvl": 5,
           "condense": 0,
           "passives": [
             "Stamina_Up_1"
@@ -809,14 +809,14 @@
           "waza": [
             "Unique_SheepBall_Roll"
           ],
-          "friendship": 0,
+          "friendship": 500,
           "owned_date": "2026-07-22"
         },
         {
           "species": "PlantSlime",
           "alpha": false,
           "lucky": false,
-          "lvl": 4,
+          "lvl": 5,
           "condense": 0,
           "passives": [
             "MoveSpeed_up_2"
@@ -828,14 +828,14 @@
           "waza": [
             "MudShot"
           ],
-          "friendship": 0,
+          "friendship": 500,
           "owned_date": "2026-07-22"
         },
         {
           "species": "ChickenPal",
           "alpha": false,
           "lucky": false,
-          "lvl": 3,
+          "lvl": 5,
           "condense": 0,
           "passives": [
             "PAL_Sanity_Down_1"
@@ -847,23 +847,23 @@
           "waza": [
             "Unique_ChickenPal_ChickenPeck"
           ],
-          "friendship": 0,
+          "friendship": 500,
           "owned_date": "2026-07-22"
         }
       ],
-      "captures": 12,
+      "captures": 17,
       "shinies": 0,
-      "x": -321163.2675423686,
-      "y": 215745.33648642627,
-      "paldeck": 7,
-      "fast_travels": 3,
+      "x": -266913.25,
+      "y": 345398.07,
+      "paldeck": 10,
+      "fast_travels": 5,
       "effigies": 1,
-      "tech_points": 13,
-      "map_x": 56.3,
-      "map_y": 71.5,
+      "tech_points": 12,
+      "map_x": 70.4,
+      "map_y": 65.6,
       "team_detected": true,
-      "box_count": 7,
-      "last_seen": "2026-07-22T20:15:00.349989+00:00"
+      "box_count": 12,
+      "last_seen": "2026-07-22T20:20:00.768610+00:00"
     }
   ],
   "guilds": [
@@ -1005,7 +1005,7 @@
   ],
   "totals": {
     "players": 7,
-    "pals": 851,
+    "pals": 856,
     "species": 23
   }
 }
