@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-22T17:09:59.020763+00:00",
+  "generated_at": "2026-07-22T17:14:59.031032+00:00",
   "players": [
     {
       "uid": "a527f320-0000-0000-0000-000000000000",
       "name": "Powertwo",
       "level": 64,
-      "exp": 9754979,
+      "exp": 9803598,
       "pals": [
         {
           "species": "HoodGhost",
@@ -23,7 +23,7 @@
             "Apocalypse",
             "ShadowBall"
           ],
-          "friendship": 500,
+          "friendship": 1000,
           "owned_date": "2026-07-22"
         },
         {
@@ -44,7 +44,7 @@
             "FlameFunnel",
             "ShadowBall"
           ],
-          "friendship": 500,
+          "friendship": 1000,
           "owned_date": "2026-07-22"
         },
         {
@@ -65,7 +65,7 @@
             "FlareTornado",
             "FireBall"
           ],
-          "friendship": 13000,
+          "friendship": 13500,
           "owned_date": "2026-07-22"
         },
         {
@@ -86,7 +86,7 @@
             "DarkLaser",
             "FlameFunnel"
           ],
-          "friendship": 500,
+          "friendship": 1000,
           "owned_date": "2026-07-22"
         },
         {
@@ -109,23 +109,23 @@
             "CommetRain",
             "BeamSlicer"
           ],
-          "friendship": 1385,
+          "friendship": 1395,
           "owned_date": "2026-07-22"
         }
       ],
       "captures": 424,
       "shinies": 5,
-      "x": -15828.239011131169,
-      "y": -125575.74795397892,
+      "x": -2244.090679638179,
+      "y": -127892.2951405925,
       "paldeck": 169,
       "fast_travels": 96,
-      "effigies": 3,
+      "effigies": 4,
       "tech_points": 102,
-      "map_x": 19.1,
-      "map_y": 38.2,
+      "map_x": 18.9,
+      "map_y": 36.7,
       "team_detected": true,
       "box_count": 419,
-      "last_seen": "2026-07-22T17:09:59.020763+00:00"
+      "last_seen": "2026-07-22T17:14:59.031032+00:00"
     },
     {
       "uid": "90a5c888-0000-0000-0000-000000000000",
