@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T19:39:59.178508+00:00",
+  "generated_at": "2026-07-22T19:45:00.070889+00:00",
   "players": [
     {
       "uid": "a527f320-0000-0000-0000-000000000000",
@@ -747,6 +747,26 @@
       "team_detected": true,
       "box_count": 44,
       "last_seen": null
+    },
+    {
+      "uid": "2745f731-0000-0000-0000-000000000000",
+      "name": "Jajbob",
+      "level": 1,
+      "exp": 0,
+      "pals": [],
+      "captures": 0,
+      "shinies": 0,
+      "x": -362179.424532,
+      "y": 270846.47852,
+      "paldeck": 0,
+      "fast_travels": 0,
+      "effigies": 0,
+      "tech_points": 0,
+      "map_x": 62.3,
+      "map_y": 76.0,
+      "team_detected": false,
+      "box_count": 0,
+      "last_seen": null
     }
   ],
   "guilds": [
@@ -791,6 +811,13 @@
         "fraizo"
       ],
       "bases": 1
+    },
+    {
+      "name": "Unnamed Guild",
+      "members": [
+        "Jajbob"
+      ],
+      "bases": 0
     }
   ],
   "bases": [
@@ -868,7 +895,7 @@
     }
   ],
   "totals": {
-    "players": 6,
+    "players": 7,
     "pals": 839,
     "species": 21
   }
