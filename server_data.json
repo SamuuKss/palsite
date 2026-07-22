@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-07-22T19:09:59.487074+00:00",
+  "generated_at": "2026-07-22T19:14:59.225305+00:00",
   "players": [
     {
       "uid": "a527f320-0000-0000-0000-000000000000",
       "name": "Powertwo",
       "level": 65,
-      "exp": 11159393,
+      "exp": 11220330,
       "pals": [
         {
           "species": "IceNarwhal",
           "alpha": false,
           "lucky": false,
-          "lvl": 23,
+          "lvl": 41,
           "condense": 0,
           "passives": [
             "PAL_FullStomach_Down_2",
@@ -22,18 +22,18 @@
           "talent_def": 52,
           "gender": "Male",
           "waza": [
-            "IceBlade",
-            "BlizzardLance",
-            "LineGeyser"
+            "LineGeyser",
+            "IceWall",
+            "Unique_IceNarwhal_JumpingHorn"
           ],
-          "friendship": 6655,
+          "friendship": 7155,
           "owned_date": "2026-07-22"
         },
         {
           "species": "JellyfishFairy",
           "alpha": true,
           "lucky": false,
-          "lvl": 22,
+          "lvl": 41,
           "condense": 0,
           "passives": [
             "MiniNushi",
@@ -44,18 +44,18 @@
           "talent_def": 57,
           "gender": "Male",
           "waza": [
-            "BubbleShot",
-            "WaterGun",
-            "WaterBall"
+            "WaterBall",
+            "WallSplash",
+            "HydroSlicer"
           ],
-          "friendship": 3500,
+          "friendship": 4000,
           "owned_date": "2026-07-22"
         },
         {
           "species": "JellyfishFairy",
           "alpha": true,
           "lucky": false,
-          "lvl": 21,
+          "lvl": 41,
           "condense": 0,
           "passives": [
             "MiniNushi",
@@ -66,18 +66,18 @@
           "talent_def": 69,
           "gender": "Male",
           "waza": [
-            "WaterGun",
-            "AquaJet",
-            "BubbleShot"
+            "WaterBall",
+            "WallSplash",
+            "HydroSlicer"
           ],
-          "friendship": 3500,
+          "friendship": 4000,
           "owned_date": "2026-07-22"
         },
         {
           "species": "JellyfishFairy",
           "alpha": false,
           "lucky": false,
-          "lvl": 22,
+          "lvl": 41,
           "condense": 0,
           "passives": [
             "ElementResist_Ice_1_PAL"
@@ -87,18 +87,18 @@
           "talent_def": 38,
           "gender": "Male",
           "waza": [
-            "WaterGun",
-            "BubbleShot",
-            "WaterBall"
+            "WaterBall",
+            "WallSplash",
+            "HydroSlicer"
           ],
-          "friendship": 3500,
+          "friendship": 4000,
           "owned_date": "2026-07-22"
         },
         {
           "species": "TentacleTurtle",
           "alpha": true,
           "lucky": false,
-          "lvl": 22,
+          "lvl": 41,
           "condense": 0,
           "passives": [
             "MiniNushi"
@@ -108,27 +108,27 @@
           "talent_def": 54,
           "gender": "Male",
           "waza": [
-            "Unique_TentacleTurtle_HydroSpin",
-            "BubbleShot",
-            "WaterBall"
+            "WaterBall",
+            "DiversionLaser",
+            "HydroSlicer"
           ],
-          "friendship": 3500,
+          "friendship": 4000,
           "owned_date": "2026-07-22"
         }
       ],
-      "captures": 441,
+      "captures": 444,
       "shinies": 5,
-      "x": -347128.36,
-      "y": 262129.21,
+      "x": -333097.3710886885,
+      "y": 214846.94197298327,
       "paldeck": 172,
       "fast_travels": 97,
       "effigies": 5,
       "tech_points": 96,
-      "map_x": 61.3,
-      "map_y": 74.3,
+      "map_x": 56.2,
+      "map_y": 72.8,
       "team_detected": true,
-      "box_count": 436,
-      "last_seen": "2026-07-22T19:09:59.487074+00:00"
+      "box_count": 439,
+      "last_seen": "2026-07-22T19:14:59.225305+00:00"
     },
     {
       "uid": "90a5c888-0000-0000-0000-000000000000",
@@ -504,7 +504,7 @@
       "uid": "5d6d87d4-0000-0000-0000-000000000000",
       "name": "Babour",
       "level": 24,
-      "exp": 115967,
+      "exp": 127920,
       "pals": [
         {
           "species": "Kitsunebi",
@@ -524,7 +524,7 @@
             "MudShot",
             "FireSeed"
           ],
-          "friendship": 35000,
+          "friendship": 35500,
           "owned_date": "2026-07-20"
         },
         {
@@ -547,7 +547,7 @@
             "Unique_Deer_PushupHorn",
             "PowerShot"
           ],
-          "friendship": 35000,
+          "friendship": 35500,
           "owned_date": "2026-07-20"
         },
         {
@@ -566,7 +566,7 @@
             "IceMissile",
             "DragonWave"
           ],
-          "friendship": 34500,
+          "friendship": 35000,
           "owned_date": "2026-07-20"
         },
         {
@@ -585,7 +585,7 @@
             "AirCanon",
             "WindCutter"
           ],
-          "friendship": 8500,
+          "friendship": 9000,
           "owned_date": "2026-07-22"
         },
         {
@@ -606,23 +606,23 @@
             "DarkBall",
             "GhostFlame"
           ],
-          "friendship": 34500,
+          "friendship": 35000,
           "owned_date": "2026-07-20"
         }
       ],
-      "captures": 98,
+      "captures": 107,
       "shinies": 2,
-      "x": -282085.0,
-      "y": 198210.30078125,
-      "paldeck": 34,
+      "x": -336883.18,
+      "y": 100325.88,
+      "paldeck": 36,
       "fast_travels": 17,
       "effigies": 3,
       "tech_points": 40,
-      "map_x": 54.4,
-      "map_y": 67.2,
+      "map_x": 43.7,
+      "map_y": 73.2,
       "team_detected": true,
-      "box_count": 93,
-      "last_seen": "2026-07-22T19:09:59.487074+00:00"
+      "box_count": 102,
+      "last_seen": "2026-07-22T19:14:59.225305+00:00"
     },
     {
       "uid": "5ae78a05-0000-0000-0000-000000000000",
@@ -869,7 +869,7 @@
   ],
   "totals": {
     "players": 6,
-    "pals": 800,
+    "pals": 812,
     "species": 21
   }
 }
