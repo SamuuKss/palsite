@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-22T18:39:59.237414+00:00",
+  "generated_at": "2026-07-22T18:44:59.233651+00:00",
   "players": [
     {
       "uid": "a527f320-0000-0000-0000-000000000000",
       "name": "Powertwo",
       "level": 65,
-      "exp": 10858743,
+      "exp": 11023908,
       "pals": [
         {
           "species": "IceNarwhal",
@@ -26,7 +26,7 @@
             "IceBlade",
             "BlizzardLance"
           ],
-          "friendship": 3655,
+          "friendship": 4155,
           "owned_date": "2026-07-22"
         },
         {
@@ -48,7 +48,7 @@
             "WaterGun",
             "AquaJet"
           ],
-          "friendship": 500,
+          "friendship": 1000,
           "owned_date": "2026-07-22"
         },
         {
@@ -69,7 +69,7 @@
             "WaterGun",
             "AquaJet"
           ],
-          "friendship": 500,
+          "friendship": 1000,
           "owned_date": "2026-07-22"
         },
         {
@@ -89,7 +89,7 @@
             "WaterGun",
             "AquaJet"
           ],
-          "friendship": 500,
+          "friendship": 1000,
           "owned_date": "2026-07-22"
         },
         {
@@ -110,7 +110,7 @@
             "BubbleShot",
             "AquaJet"
           ],
-          "friendship": 500,
+          "friendship": 1000,
           "owned_date": "2026-07-22"
         }
       ],
@@ -502,7 +502,7 @@
       "uid": "5d6d87d4-0000-0000-0000-000000000000",
       "name": "Babour",
       "level": 24,
-      "exp": 115265,
+      "exp": 115409,
       "pals": [
         {
           "species": "Kitsunebi",
@@ -522,7 +522,7 @@
             "MudShot",
             "FireSeed"
           ],
-          "friendship": 32000,
+          "friendship": 32500,
           "owned_date": "2026-07-20"
         },
         {
@@ -545,7 +545,7 @@
             "Unique_Deer_PushupHorn",
             "PowerShot"
           ],
-          "friendship": 32000,
+          "friendship": 32500,
           "owned_date": "2026-07-20"
         },
         {
@@ -564,7 +564,7 @@
             "IceMissile",
             "DragonWave"
           ],
-          "friendship": 31500,
+          "friendship": 32000,
           "owned_date": "2026-07-20"
         },
         {
@@ -583,7 +583,7 @@
             "AirCanon",
             "WindCutter"
           ],
-          "friendship": 5500,
+          "friendship": 6000,
           "owned_date": "2026-07-22"
         },
         {
@@ -604,14 +604,14 @@
             "DarkBall",
             "GhostFlame"
           ],
-          "friendship": 31500,
+          "friendship": 32000,
           "owned_date": "2026-07-20"
         }
       ],
       "captures": 98,
       "shinies": 2,
-      "x": -282072.44,
-      "y": 198445.16,
+      "x": -282092.8,
+      "y": 198478.67,
       "paldeck": 34,
       "fast_travels": 17,
       "effigies": 3,
@@ -620,7 +620,7 @@
       "map_y": 67.2,
       "team_detected": true,
       "box_count": 93,
-      "last_seen": "2026-07-22T18:24:59.393953+00:00"
+      "last_seen": "2026-07-22T18:44:59.233651+00:00"
     },
     {
       "uid": "5ae78a05-0000-0000-0000-000000000000",
