@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T19:45:00.070889+00:00",
+  "generated_at": "2026-07-22T19:50:00.135354+00:00",
   "players": [
     {
       "uid": "a527f320-0000-0000-0000-000000000000",
@@ -751,22 +751,22 @@
     {
       "uid": "2745f731-0000-0000-0000-000000000000",
       "name": "Jajbob",
-      "level": 1,
-      "exp": 0,
+      "level": 3,
+      "exp": 346,
       "pals": [],
       "captures": 0,
       "shinies": 0,
-      "x": -362179.424532,
-      "y": 270846.47852,
+      "x": -354263.55,
+      "y": 263570.97000000003,
       "paldeck": 0,
-      "fast_travels": 0,
+      "fast_travels": 1,
       "effigies": 0,
       "tech_points": 0,
-      "map_x": 62.3,
-      "map_y": 76.0,
+      "map_x": 61.5,
+      "map_y": 75.1,
       "team_detected": false,
       "box_count": 0,
-      "last_seen": null
+      "last_seen": "2026-07-22T19:50:00.135354+00:00"
     }
   ],
   "guilds": [
