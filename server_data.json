@@ -1,49 +1,134 @@
 {
-  "generated_at": "2026-07-22T17:34:59.229729+00:00",
+  "generated_at": "2026-07-22T17:39:59.287216+00:00",
   "players": [
     {
       "uid": "a527f320-0000-0000-0000-000000000000",
       "name": "Powertwo",
       "level": 64,
-      "exp": 10112371,
+      "exp": 10113734,
       "pals": [
         {
-          "species": "JetDragon",
-          "alpha": true,
+          "species": "IceDeer",
+          "alpha": false,
           "lucky": false,
-          "lvl": 70,
+          "lvl": 58,
           "condense": 0,
           "passives": [
-            "Legend",
-            "ElementBoost_Dragon_2_PAL",
-            "NonKilling"
+            "ReloadSpeedUp_Passive"
           ],
-          "talent_hp": 84,
-          "talent_atk": 67,
-          "talent_def": 90,
+          "talent_hp": 73,
+          "talent_atk": 76,
+          "talent_def": 12,
           "gender": "Female",
           "waza": [
-            "StarMine",
-            "CommetRain",
-            "BeamSlicer"
+            "BlizzardLance",
+            "FrostBreath",
+            "IcicleThrow"
           ],
-          "friendship": 500,
+          "friendship": 68500,
+          "owned_date": "2026-07-22"
+        },
+        {
+          "species": "SakuraSaurus",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 58,
+          "condense": 0,
+          "passives": [
+            "Deffence_up2_2",
+            "PAL_FullStomach_Up_2",
+            "PAL_Sanity_Down_2"
+          ],
+          "talent_hp": 99,
+          "talent_atk": 56,
+          "talent_def": 75,
+          "gender": "Female",
+          "waza": [
+            "GrassTornado",
+            "RootAttack",
+            "SolarBeam"
+          ],
+          "friendship": 96000,
+          "owned_date": "2026-07-22"
+        },
+        {
+          "species": "WindChimes_Ice",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 59,
+          "condense": 0,
+          "passives": [
+            "ElementResist_Fire_1_PAL"
+          ],
+          "talent_hp": 62,
+          "talent_atk": 29,
+          "talent_def": 27,
+          "gender": "Female",
+          "waza": [
+            "FrostBreath",
+            "BlizzardLance",
+            "IcicleThrow"
+          ],
+          "friendship": 104000,
+          "owned_date": "2026-07-22"
+        },
+        {
+          "species": "GrassRabbitMan",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 59,
+          "condense": 0,
+          "passives": [
+            "ElementBoost_Fire_1_PAL"
+          ],
+          "talent_hp": 67,
+          "talent_atk": 99,
+          "talent_def": 1,
+          "gender": "Male",
+          "waza": [
+            "Unique_GrassRabbitMan_GrassRoundKick",
+            "RootAttack",
+            "SolarBeam"
+          ],
+          "friendship": 84500,
+          "owned_date": "2026-07-22"
+        },
+        {
+          "species": "SakuraSaurus_Water",
+          "alpha": true,
+          "lucky": false,
+          "lvl": 59,
+          "condense": 4,
+          "passives": [
+            "Deffence_up2_2",
+            "TrainerATK_UP_1"
+          ],
+          "talent_hp": 61,
+          "talent_atk": 59,
+          "talent_def": 62,
+          "gender": "Male",
+          "waza": [
+            "Unique_SakuraSaurus_Water_SplashTackle",
+            "RootAttack",
+            "HydroPump"
+          ],
+          "friendship": 99000,
           "owned_date": "2026-07-22"
         }
       ],
       "captures": 424,
       "shinies": 5,
-      "x": -346819.07,
-      "y": 263583.72000000003,
+      "x": -346352.19,
+      "y": 264530.86,
       "paldeck": 169,
       "fast_travels": 96,
       "effigies": 4,
       "tech_points": 102,
-      "map_x": 61.5,
-      "map_y": 74.3,
+      "map_x": 61.6,
+      "map_y": 74.2,
       "team_detected": true,
-      "box_count": 423,
-      "last_seen": "2026-07-22T17:34:59.229729+00:00"
+      "box_count": 419,
+      "last_seen": "2026-07-22T17:39:59.287216+00:00"
     },
     {
       "uid": "90a5c888-0000-0000-0000-000000000000",
@@ -418,8 +503,8 @@
     {
       "uid": "5d6d87d4-0000-0000-0000-000000000000",
       "name": "Babour",
-      "level": 22,
-      "exp": 92693,
+      "level": 23,
+      "exp": 97609,
       "pals": [
         {
           "species": "Kitsunebi",
@@ -439,7 +524,7 @@
             "MudShot",
             "FireSeed"
           ],
-          "friendship": 25500,
+          "friendship": 26000,
           "owned_date": "2026-07-20"
         },
         {
@@ -462,7 +547,7 @@
             "Unique_Deer_PushupHorn",
             "PowerShot"
           ],
-          "friendship": 25500,
+          "friendship": 26000,
           "owned_date": "2026-07-20"
         },
         {
@@ -481,7 +566,7 @@
             "IceMissile",
             "DragonWave"
           ],
-          "friendship": 25000,
+          "friendship": 25500,
           "owned_date": "2026-07-20"
         },
         {
@@ -500,7 +585,7 @@
             "AirCanon",
             "WindCutter"
           ],
-          "friendship": 500,
+          "friendship": 1000,
           "owned_date": "2026-07-22"
         },
         {
@@ -521,23 +606,23 @@
             "DarkBall",
             "GhostFlame"
           ],
-          "friendship": 25000,
+          "friendship": 25500,
           "owned_date": "2026-07-20"
         }
       ],
       "captures": 97,
       "shinies": 2,
-      "x": -187987.12542742112,
-      "y": 243285.76028179552,
+      "x": -169193.56524511985,
+      "y": 251379.6193159301,
       "paldeck": 33,
-      "fast_travels": 11,
-      "effigies": 2,
-      "tech_points": 24,
-      "map_x": 59.3,
-      "map_y": 57.0,
+      "fast_travels": 13,
+      "effigies": 3,
+      "tech_points": 32,
+      "map_x": 60.2,
+      "map_y": 54.9,
       "team_detected": true,
       "box_count": 92,
-      "last_seen": "2026-07-22T17:34:59.229729+00:00"
+      "last_seen": "2026-07-22T17:39:59.287216+00:00"
     },
     {
       "uid": "5ae78a05-0000-0000-0000-000000000000",
@@ -785,6 +870,6 @@
   "totals": {
     "players": 6,
     "pals": 782,
-    "species": 19
+    "species": 23
   }
 }
