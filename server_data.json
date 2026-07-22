@@ -1,134 +1,131 @@
 {
-  "generated_at": "2026-07-21T23:34:58.372116+00:00",
+  "generated_at": "2026-07-22T17:04:58.953351+00:00",
   "players": [
     {
       "uid": "a527f320-0000-0000-0000-000000000000",
       "name": "Powertwo",
-      "level": 61,
-      "exp": 7702073,
+      "level": 63,
+      "exp": 9403464,
       "pals": [
         {
-          "species": "IceDeer",
+          "species": "HoodGhost",
           "alpha": false,
           "lucky": false,
-          "lvl": 58,
+          "lvl": 66,
           "condense": 0,
-          "passives": [
-            "ReloadSpeedUp_Passive"
-          ],
-          "talent_hp": 73,
-          "talent_atk": 76,
-          "talent_def": 12,
+          "passives": [],
+          "talent_hp": 63,
+          "talent_atk": 46,
+          "talent_def": 43,
           "gender": "Female",
           "waza": [
-            "BlizzardLance",
-            "FrostBreath",
-            "IcicleThrow"
+            "DarkLaser",
+            "Apocalypse",
+            "ShadowBall"
           ],
-          "friendship": 45000,
-          "owned_date": "2026-07-21"
+          "friendship": 0,
+          "owned_date": "2026-07-22"
         },
         {
-          "species": "SakuraSaurus",
+          "species": "CandleGhost",
           "alpha": false,
           "lucky": false,
-          "lvl": 57,
+          "lvl": 59,
           "condense": 0,
           "passives": [
-            "Deffence_up2_2",
-            "PAL_FullStomach_Up_2",
-            "PAL_Sanity_Down_2"
+            "PAL_oraora"
           ],
-          "talent_hp": 99,
-          "talent_atk": 56,
-          "talent_def": 75,
-          "gender": "Female",
-          "waza": [
-            "GrassTornado",
-            "RootAttack",
-            "SolarBeam"
-          ],
-          "friendship": 61000,
-          "owned_date": "2026-07-21"
-        },
-        {
-          "species": "WindChimes_Ice",
-          "alpha": false,
-          "lucky": false,
-          "lvl": 58,
-          "condense": 0,
-          "passives": [
-            "ElementResist_Fire_1_PAL"
-          ],
-          "talent_hp": 62,
-          "talent_atk": 29,
-          "talent_def": 27,
-          "gender": "Female",
-          "waza": [
-            "FrostBreath",
-            "BlizzardLance",
-            "IcicleThrow"
-          ],
-          "friendship": 68500,
-          "owned_date": "2026-07-20"
-        },
-        {
-          "species": "GrassRabbitMan",
-          "alpha": false,
-          "lucky": false,
-          "lvl": 58,
-          "condense": 0,
-          "passives": [
-            "ElementBoost_Fire_1_PAL"
-          ],
-          "talent_hp": 67,
-          "talent_atk": 99,
-          "talent_def": 1,
+          "talent_hp": 25,
+          "talent_atk": 77,
+          "talent_def": 84,
           "gender": "Male",
           "waza": [
-            "Unique_GrassRabbitMan_GrassRoundKick",
-            "RootAttack",
-            "SolarBeam"
+            "Eruption",
+            "FlameFunnel",
+            "ShadowBall"
           ],
-          "friendship": 49500,
-          "owned_date": "2026-07-21"
+          "friendship": 0,
+          "owned_date": "2026-07-22"
         },
         {
-          "species": "SakuraSaurus_Water",
+          "species": "RedArmorBird",
+          "alpha": false,
+          "lucky": false,
+          "lvl": 50,
+          "condense": 0,
+          "passives": [
+            "ElementResist_Ice_1_PAL"
+          ],
+          "talent_hp": 8,
+          "talent_atk": 88,
+          "talent_def": 86,
+          "gender": "Male",
+          "waza": [
+            "Unique_RedArmorBird_TriplePeck",
+            "FlareTornado",
+            "FireBall"
+          ],
+          "friendship": 12500,
+          "owned_date": "2026-07-22"
+        },
+        {
+          "species": "FoxExorcist",
           "alpha": true,
           "lucky": false,
-          "lvl": 58,
-          "condense": 4,
+          "lvl": 68,
+          "condense": 0,
           "passives": [
-            "Deffence_up2_2",
-            "TrainerATK_UP_1"
+            "CraftSpeed_down2"
           ],
-          "talent_hp": 61,
-          "talent_atk": 59,
-          "talent_def": 62,
+          "talent_hp": 66,
+          "talent_atk": 83,
+          "talent_def": 74,
           "gender": "Male",
           "waza": [
-            "Unique_SakuraSaurus_Water_SplashTackle",
-            "RootAttack",
-            "HydroPump"
+            "Eruption",
+            "DarkLaser",
+            "FlameFunnel"
           ],
-          "friendship": 63500,
-          "owned_date": "2026-07-21"
+          "friendship": 0,
+          "owned_date": "2026-07-22"
+        },
+        {
+          "species": "JetDragon",
+          "alpha": true,
+          "lucky": false,
+          "lvl": 70,
+          "condense": 0,
+          "passives": [
+            "Legend",
+            "ElementBoost_Dragon_2_PAL",
+            "PAL_Sanity_Down_1"
+          ],
+          "talent_hp": 53,
+          "talent_atk": 73,
+          "talent_def": 76,
+          "gender": "Female",
+          "waza": [
+            "StarMine",
+            "CommetRain",
+            "BeamSlicer"
+          ],
+          "friendship": 885,
+          "owned_date": "2026-07-22"
         }
       ],
-      "captures": 386,
-      "shinies": 3,
-      "x": -347108.16000000003,
-      "y": 262480.78,
-      "paldeck": 165,
-      "fast_travels": 88,
-      "effigies": 1,
-      "tech_points": 87,
-      "map_x": 61.4,
-      "map_y": 74.3,
+      "captures": 424,
+      "shinies": 5,
+      "x": 82055.82031491557,
+      "y": 89782.99998594965,
+      "paldeck": 169,
+      "fast_travels": 95,
+      "effigies": 2,
+      "tech_points": 98,
+      "map_x": 42.6,
+      "map_y": 27.6,
       "team_detected": true,
-      "box_count": 381,
-      "last_seen": "2026-07-21T23:34:58.372116+00:00"
+      "box_count": 419,
+      "last_seen": "2026-07-22T17:04:58.953351+00:00"
     },
     {
       "uid": "90a5c888-0000-0000-0000-000000000000",
@@ -503,14 +500,14 @@
     {
       "uid": "5d6d87d4-0000-0000-0000-000000000000",
       "name": "Babour",
-      "level": 20,
-      "exp": 60165,
+      "level": 22,
+      "exp": 82955,
       "pals": [
         {
           "species": "Kitsunebi",
           "alpha": false,
           "lucky": false,
-          "lvl": 17,
+          "lvl": 19,
           "condense": 0,
           "passives": [
             "Deffence_up2"
@@ -524,14 +521,14 @@
             "MudShot",
             "FireSeed"
           ],
-          "friendship": 12500,
+          "friendship": 23500,
           "owned_date": "2026-07-20"
         },
         {
           "species": "Deer",
           "alpha": true,
           "lucky": true,
-          "lvl": 18,
+          "lvl": 19,
           "condense": 1,
           "passives": [
             "Rare",
@@ -547,14 +544,14 @@
             "Unique_Deer_PushupHorn",
             "PowerShot"
           ],
-          "friendship": 12500,
+          "friendship": 23500,
           "owned_date": "2026-07-20"
         },
         {
           "species": "WeaselDragon",
           "alpha": true,
           "lucky": false,
-          "lvl": 17,
+          "lvl": 19,
           "condense": 0,
           "passives": [],
           "talent_hp": 97,
@@ -566,14 +563,14 @@
             "IceMissile",
             "DragonWave"
           ],
-          "friendship": 12500,
+          "friendship": 24000,
           "owned_date": "2026-07-20"
         },
         {
           "species": "SweetsSheep",
           "alpha": true,
           "lucky": true,
-          "lvl": 17,
+          "lvl": 19,
           "condense": 1,
           "passives": [
             "Rare",
@@ -588,14 +585,14 @@
             "AirCanon",
             "PowerShot"
           ],
-          "friendship": 12500,
+          "friendship": 24000,
           "owned_date": "2026-07-20"
         },
         {
           "species": "GhostBlackCat",
           "alpha": false,
           "lucky": false,
-          "lvl": 17,
+          "lvl": 19,
           "condense": 0,
           "passives": [
             "PAL_conceited"
@@ -609,23 +606,23 @@
             "DarkBall",
             "GhostFlame"
           ],
-          "friendship": 12500,
+          "friendship": 23500,
           "owned_date": "2026-07-20"
         }
       ],
-      "captures": 84,
+      "captures": 97,
       "shinies": 2,
-      "x": -281886.04,
-      "y": 198422.4,
-      "paldeck": 26,
-      "fast_travels": 6,
+      "x": -281553.27,
+      "y": 198639.57,
+      "paldeck": 33,
+      "fast_travels": 9,
       "effigies": 2,
-      "tech_points": 20,
+      "tech_points": 22,
       "map_x": 54.4,
       "map_y": 67.2,
       "team_detected": true,
-      "box_count": 79,
-      "last_seen": null
+      "box_count": 92,
+      "last_seen": "2026-07-22T17:04:58.953351+00:00"
     },
     {
       "uid": "5ae78a05-0000-0000-0000-000000000000",
@@ -758,7 +755,7 @@
       "members": [
         "Powertwo"
       ],
-      "bases": 1
+      "bases": 2
     },
     {
       "name": "Unnamed Guild",
@@ -856,11 +853,23 @@
       "members": [
         "fraizo"
       ]
+    },
+    {
+      "group_id": "15113f94-99f5-45e6-bc49-79185970e416",
+      "x": -778412.0044492594,
+      "y": -331812.30838165904,
+      "z": 34718.89514761328,
+      "map_x": -3.4,
+      "map_y": 121.3,
+      "guild": "67",
+      "members": [
+        "Powertwo"
+      ]
     }
   ],
   "totals": {
     "players": 6,
-    "pals": 731,
+    "pals": 782,
     "species": 24
   }
 }
