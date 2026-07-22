@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-22T19:29:59.173155+00:00",
+  "generated_at": "2026-07-22T19:35:01.364907+00:00",
   "players": [
     {
       "uid": "a527f320-0000-0000-0000-000000000000",
       "name": "Powertwo",
       "level": 65,
-      "exp": 11256131,
+      "exp": 11258373,
       "pals": [
         {
           "species": "IceNarwhal",
@@ -48,7 +48,7 @@
             "WallSplash",
             "HydroSlicer"
           ],
-          "friendship": 5500,
+          "friendship": 6000,
           "owned_date": "2026-07-22"
         },
         {
@@ -70,7 +70,7 @@
             "WallSplash",
             "HydroSlicer"
           ],
-          "friendship": 5500,
+          "friendship": 6000,
           "owned_date": "2026-07-22"
         },
         {
@@ -91,7 +91,7 @@
             "WallSplash",
             "HydroSlicer"
           ],
-          "friendship": 5500,
+          "friendship": 6000,
           "owned_date": "2026-07-22"
         },
         {
@@ -112,23 +112,23 @@
             "DiversionLaser",
             "HydroSlicer"
           ],
-          "friendship": 5500,
+          "friendship": 6000,
           "owned_date": "2026-07-22"
         }
       ],
       "captures": 466,
       "shinies": 5,
-      "x": -346154.72000000003,
-      "y": 263031.61,
+      "x": -349126.63,
+      "y": 264507.72000000003,
       "paldeck": 173,
       "fast_travels": 97,
       "effigies": 5,
       "tech_points": 96,
-      "map_x": 61.4,
-      "map_y": 74.2,
+      "map_x": 61.6,
+      "map_y": 74.5,
       "team_detected": true,
       "box_count": 461,
-      "last_seen": "2026-07-22T19:29:59.173155+00:00"
+      "last_seen": "2026-07-22T19:35:01.364907+00:00"
     },
     {
       "uid": "90a5c888-0000-0000-0000-000000000000",
@@ -504,7 +504,7 @@
       "uid": "5d6d87d4-0000-0000-0000-000000000000",
       "name": "Babour",
       "level": 25,
-      "exp": 145336,
+      "exp": 147309,
       "pals": [
         {
           "species": "Kitsunebi",
@@ -524,7 +524,7 @@
             "MudShot",
             "FireSeed"
           ],
-          "friendship": 36500,
+          "friendship": 37000,
           "owned_date": "2026-07-20"
         },
         {
@@ -566,7 +566,7 @@
             "IceMissile",
             "DragonWave"
           ],
-          "friendship": 36500,
+          "friendship": 37000,
           "owned_date": "2026-07-20"
         },
         {
@@ -612,17 +612,17 @@
       ],
       "captures": 112,
       "shinies": 2,
-      "x": -203271.2392923417,
-      "y": 139573.32851011035,
+      "x": -382598.13,
+      "y": 194598.47,
       "paldeck": 37,
-      "fast_travels": 21,
+      "fast_travels": 22,
       "effigies": 3,
-      "tech_points": 50,
-      "map_x": 48.0,
-      "map_y": 58.6,
+      "tech_points": 51,
+      "map_x": 54.0,
+      "map_y": 78.2,
       "team_detected": true,
       "box_count": 107,
-      "last_seen": "2026-07-22T19:29:59.173155+00:00"
+      "last_seen": "2026-07-22T19:35:01.364907+00:00"
     },
     {
       "uid": "5ae78a05-0000-0000-0000-000000000000",
